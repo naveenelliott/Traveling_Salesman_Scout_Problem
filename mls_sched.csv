@@ -1,0 +1,511 @@
+Date,home_team,home_xg,Score,away_xg,away_team,Venue
+2025-02-22,Los Angeles FC,1.3,1–0,0.6,Minnesota United FC,BMO Stadium
+2025-02-23,Portland Timbers,0.7,1–4,3,Vancouver Whitecaps FC,Providence Park
+2025-02-22,Nashville SC,0.9,0–0,0.5,New England Revolution,Geodis Park
+2025-02-22,St. Louis CITY SC,2,0–0,0.2,Colorado Rapids,Energizer Park
+2025-02-22,Austin FC,0.9,1–0,0.5,Sporting Kansas City,Q2 Stadium
+2025-02-22,D.C. United,0.7,2–2,2.1,Toronto FC,Audi Field
+2025-02-22,Atlanta United FC,1.5,3–2,2.5,CF Montreal,Mercedes-Benz Stadium
+2025-02-22,FC Cincinnati,1.8,1–0,1.1,New York Red Bulls,TQL Stadium
+2025-02-22,Columbus Crew,2.4,4–2,1.8,Chicago Fire FC,Lower.com Field
+2025-02-22,Orlando City FC,2.4,2–4,1.8,Philadelphia Union,Inter&Co Stadium
+2025-02-22,San Jose Earthquakes,2.2,4–0,1.7,Real Salt Lake City,PayPal Park
+2025-02-22,Inter Miami CF,2.5,2–2,1,New York City FC,Chase Stadium
+2025-02-22,Houston Dynamo FC,1.2,1–2,2.1,FC Dallas,Shell Energy Stadium
+2025-02-22,Seattle Sounders FC,1.8,2–2,0.5,Charlotte FC,Lumen Field
+2025-02-23,Los Angeles Galaxy,0.7,0–2,2,San Diego FC,Dignity Health Sports Park
+2025-03-01,Charlotte FC,1.4,2–0,0.8,Atlanta United FC,Bank of America Stadium
+2025-03-01,Real Salt Lake City,1.1,2–0,0.8,Seattle Sounders FC,America First Field
+2025-03-02,Vancouver Whitecaps FC,1.9,2–1,0.6,Los Angeles Galaxy,BC Place Stadium
+2025-03-01,Philadelphia Union,3.2,4–1,1,FC Cincinnati,Subaru Park
+2025-03-01,Minnesota United FC,1.6,1–0,0.2,CF Montreal,Allianz Field
+2025-03-01,New York Red Bulls,1.9,2–0,0.8,Nashville SC,Sports Illustrated Stadium
+2025-03-01,San Diego FC,1,0–0,0.1,St. Louis CITY SC,Snapdragon Stadium
+2025-03-01,Sporting Kansas City,1.7,1–2,1.6,San Jose Earthquakes,Children's Mercy Park
+2025-03-01,New England Revolution,0.2,0–1,0.4,Columbus Crew,Gillette Stadium
+2025-03-01,Chicago Fire FC,2.3,2–2,3,D.C. United,Soldier Field
+2025-03-01,Colorado Rapids,1.6,3–3,2,FC Dallas,Dick's Sporting Goods Park
+2025-03-01,Orlando City FC,1.6,4–2,0.4,Toronto FC,Inter&Co Stadium
+2025-03-01,Portland Timbers,0.6,1–0,0.7,Austin FC,Providence Park
+2025-03-01,Los Angeles FC,0.5,1–0,0.4,New York City FC,BMO Stadium
+2025-03-02,Houston Dynamo FC,0.5,1–4,1.7,Inter Miami CF,Shell Energy Stadium
+2025-03-08,Seattle Sounders FC,1.7,5–2,1.2,Los Angeles FC,Lumen Field
+2025-03-08,Columbus Crew,0.6,0–0,0.3,Houston Dynamo FC,Lower.com Field
+2025-03-09,Los Angeles Galaxy,1.8,0–3,2,St. Louis CITY SC,Dignity Health Sports Park
+2025-03-09,Inter Miami CF,0.7,1–0,0.7,Charlotte FC,Chase Stadium
+2025-03-08,Vancouver Whitecaps FC,1.6,2–0,1.3,CF Montreal,BC Place Stadium
+2025-03-08,FC Cincinnati,1.6,2–0,0.2,Toronto FC,TQL Stadium
+2025-03-08,Atlanta United FC,1.2,0–0,0.3,New York Red Bulls,Mercedes-Benz Stadium
+2025-03-08,New England Revolution,0.4,0–2,1.2,Philadelphia Union,Gillette Stadium
+2025-03-08,Austin FC,1.3,0–1,0.7,Colorado Rapids,Q2 Stadium
+2025-03-08,New York City FC,2.5,2–1,1.4,Orlando City FC,Yankee Stadium
+2025-03-08,Nashville SC,2.7,2–0,0.5,Portland Timbers,Geodis Park
+2025-03-08,FC Dallas,1.6,1–3,1.7,Chicago Fire FC,Toyota Stadium
+2025-03-08,D.C. United,1.8,2–1,0.4,Sporting Kansas City,Audi Field
+2025-03-08,San Jose Earthquakes,1.3,0–1,2.2,Minnesota United FC,PayPal Park
+2025-03-08,Real Salt Lake City,2.1,1–3,2.6,San Diego FC,America First Field
+2025-03-15,Los Angeles FC,0.7,0–1,1.2,Austin FC,BMO Stadium
+2025-03-15,Toronto FC,0.6,1–2,1,Chicago Fire FC,BMO Field
+2025-03-15,New York Red Bulls,3,2–2,1.6,Orlando City FC,Sports Illustrated Stadium
+2025-03-15,Charlotte FC,1.5,2–0,0.9,FC Cincinnati,Bank of America Stadium
+2025-03-15,D.C. United,1.4,0–0,0.7,CF Montreal,Audi Field
+2025-03-15,New York City FC,1.2,2–1,0.5,New England Revolution,Yankee Stadium
+2025-03-16,Portland Timbers,0.7,1–1,0.7,Los Angeles Galaxy,Providence Park
+2025-03-16,Philadelphia Union,2,1–3,1.7,Nashville SC,Subaru Park
+2025-03-16,Atlanta United FC,1.3,1–2,1.7,Inter Miami CF,Mercedes-Benz Stadium
+2025-03-15,Sporting Kansas City,0.5,3–3,2.1,Minnesota United FC,Children's Mercy Park
+2025-03-15,St. Louis CITY SC,1.3,1–0,0.8,Seattle Sounders FC,Energizer Park
+2025-03-15,San Diego FC,2,1–1,1,Columbus Crew,Snapdragon Stadium
+2025-03-15,Houston Dynamo FC,2.1,1–2,0.9,Real Salt Lake City,Shell Energy Stadium
+2025-03-15,FC Dallas,0.2,0–1,0.8,Vancouver Whitecaps FC,Toyota Stadium
+2025-03-15,San Jose Earthquakes,2.3,1–2,1.7,Colorado Rapids,PayPal Park
+2025-03-22,FC Cincinnati,0.9,2–2,1.9,Atlanta United FC,TQL Stadium
+2025-03-22,Minnesota United FC,3,2–2,0.7,Los Angeles Galaxy,Allianz Field
+2025-03-22,Philadelphia Union,1.3,1–0,0.2,St. Louis CITY SC,Subaru Park
+2025-03-22,Charlotte FC,3,4–1,2.7,San Jose Earthquakes,Bank of America Stadium
+2025-03-22,Orlando City FC,3,4–1,1.3,D.C. United,Inter&Co Stadium
+2025-03-22,Columbus Crew,1.5,0–0,0.2,New York City FC,Lower.com Field
+2025-03-22,New York Red Bulls,1.8,2–1,0.5,Toronto FC,Sports Illustrated Stadium
+2025-03-23,Austin FC,2.1,2–1,1.1,San Diego FC,Q2 Stadium
+2025-03-22,Vancouver Whitecaps FC,1.2,1–3,2.2,Chicago Fire FC,BC Place Stadium
+2025-03-22,Real Salt Lake City,0.9,0–1,2.2,FC Dallas,America First Field
+2025-03-22,Sporting Kansas City,0.8,0–2,1.7,Los Angeles FC,Children's Mercy Park
+2025-03-22,Colorado Rapids,0.5,0–3,1.9,Portland Timbers,Dick's Sporting Goods Park
+2025-03-22,Nashville SC,1.7,3–0,0.4,CF Montreal,Geodis Park
+2025-03-22,Seattle Sounders FC,1,0–0,0.3,Houston Dynamo FC,Lumen Field
+2025-03-29,Colorado Rapids,2.8,2–0,0.6,Charlotte FC,Dick's Sporting Goods Park
+2025-03-29,Toronto FC,0.7,0–0,1.3,Vancouver Whitecaps FC,BMO Field
+2025-03-29,New England Revolution,2.1,2–1,1.5,New York Red Bulls,Gillette Stadium
+2025-03-29,Inter Miami CF,2.1,2–1,2.2,Philadelphia Union,Chase Stadium
+2025-03-29,D.C. United,1.4,1–2,1.2,Columbus Crew,Audi Field
+2025-03-29,Atlanta United FC,1.7,4–3,2,New York City FC,Mercedes-Benz Stadium
+2025-03-30,St. Louis CITY SC,0.8,0–1,0.8,Austin FC,Energizer Park
+2025-03-30,Portland Timbers,2.5,3–1,0.6,Houston Dynamo FC,Providence Park
+2025-03-29,FC Dallas,1.4,2–1,1,Sporting Kansas City,Toyota Stadium
+2025-03-29,San Jose Earthquakes,1,1–1,2.8,Seattle Sounders FC,PayPal Park
+2025-03-29,Chicago Fire FC,0.8,1–1,1.6,CF Montreal,Soldier Field
+2025-03-29,San Diego FC,2.6,3–2,1.6,Los Angeles FC,Snapdragon Stadium
+2025-03-29,Nashville SC,2.1,1–2,1.7,FC Cincinnati,Geodis Park
+2025-03-29,Minnesota United FC,2.3,2–0,1.5,Real Salt Lake City,Allianz Field
+2025-03-29,Los Angeles Galaxy,1.2,1–2,1.8,Orlando City FC,Dignity Health Sports Park
+2025-04-05,Charlotte FC,1.7,2–1,1.3,Nashville SC,Bank of America Stadium
+2025-04-05,Real Salt Lake City,1.4,2–0,0.3,Los Angeles Galaxy,America First Field
+2025-04-05,Austin FC,1.1,0–0,0.4,Portland Timbers,Q2 Stadium
+2025-04-05,FC Cincinnati,2.1,1–0,0.5,New England Revolution,TQL Stadium
+2025-04-05,Atlanta United FC,1.6,1–1,0.7,FC Dallas,Mercedes-Benz Stadium
+2025-04-05,Columbus Crew,1.6,2–1,0.5,CF Montreal,Lower.com Field
+2025-04-05,New York Red Bulls,1.3,2–1,1.9,Chicago Fire FC,Sports Illustrated Stadium
+2025-04-05,Philadelphia Union,1.5,0–0,0.6,Orlando City FC,Subaru Park
+2025-04-06,San Jose Earthquakes,3.4,6–1,1.7,D.C. United,PayPal Park
+2025-04-06,New York City FC,2.6,1–2,1.9,Minnesota United FC,Yankee Stadium
+2025-04-05,Vancouver Whitecaps FC,2,2–0,0.3,Colorado Rapids,BC Place Stadium
+2025-04-06,Inter Miami CF,2.6,1–1,1.2,Toronto FC,Chase Stadium
+2025-04-05,Sporting Kansas City,1.4,2–0,1,St. Louis CITY SC,Children's Mercy Park
+2025-04-05,Houston Dynamo FC,0.6,1–0,0.7,Los Angeles FC,Shell Energy Stadium
+2025-04-05,San Diego FC,1.4,3–0,1.1,Seattle Sounders FC,Snapdragon Stadium
+2025-04-12,Toronto FC,0.6,0–0,0.8,Minnesota United FC,BMO Field
+2025-04-12,Atlanta United FC,2.1,0–1,1.7,New England Revolution,Mercedes-Benz Stadium
+2025-04-12,Orlando City FC,1.5,0–0,0.6,New York Red Bulls,Inter&Co Stadium
+2025-04-12,Vancouver Whitecaps FC,4.5,5–1,0.7,Austin FC,BC Place Stadium
+2025-04-12,CF Montreal,1.7,0–1,0.5,Charlotte FC,Stade Saputo
+2025-04-12,D.C. United,0.8,0–1,0.7,FC Cincinnati,Audi Field
+2025-04-12,New York City FC,1.3,1–0,1.3,Philadelphia Union,Citi Field
+2025-04-13,Sporting Kansas City,2.1,2–4,1,Portland Timbers,Children's Mercy Park
+2025-04-13,Chicago Fire FC,1.2,0–0,1,Inter Miami CF,Soldier Field
+2025-04-13,St. Louis CITY SC,2.1,1–2,2,Columbus Crew,Energizer Park
+2025-04-12,Los Angeles Galaxy,0.4,1–1,1.7,Houston Dynamo FC,Dignity Health Sports Park
+2025-04-12,Los Angeles FC,1.5,2–1,2.1,San Jose Earthquakes,BMO Stadium
+2025-04-12,FC Dallas,0.6,0–1,1.5,Seattle Sounders FC,Toyota Stadium
+2025-04-12,Nashville SC,3.2,2–1,0.8,Real Salt Lake City,Geodis Park
+2025-04-12,Colorado Rapids,3.3,3–2,1.4,San Diego FC,Dick's Sporting Goods Park
+2025-04-19,Austin FC,3.1,1–0,0.8,Los Angeles Galaxy,Q2 Stadium
+2025-04-19,Columbus Crew,2.9,0–1,0.9,Inter Miami CF,Huntington Bank Field
+2025-04-19,Seattle Sounders FC,2.3,3–0,1,Nashville SC,Lumen Field
+2025-04-19,CF Montreal,0.9,0–0,0.4,Orlando City FC,Stade Saputo
+2025-04-19,New York Red Bulls,1.2,1–2,0.8,D.C. United,Sports Illustrated Stadium
+2025-04-19,Charlotte FC,3.7,3–0,0.5,San Diego FC,Bank of America Stadium
+2025-04-19,New England Revolution,1.3,2–0,0.9,New York City FC,Gillette Stadium
+2025-04-19,Philadelphia Union,1.3,3–0,0.8,Atlanta United FC,Subaru Park
+2025-04-19,Portland Timbers,2.2,3–3,2.7,Los Angeles FC,Providence Park
+2025-04-19,Minnesota United FC,0.8,0–0,0.8,FC Dallas,Allianz Field
+2025-04-19,San Jose Earthquakes,4.1,3–5,1.8,Sporting Kansas City,PayPal Park
+2025-04-19,Real Salt Lake City,0.9,0–1,0.3,Toronto FC,America First Field
+2025-04-19,Chicago Fire FC,2.3,2–3,1.1,FC Cincinnati,Soldier Field
+2025-04-19,St. Louis CITY SC,1,0–0,1.1,Vancouver Whitecaps FC,Energizer Park
+2025-04-19,Houston Dynamo FC,0.9,2–2,2.8,Colorado Rapids,Shell Energy Stadium
+2025-04-26,FC Cincinnati,0.9,2–1,0.5,Sporting Kansas City,TQL Stadium
+2025-04-26,Toronto FC,1.1,0–1,1.2,New York City FC,BMO Field
+2025-04-26,New York Red Bulls,1.1,1–0,0.5,CF Montreal,Sports Illustrated Stadium
+2025-04-26,San Diego FC,1.7,1–3,1.7,Real Salt Lake City,Snapdragon Stadium
+2025-04-26,Philadelphia Union,1.2,3–0,0.8,D.C. United,Subaru Park
+2025-04-26,Orlando City FC,2.4,3–0,0.6,Atlanta United FC,Inter&Co Stadium
+2025-04-26,Charlotte FC,2,0–1,0.6,New England Revolution,Bank of America Stadium
+2025-04-26,Columbus Crew,1.9,2–1,2.2,San Jose Earthquakes,Lower.com Field
+2025-04-27,Minnesota United FC,1.1,1–3,1.2,Vancouver Whitecaps FC,Allianz Field
+2025-04-27,Los Angeles FC,3.5,2–2,1.5,St. Louis CITY SC,BMO Stadium
+2025-04-27,Inter Miami CF,1.7,3–4,2.2,FC Dallas,Chase Stadium
+2025-04-26,Houston Dynamo FC,1,2–0,0.8,Austin FC,Shell Energy Stadium
+2025-04-26,Colorado Rapids,1.3,1–1,1.2,Seattle Sounders FC,Dick's Sporting Goods Park
+2025-04-26,Nashville SC,4.7,7–2,0.5,Chicago Fire FC,Geodis Park
+2025-04-27,Los Angeles Galaxy,2.4,2–4,2.1,Portland Timbers,Dignity Health Sports Park
+2025-05-03,Atlanta United FC,0.9,1–1,1.5,Nashville SC,Mercedes-Benz Stadium
+2025-05-03,Toronto FC,1.1,0–2,2.7,New England Revolution,BMO Field
+2025-05-03,CF Montreal,1.3,1–2,1,Philadelphia Union,Stade Saputo
+2025-05-03,Inter Miami CF,2.1,4–1,0.6,New York Red Bulls,Chase Stadium
+2025-05-03,Columbus Crew,2.6,4–2,1.8,Charlotte FC,Lower.com Field
+2025-05-03,D.C. United,1.1,2–1,1.3,Colorado Rapids,Audi Field
+2025-05-04,New York City FC,2.4,1–0,1.1,FC Cincinnati,Citi Field
+2025-05-04,Sporting Kansas City,0,1–0,1.4,Los Angeles Galaxy,Children's Mercy Park
+2025-05-03,San Diego FC,2.1,5–0,0.5,FC Dallas,Snapdragon Stadium
+2025-05-03,Vancouver Whitecaps FC,2.9,2–1,1.6,Real Salt Lake City,BC Place Stadium
+2025-05-03,Austin FC,1.1,0–3,0.5,Minnesota United FC,Q2 Stadium
+2025-05-03,Los Angeles FC,2.1,2–0,0.2,Houston Dynamo FC,BMO Stadium
+2025-05-03,Chicago Fire FC,1.9,0–0,2,Orlando City FC,Soldier Field
+2025-05-03,San Jose Earthquakes,2.2,4–1,1.8,Portland Timbers,PayPal Park
+2025-05-03,Seattle Sounders FC,3.8,4–1,1,St. Louis CITY SC,Lumen Field
+2025-05-10,Chicago Fire FC,2.6,2–1,1.2,Atlanta United FC,Soldier Field
+2025-05-10,Minnesota United FC,1.2,4–1,0.5,Inter Miami CF,Allianz Field
+2025-05-10,Toronto FC,1.5,2–0,1.2,D.C. United,BMO Field
+2025-05-10,Orlando City FC,2.5,3–3,2.4,New England Revolution,Inter&Co Stadium
+2025-05-10,Philadelphia Union,1.7,2–2,0.9,Columbus Crew,Subaru Park
+2025-05-10,New York City FC,0.9,0–1,1.3,CF Montreal,Yankee Stadium
+2025-05-10,New York Red Bulls,3.5,7–0,1.9,Los Angeles Galaxy,Sports Illustrated Stadium
+2025-05-10,FC Cincinnati,1.9,2–1,2,Austin FC,TQL Stadium
+2025-05-11,Vancouver Whitecaps FC,0.8,2–2,1.8,Los Angeles FC,BC Place Stadium
+2025-05-10,Portland Timbers,1,1–0,0.9,Sporting Kansas City,Providence Park
+2025-05-10,Nashville SC,0.5,2–1,1.1,Charlotte FC,Geodis Park
+2025-05-10,Houston Dynamo FC,0.8,1–3,1.9,Seattle Sounders FC,Shell Energy Stadium
+2025-05-10,FC Dallas,1.2,1–1,0.4,Real Salt Lake City,Toyota Stadium
+2025-05-10,Colorado Rapids,0.6,0–2,1.9,San Jose Earthquakes,Dick's Sporting Goods Park
+2025-05-10,St. Louis CITY SC,1.7,1–2,1.1,San Diego FC,Energizer Park
+2025-05-14,Orlando City FC,0.9,3–1,1.1,Charlotte FC,Inter&Co Stadium
+2025-05-14,D.C. United,0.9,0–0,2.2,New York City FC,Audi Field
+2025-05-14,CF Montreal,0.2,1–1,1.9,Columbus Crew,Stade Saputo
+2025-05-14,Philadelphia Union,1.9,3–2,0.9,Los Angeles Galaxy,Subaru Park
+2025-05-14,Toronto FC,0.6,0–1,1.2,FC Cincinnati,BMO Field
+2025-05-14,Austin FC,0.9,1–1,1.4,Atlanta United FC,Q2 Stadium
+2025-05-14,San Jose Earthquakes,1.2,3–3,2.6,Inter Miami CF,PayPal Park
+2025-05-14,San Diego FC,2.7,2–0,1.5,Colorado Rapids,Snapdragon Stadium
+2025-05-14,Real Salt Lake City,0.4,0–0,0.8,Portland Timbers,America First Field
+2025-05-14,Houston Dynamo FC,1,2–0,0.4,Minnesota United FC,Shell Energy Stadium
+2025-05-14,Los Angeles FC,2.2,4–0,0.5,Seattle Sounders FC,BMO Stadium
+2025-05-14,Nashville SC,1.7,2–1,0.6,New York Red Bulls,Geodis Park
+2025-05-14,St. Louis CITY SC,1.3,2–2,1.3,Sporting Kansas City,Energizer Park
+2025-05-17,CF Montreal,2,1–6,2.6,Toronto FC,Stade Saputo
+2025-05-17,New York City FC,1.7,2–0,0.4,New York Red Bulls,Citi Field
+2025-05-17,Columbus Crew,2.8,1–1,0.9,FC Cincinnati,Lower.com Field
+2025-05-17,Atlanta United FC,1.2,0–1,1.6,Philadelphia Union,Mercedes-Benz Stadium
+2025-05-17,New England Revolution,0.3,0–0,1.6,San Jose Earthquakes,Gillette Stadium
+2025-05-17,Charlotte FC,0.9,1–4,3.8,Chicago Fire FC,Bank of America Stadium
+2025-05-17,Portland Timbers,0.5,1–1,0.8,Seattle Sounders FC,Providence Park
+2025-05-18,Inter Miami CF,1.1,0–3,2.9,Orlando City FC,Chase Stadium
+2025-05-17,FC Dallas,0.8,0–2,0.5,Houston Dynamo FC,Toyota Stadium
+2025-05-17,Nashville SC,0.5,0–0,0.3,D.C. United,Geodis Park
+2025-05-17,Minnesota United FC,1.5,3–0,0.4,St. Louis CITY SC,Allianz Field
+2025-05-17,Austin FC,1.4,0–0,0.4,Vancouver Whitecaps FC,Q2 Stadium
+2025-05-17,Colorado Rapids,1,1–0,0.7,Real Salt Lake City,Dick's Sporting Goods Park
+2025-05-17,San Diego FC,1.6,0–0,0,Sporting Kansas City,Snapdragon Stadium
+2025-05-18,Los Angeles Galaxy,1.2,2–2,1.3,Los Angeles FC,Dignity Health Sports Park
+2025-05-24,Seattle Sounders FC,NA,NA,NA,FC Dallas,Lumen Field
+2025-05-24,San Diego FC,NA,NA,NA,Los Angeles Galaxy,Snapdragon Stadium
+2025-05-24,Philadelphia Union,NA,NA,NA,Inter Miami CF,Subaru Park
+2025-05-24,Toronto FC,NA,NA,NA,Nashville SC,BMO Field
+2025-05-24,Orlando City FC,NA,NA,NA,Portland Timbers,Inter&Co Stadium
+2025-05-24,D.C. United,NA,NA,NA,New York Red Bulls,Audi Field
+2025-05-24,CF Montreal,NA,NA,NA,Los Angeles FC,Stade Saputo
+2025-05-24,Charlotte FC,NA,NA,NA,Columbus Crew,Bank of America Stadium
+2025-05-25,New York City FC,NA,NA,NA,Chicago Fire FC,Yankee Stadium
+2025-05-25,Atlanta United FC,NA,NA,NA,FC Cincinnati,Mercedes-Benz Stadium
+2025-05-24,Colorado Rapids,NA,NA,NA,St. Louis CITY SC,Dick's Sporting Goods Park
+2025-05-24,San Jose Earthquakes,NA,NA,NA,Houston Dynamo FC,PayPal Park
+2025-05-24,Minnesota United FC,NA,NA,NA,Austin FC,Allianz Field
+2025-05-24,Real Salt Lake City,NA,NA,NA,Vancouver Whitecaps FC,America First Field
+2025-05-24,Sporting Kansas City,NA,NA,NA,New England Revolution,Children's Mercy Park
+2025-05-28,FC Cincinnati,NA,NA,NA,FC Dallas,TQL Stadium
+2025-05-28,Toronto FC,NA,NA,NA,Philadelphia Union,BMO Field
+2025-05-28,Atlanta United FC,NA,NA,NA,Orlando City FC,Mercedes-Benz Stadium
+2025-05-28,Inter Miami CF,NA,NA,NA,CF Montreal,Chase Stadium
+2025-05-28,New York Red Bulls,NA,NA,NA,Charlotte FC,Sports Illustrated Stadium
+2025-05-28,New York City FC,NA,NA,NA,Houston Dynamo FC,Yankee Stadium
+2025-05-28,D.C. United,NA,NA,NA,New England Revolution,Audi Field
+2025-05-28,Seattle Sounders FC,NA,NA,NA,San Diego FC,Lumen Field
+2025-05-28,Los Angeles Galaxy,NA,NA,NA,San Jose Earthquakes,Dignity Health Sports Park
+2025-05-28,Los Angeles FC,NA,NA,NA,Sporting Kansas City,BMO Stadium
+2025-05-28,Vancouver Whitecaps FC,NA,NA,NA,Minnesota United FC,BC Place Stadium
+2025-05-28,Portland Timbers,NA,NA,NA,Colorado Rapids,Providence Park
+2025-05-28,Austin FC,NA,NA,NA,Real Salt Lake City,Q2 Stadium
+2025-05-28,Columbus Crew,NA,NA,NA,Nashville SC,Lower.com Field
+2025-05-31,St. Louis CITY SC,NA,NA,NA,San Jose Earthquakes,Energizer Park
+2025-05-31,Nashville SC,NA,NA,NA,New York City FC,Geodis Park
+2025-05-31,CF Montreal,NA,NA,NA,New England Revolution,Stade Saputo
+2025-05-31,New York Red Bulls,NA,NA,NA,Atlanta United FC,Sports Illustrated Stadium
+2025-05-31,FC Cincinnati,NA,NA,NA,D.C. United,TQL Stadium
+2025-05-31,Toronto FC,NA,NA,NA,Charlotte FC,BMO Field
+2025-05-31,Orlando City FC,NA,NA,NA,Chicago Fire FC,Inter&Co Stadium
+2025-05-31,Inter Miami CF,NA,NA,NA,Columbus Crew,Chase Stadium
+2025-06-01,Seattle Sounders FC,NA,NA,NA,Minnesota United FC,Lumen Field
+2025-05-31,Vancouver Whitecaps FC,NA,NA,NA,Portland Timbers,BC Place Stadium
+2025-05-31,FC Dallas,NA,NA,NA,Philadelphia Union,Toyota Stadium
+2025-05-31,Los Angeles FC,NA,NA,NA,Colorado Rapids,BMO Stadium
+2025-05-31,San Diego FC,NA,NA,NA,Austin FC,Snapdragon Stadium
+2025-05-31,Los Angeles Galaxy,NA,NA,NA,Real Salt Lake City,Dignity Health Sports Park
+2025-05-31,Houston Dynamo FC,NA,NA,NA,Sporting Kansas City,Shell Energy Stadium
+2025-06-07,D.C. United,NA,NA,NA,Chicago Fire FC,Audi Field
+2025-06-08,Portland Timbers,NA,NA,NA,St. Louis CITY SC,Providence Park
+2025-06-07,Colorado Rapids,NA,NA,NA,Austin FC,Dick's Sporting Goods Park
+2025-06-08,Vancouver Whitecaps FC,NA,NA,NA,Seattle Sounders FC,BC Place Stadium
+2025-06-12,New York City FC,NA,NA,NA,Atlanta United FC,Yankee Stadium
+2025-06-14,St. Louis CITY SC,NA,NA,NA,Los Angeles Galaxy,Energizer Park
+2025-06-13,Los Angeles FC,NA,NA,NA,Toronto FC,BMO Stadium
+2025-06-13,Portland Timbers,NA,NA,NA,San Jose Earthquakes,Providence Park
+2025-06-14,Philadelphia Union,NA,NA,NA,Charlotte FC,Subaru Park
+2025-06-14,Columbus Crew,NA,NA,NA,Vancouver Whitecaps FC,Lower.com Field
+2025-06-14,New England Revolution,NA,NA,NA,FC Cincinnati,Gillette Stadium
+2025-06-14,Sporting Kansas City,NA,NA,NA,FC Dallas,Children's Mercy Park
+2025-06-14,Colorado Rapids,NA,NA,NA,Orlando City FC,Dick's Sporting Goods Park
+2025-06-14,Minnesota United FC,NA,NA,NA,San Diego FC,Allianz Field
+2025-06-14,Austin FC,NA,NA,NA,New York Red Bulls,Q2 Stadium
+2025-06-14,Chicago Fire FC,NA,NA,NA,Nashville SC,Soldier Field
+2025-06-14,Houston Dynamo FC,NA,NA,NA,CF Montreal,Shell Energy Stadium
+2025-06-14,Real Salt Lake City,NA,NA,NA,D.C. United,America First Field
+2025-06-25,Toronto FC,NA,NA,NA,New York Red Bulls,BMO Field
+2025-06-25,CF Montreal,NA,NA,NA,FC Cincinnati,Stade Saputo
+2025-06-25,New England Revolution,NA,NA,NA,Nashville SC,Gillette Stadium
+2025-06-25,Columbus Crew,NA,NA,NA,Atlanta United FC,Lower.com Field
+2025-06-25,Chicago Fire FC,NA,NA,NA,Philadelphia Union,Soldier Field
+2025-06-25,Minnesota United FC,NA,NA,NA,Houston Dynamo FC,Allianz Field
+2025-06-25,St. Louis CITY SC,NA,NA,NA,Orlando City FC,Energizer Park
+2025-06-25,Real Salt Lake City,NA,NA,NA,Los Angeles FC,America First Field
+2025-06-25,Colorado Rapids,NA,NA,NA,Los Angeles Galaxy,Dick's Sporting Goods Park
+2025-06-25,Sporting Kansas City,NA,NA,NA,Charlotte FC,Children's Mercy Park
+2025-06-25,Vancouver Whitecaps FC,NA,NA,NA,San Diego FC,BC Place Stadium
+2025-06-25,FC Dallas,NA,NA,NA,San Jose Earthquakes,Toyota Stadium
+2025-06-28,D.C. United,NA,NA,NA,Nashville SC,Audi Field
+2025-06-28,New York Red Bulls,NA,NA,NA,Minnesota United FC,Sports Illustrated Stadium
+2025-06-28,CF Montreal,NA,NA,NA,New York City FC,Stade Saputo
+2025-06-28,Orlando City FC,NA,NA,NA,FC Cincinnati,Inter&Co Stadium
+2025-06-28,Toronto FC,NA,NA,NA,Portland Timbers,BMO Field
+2025-06-28,Inter Miami CF,NA,NA,NA,Atlanta United FC,Chase Stadium
+2025-06-28,New England Revolution,NA,NA,NA,Colorado Rapids,Gillette Stadium
+2025-06-29,Columbus Crew,NA,NA,NA,Philadelphia Union,Lower.com Field
+2025-06-28,Seattle Sounders FC,NA,NA,NA,Austin FC,Lumen Field
+2025-06-28,Houston Dynamo FC,NA,NA,NA,St. Louis CITY SC,Shell Energy Stadium
+2025-06-28,San Jose Earthquakes,NA,NA,NA,Los Angeles Galaxy,Stanford Stadium
+2025-06-28,Sporting Kansas City,NA,NA,NA,Real Salt Lake City,Children's Mercy Park
+2025-06-28,Chicago Fire FC,NA,NA,NA,Charlotte FC,Soldier Field
+2025-06-28,Los Angeles FC,NA,NA,NA,Vancouver Whitecaps FC,BMO Stadium
+2025-06-28,FC Dallas,NA,NA,NA,San Diego FC,Toyota Stadium
+2025-07-03,New York City FC,NA,NA,NA,Toronto FC,Yankee Stadium
+2025-07-05,Charlotte FC,NA,NA,NA,Orlando City FC,Bank of America Stadium
+2025-07-05,FC Cincinnati,NA,NA,NA,Chicago Fire FC,TQL Stadium
+2025-07-05,D.C. United,NA,NA,NA,Atlanta United FC,Audi Field
+2025-07-04,Los Angeles Galaxy,NA,NA,NA,Vancouver Whitecaps FC,Dignity Health Sports Park
+2025-07-04,Colorado Rapids,NA,NA,NA,Sporting Kansas City,Dick's Sporting Goods Park
+2025-07-05,CF Montreal,NA,NA,NA,Inter Miami CF,Stade Saputo
+2025-07-04,FC Dallas,NA,NA,NA,Minnesota United FC,Toyota Stadium
+2025-07-06,Seattle Sounders FC,NA,NA,NA,Columbus Crew,Lumen Field
+2025-07-05,Nashville SC,NA,NA,NA,Philadelphia Union,Geodis Park
+2025-07-05,San Jose Earthquakes,NA,NA,NA,New York Red Bulls,PayPal Park
+2025-07-05,Portland Timbers,NA,NA,NA,New England Revolution,Providence Park
+2025-07-05,Austin FC,NA,NA,NA,Los Angeles FC,Q2 Stadium
+2025-07-05,Real Salt Lake City,NA,NA,NA,St. Louis CITY SC,America First Field
+2025-07-05,San Diego FC,NA,NA,NA,Houston Dynamo FC,Snapdragon Stadium
+2025-07-09,New England Revolution,NA,NA,NA,Inter Miami CF,Gillette Stadium
+2025-07-12,Charlotte FC,NA,NA,NA,New York City FC,Bank of America Stadium
+2025-07-12,FC Cincinnati,NA,NA,NA,Columbus Crew,TQL Stadium
+2025-07-12,Philadelphia Union,NA,NA,NA,New York Red Bulls,Subaru Park
+2025-07-12,Orlando City FC,NA,NA,NA,CF Montreal,Inter&Co Stadium
+2025-07-12,Inter Miami CF,NA,NA,NA,Nashville SC,Chase Stadium
+2025-07-12,Toronto FC,NA,NA,NA,Atlanta United FC,BMO Field
+2025-07-13,St. Louis CITY SC,NA,NA,NA,Portland Timbers,Energizer Park
+2025-07-12,Los Angeles FC,NA,NA,NA,FC Dallas,BMO Stadium
+2025-07-12,Real Salt Lake City,NA,NA,NA,Houston Dynamo FC,America First Field
+2025-07-12,Sporting Kansas City,NA,NA,NA,Seattle Sounders FC,Children's Mercy Park
+2025-07-12,Minnesota United FC,NA,NA,NA,San Jose Earthquakes,Allianz Field
+2025-07-12,Colorado Rapids,NA,NA,NA,Vancouver Whitecaps FC,Dick's Sporting Goods Park
+2025-07-12,Austin FC,NA,NA,NA,New England Revolution,Q2 Stadium
+2025-07-12,Los Angeles Galaxy,NA,NA,NA,D.C. United,Dignity Health Sports Park
+2025-07-12,Chicago Fire FC,NA,NA,NA,San Diego FC,Soldier Field
+2025-07-16,New York Red Bulls,NA,NA,NA,New England Revolution,Sports Illustrated Stadium
+2025-07-16,Charlotte FC,NA,NA,NA,D.C. United,Bank of America Stadium
+2025-07-16,FC Cincinnati,NA,NA,NA,Inter Miami CF,TQL Stadium
+2025-07-16,Philadelphia Union,NA,NA,NA,CF Montreal,Subaru Park
+2025-07-16,Atlanta United FC,NA,NA,NA,Chicago Fire FC,Mercedes-Benz Stadium
+2025-07-16,Orlando City FC,NA,NA,NA,New York City FC,Inter&Co Stadium
+2025-07-16,Seattle Sounders FC,NA,NA,NA,Colorado Rapids,Lumen Field
+2025-07-16,San Jose Earthquakes,NA,NA,NA,FC Dallas,PayPal Park
+2025-07-16,Minnesota United FC,NA,NA,NA,Los Angeles FC,Allianz Field
+2025-07-16,Portland Timbers,NA,NA,NA,Real Salt Lake City,Providence Park
+2025-07-16,Los Angeles Galaxy,NA,NA,NA,Austin FC,Dignity Health Sports Park
+2025-07-16,Houston Dynamo FC,NA,NA,NA,Vancouver Whitecaps FC,Shell Energy Stadium
+2025-07-16,Nashville SC,NA,NA,NA,Columbus Crew,Geodis Park
+2025-07-16,San Diego FC,NA,NA,NA,Toronto FC,Snapdragon Stadium
+2025-07-19,Atlanta United FC,NA,NA,NA,Charlotte FC,Mercedes-Benz Stadium
+2025-07-19,New England Revolution,NA,NA,NA,Orlando City FC,Gillette Stadium
+2025-07-19,CF Montreal,NA,NA,NA,Chicago Fire FC,Stade Saputo
+2025-07-19,Columbus Crew,NA,NA,NA,D.C. United,Lower.com Field
+2025-07-19,New York Red Bulls,NA,NA,NA,Inter Miami CF,Sports Illustrated Stadium
+2025-07-19,Seattle Sounders FC,NA,NA,NA,San Jose Earthquakes,Lumen Field
+2025-07-19,San Diego FC,NA,NA,NA,Vancouver Whitecaps FC,Snapdragon Stadium
+2025-07-19,Portland Timbers,NA,NA,NA,Minnesota United FC,Providence Park
+2025-07-19,FC Dallas,NA,NA,NA,St. Louis CITY SC,Toyota Stadium
+2025-07-19,Sporting Kansas City,NA,NA,NA,New York City FC,Children's Mercy Park
+2025-07-19,Nashville SC,NA,NA,NA,Toronto FC,Geodis Park
+2025-07-19,Los Angeles FC,NA,NA,NA,Los Angeles Galaxy,BMO Stadium
+2025-07-19,Houston Dynamo FC,NA,NA,NA,Philadelphia Union,Shell Energy Stadium
+2025-07-19,Real Salt Lake City,NA,NA,NA,FC Cincinnati,America First Field
+2025-07-25,New England Revolution,NA,NA,NA,CF Montreal,Gillette Stadium
+2025-07-25,Columbus Crew,NA,NA,NA,Orlando City FC,Lower.com Field
+2025-07-26,Inter Miami CF,NA,NA,NA,FC Cincinnati,Chase Stadium
+2025-07-26,Philadelphia Union,NA,NA,NA,Colorado Rapids,Subaru Park
+2025-07-25,San Diego FC,NA,NA,NA,Nashville SC,Snapdragon Stadium
+2025-07-26,Charlotte FC,NA,NA,NA,Toronto FC,Bank of America Stadium
+2025-07-26,D.C. United,NA,NA,NA,Austin FC,Audi Field
+2025-07-25,FC Dallas,NA,NA,NA,New York City FC,Toyota Stadium
+2025-07-25,Los Angeles FC,NA,NA,NA,Portland Timbers,BMO Stadium
+2025-07-25,Houston Dynamo FC,NA,NA,NA,Los Angeles Galaxy,Shell Energy Stadium
+2025-07-26,Atlanta United FC,NA,NA,NA,Seattle Sounders FC,Mercedes-Benz Stadium
+2025-07-26,Real Salt Lake City,NA,NA,NA,San Jose Earthquakes,America First Field
+2025-07-26,Vancouver Whitecaps FC,NA,NA,NA,Sporting Kansas City,BC Place Stadium
+2025-07-26,St. Louis CITY SC,NA,NA,NA,Minnesota United FC,Energizer Park
+2025-07-26,Chicago Fire FC,NA,NA,NA,New York Red Bulls,Soldier Field
+2025-08-09,New England Revolution,NA,NA,NA,D.C. United,Gillette Stadium
+2025-08-09,Philadelphia Union,NA,NA,NA,Toronto FC,Subaru Park
+2025-08-09,New York City FC,NA,NA,NA,Columbus Crew,Citi Field
+2025-08-09,CF Montreal,NA,NA,NA,Atlanta United FC,Stade Saputo
+2025-08-10,Minnesota United FC,NA,NA,NA,Colorado Rapids,Allianz Field
+2025-08-10,FC Cincinnati,NA,NA,NA,Charlotte FC,TQL Stadium
+2025-08-10,New York Red Bulls,NA,NA,NA,Real Salt Lake City,Sports Illustrated Stadium
+2025-08-09,San Jose Earthquakes,NA,NA,NA,Vancouver Whitecaps FC,PayPal Park
+2025-08-09,Chicago Fire FC,NA,NA,NA,Los Angeles FC,Soldier Field
+2025-08-09,Austin FC,NA,NA,NA,Houston Dynamo FC,Q2 Stadium
+2025-08-09,St. Louis CITY SC,NA,NA,NA,Nashville SC,Energizer Park
+2025-08-09,Sporting Kansas City,NA,NA,NA,San Diego FC,Children's Mercy Park
+2025-08-09,FC Dallas,NA,NA,NA,Portland Timbers,Toyota Stadium
+2025-08-10,Los Angeles Galaxy,NA,NA,NA,Seattle Sounders FC,Dignity Health Sports Park
+2025-08-10,Orlando City FC,NA,NA,NA,Inter Miami CF,Inter&Co Stadium
+2025-08-16,New England Revolution,NA,NA,NA,Los Angeles FC,Gillette Stadium
+2025-08-16,Inter Miami CF,NA,NA,NA,Los Angeles Galaxy,Chase Stadium
+2025-08-16,New York Red Bulls,NA,NA,NA,Philadelphia Union,Sports Illustrated Stadium
+2025-08-16,Charlotte FC,NA,NA,NA,Real Salt Lake City,Bank of America Stadium
+2025-08-16,Toronto FC,NA,NA,NA,Columbus Crew,BMO Field
+2025-08-16,CF Montreal,NA,NA,NA,D.C. United,Stade Saputo
+2025-08-16,Orlando City FC,NA,NA,NA,Sporting Kansas City,Inter&Co Stadium
+2025-08-17,San Jose Earthquakes,NA,NA,NA,San Diego FC,PayPal Park
+2025-08-17,New York City FC,NA,NA,NA,Nashville SC,Yankee Stadium
+2025-08-16,Austin FC,NA,NA,NA,FC Dallas,Q2 Stadium
+2025-08-16,Minnesota United FC,NA,NA,NA,Seattle Sounders FC,Allianz Field
+2025-08-16,Portland Timbers,NA,NA,NA,FC Cincinnati,Providence Park
+2025-08-16,Colorado Rapids,NA,NA,NA,Atlanta United FC,Dick's Sporting Goods Park
+2025-08-16,Chicago Fire FC,NA,NA,NA,St. Louis CITY SC,Soldier Field
+2025-08-18,Vancouver Whitecaps FC,NA,NA,NA,Houston Dynamo FC,BC Place Stadium
+2025-08-23,FC Cincinnati,NA,NA,NA,New York City FC,TQL Stadium
+2025-08-23,D.C. United,NA,NA,NA,Inter Miami CF,Audi Field
+2025-08-23,Columbus Crew,NA,NA,NA,New England Revolution,Lower.com Field
+2025-08-23,CF Montreal,NA,NA,NA,Austin FC,Stade Saputo
+2025-08-23,Philadelphia Union,NA,NA,NA,Chicago Fire FC,Subaru Park
+2025-08-24,Atlanta United FC,NA,NA,NA,Toronto FC,Mercedes-Benz Stadium
+2025-08-23,Vancouver Whitecaps FC,NA,NA,NA,St. Louis CITY SC,BC Place Stadium
+2025-08-24,Charlotte FC,NA,NA,NA,New York Red Bulls,Bank of America Stadium
+2025-08-23,Houston Dynamo FC,NA,NA,NA,San Jose Earthquakes,Shell Energy Stadium
+2025-08-23,Real Salt Lake City,NA,NA,NA,Minnesota United FC,America First Field
+2025-08-23,FC Dallas,NA,NA,NA,Los Angeles FC,Toyota Stadium
+2025-08-23,San Diego FC,NA,NA,NA,Portland Timbers,Snapdragon Stadium
+2025-08-23,Los Angeles Galaxy,NA,NA,NA,Colorado Rapids,Dignity Health Sports Park
+2025-08-23,Nashville SC,NA,NA,NA,Orlando City FC,Geodis Park
+2025-08-24,Seattle Sounders FC,NA,NA,NA,Sporting Kansas City,Lumen Field
+2025-08-30,Orlando City FC,NA,NA,NA,Vancouver Whitecaps FC,Inter&Co Stadium
+2025-08-30,FC Cincinnati,NA,NA,NA,Philadelphia Union,TQL Stadium
+2025-08-30,New England Revolution,NA,NA,NA,Charlotte FC,Gillette Stadium
+2025-08-30,Toronto FC,NA,NA,NA,CF Montreal,BMO Field
+2025-08-30,Inter Miami CF,NA,NA,NA,Chicago Fire FC,Chase Stadium
+2025-08-30,New York City FC,NA,NA,NA,D.C. United,Yankee Stadium
+2025-08-30,New York Red Bulls,NA,NA,NA,Columbus Crew,Sports Illustrated Stadium
+2025-08-30,St. Louis CITY SC,NA,NA,NA,Houston Dynamo FC,Energizer Park
+2025-08-30,Austin FC,NA,NA,NA,San Jose Earthquakes,Q2 Stadium
+2025-08-30,Minnesota United FC,NA,NA,NA,Portland Timbers,Allianz Field
+2025-08-30,Los Angeles Galaxy,NA,NA,NA,FC Dallas,Dignity Health Sports Park
+2025-08-30,Sporting Kansas City,NA,NA,NA,Colorado Rapids,Children's Mercy Park
+2025-08-30,Seattle Sounders FC,NA,NA,NA,Real Salt Lake City,Lumen Field
+2025-08-30,Nashville SC,NA,NA,NA,Atlanta United FC,Geodis Park
+2025-09-01,Los Angeles FC,NA,NA,NA,San Diego FC,BMO Stadium
+2025-09-06,Sporting Kansas City,NA,NA,NA,Austin FC,Children's Mercy Park
+2025-09-06,St. Louis CITY SC,NA,NA,NA,FC Dallas,Energizer Park
+2025-09-06,Chicago Fire FC,NA,NA,NA,New England Revolution,Soldier Field
+2025-09-13,San Jose Earthquakes,NA,NA,NA,Los Angeles FC,PayPal Park
+2025-09-13,CF Montreal,NA,NA,NA,St. Louis CITY SC,Stade Saputo
+2025-09-13,FC Cincinnati,NA,NA,NA,Nashville SC,TQL Stadium
+2025-09-13,D.C. United,NA,NA,NA,Orlando City FC,Audi Field
+2025-09-13,New England Revolution,NA,NA,NA,Toronto FC,Gillette Stadium
+2025-09-13,Atlanta United FC,NA,NA,NA,Columbus Crew,Mercedes-Benz Stadium
+2025-09-13,Charlotte FC,NA,NA,NA,Inter Miami CF,Bank of America Stadium
+2025-09-13,Seattle Sounders FC,NA,NA,NA,Los Angeles Galaxy,Lumen Field
+2025-09-13,Vancouver Whitecaps FC,NA,NA,NA,Philadelphia Union,BC Place Stadium
+2025-09-13,Chicago Fire FC,NA,NA,NA,New York City FC,Soldier Field
+2025-09-13,Real Salt Lake City,NA,NA,NA,Sporting Kansas City,America First Field
+2025-09-13,Colorado Rapids,NA,NA,NA,Houston Dynamo FC,Dick's Sporting Goods Park
+2025-09-13,Portland Timbers,NA,NA,NA,New York Red Bulls,Providence Park
+2025-09-13,San Diego FC,NA,NA,NA,Minnesota United FC,Snapdragon Stadium
+2025-09-13,FC Dallas,NA,NA,NA,Austin FC,Toyota Stadium
+2025-09-16,Inter Miami CF,NA,NA,NA,Seattle Sounders FC,Chase Stadium
+2025-09-19,New York City FC,NA,NA,NA,Charlotte FC,Yankee Stadium
+2025-09-20,Philadelphia Union,NA,NA,NA,New England Revolution,Subaru Park
+2025-09-20,Atlanta United FC,NA,NA,NA,San Diego FC,Mercedes-Benz Stadium
+2025-09-20,Orlando City FC,NA,NA,NA,Nashville SC,Inter&Co Stadium
+2025-09-20,Inter Miami CF,NA,NA,NA,D.C. United,Chase Stadium
+2025-09-20,CF Montreal,NA,NA,NA,New York Red Bulls,Stade Saputo
+2025-09-20,Columbus Crew,NA,NA,NA,Toronto FC,Lower.com Field
+2025-09-20,Minnesota United FC,NA,NA,NA,Chicago Fire FC,Allianz Field
+2025-09-20,Sporting Kansas City,NA,NA,NA,Vancouver Whitecaps FC,Children's Mercy Park
+2025-09-20,San Jose Earthquakes,NA,NA,NA,St. Louis CITY SC,PayPal Park
+2025-09-20,Austin FC,NA,NA,NA,Seattle Sounders FC,Q2 Stadium
+2025-09-20,Los Angeles Galaxy,NA,NA,NA,FC Cincinnati,Dignity Health Sports Park
+2025-09-20,FC Dallas,NA,NA,NA,Colorado Rapids,Toyota Stadium
+2025-09-20,Houston Dynamo FC,NA,NA,NA,Portland Timbers,Shell Energy Stadium
+2025-09-21,Los Angeles FC,NA,NA,NA,Real Salt Lake City,BMO Stadium
+2025-09-24,New York City FC,NA,NA,NA,Inter Miami CF,Yankee Stadium
+2025-09-27,FC Cincinnati,NA,NA,NA,Orlando City FC,TQL Stadium
+2025-09-27,Toronto FC,NA,NA,NA,Inter Miami CF,BMO Field
+2025-09-27,New York Red Bulls,NA,NA,NA,New York City FC,Sports Illustrated Stadium
+2025-09-27,D.C. United,NA,NA,NA,Philadelphia Union,Audi Field
+2025-09-27,New England Revolution,NA,NA,NA,Atlanta United FC,Gillette Stadium
+2025-09-27,Charlotte FC,NA,NA,NA,CF Montreal,Bank of America Stadium
+2025-09-27,Los Angeles Galaxy,NA,NA,NA,Sporting Kansas City,Dignity Health Sports Park
+2025-09-27,Seattle Sounders FC,NA,NA,NA,Vancouver Whitecaps FC,Lumen Field
+2025-09-27,Portland Timbers,NA,NA,NA,FC Dallas,Providence Park
+2025-09-27,San Diego FC,NA,NA,NA,San Jose Earthquakes,Snapdragon Stadium
+2025-09-27,Colorado Rapids,NA,NA,NA,Minnesota United FC,Dick's Sporting Goods Park
+2025-09-27,Nashville SC,NA,NA,NA,Houston Dynamo FC,Geodis Park
+2025-09-27,Real Salt Lake City,NA,NA,NA,Austin FC,America First Field
+2025-09-27,St. Louis CITY SC,NA,NA,NA,Los Angeles FC,Energizer Park
+2025-09-27,Chicago Fire FC,NA,NA,NA,Columbus Crew,Soldier Field
+2025-10-04,D.C. United,NA,NA,NA,Charlotte FC,Audi Field
+2025-10-04,FC Dallas,NA,NA,NA,Los Angeles Galaxy,Toyota Stadium
+2025-10-04,CF Montreal,NA,NA,NA,Nashville SC,Stade Saputo
+2025-10-04,Inter Miami CF,NA,NA,NA,New England Revolution,Chase Stadium
+2025-10-04,Orlando City FC,NA,NA,NA,Columbus Crew,Inter&Co Stadium
+2025-10-04,New York Red Bulls,NA,NA,NA,FC Cincinnati,Sports Illustrated Stadium
+2025-10-04,Philadelphia Union,NA,NA,NA,New York City FC,Subaru Park
+2025-10-04,Houston Dynamo FC,NA,NA,NA,San Diego FC,Shell Energy Stadium
+2025-10-04,Austin FC,NA,NA,NA,St. Louis CITY SC,Q2 Stadium
+2025-10-04,Real Salt Lake City,NA,NA,NA,Colorado Rapids,America First Field
+2025-10-04,Seattle Sounders FC,NA,NA,NA,Portland Timbers,Lumen Field
+2025-10-04,Chicago Fire FC,NA,NA,NA,Toronto FC,Soldier Field
+2025-10-04,Minnesota United FC,NA,NA,NA,Sporting Kansas City,Allianz Field
+2025-10-05,Vancouver Whitecaps FC,NA,NA,NA,San Jose Earthquakes,BC Place Stadium
+2025-10-05,Los Angeles FC,NA,NA,NA,Atlanta United FC,BMO Stadium
+2025-10-18,Nashville SC,NA,NA,NA,Inter Miami CF,Geodis Park
+2025-10-18,FC Cincinnati,NA,NA,NA,CF Montreal,TQL Stadium
+2025-10-18,New England Revolution,NA,NA,NA,Chicago Fire FC,Gillette Stadium
+2025-10-18,New York City FC,NA,NA,NA,Seattle Sounders FC,NA
+2025-10-18,Charlotte FC,NA,NA,NA,Philadelphia Union,Bank of America Stadium
+2025-10-18,Toronto FC,NA,NA,NA,Orlando City FC,BMO Field
+2025-10-18,Columbus Crew,NA,NA,NA,New York Red Bulls,Lower.com Field
+2025-10-18,Atlanta United FC,NA,NA,NA,D.C. United,Mercedes-Benz Stadium
+2025-10-18,Los Angeles Galaxy,NA,NA,NA,Minnesota United FC,Dignity Health Sports Park
+2025-10-18,Portland Timbers,NA,NA,NA,San Diego FC,Providence Park
+2025-10-18,San Jose Earthquakes,NA,NA,NA,Austin FC,PayPal Park
+2025-10-18,Vancouver Whitecaps FC,NA,NA,NA,FC Dallas,BC Place Stadium
+2025-10-18,Colorado Rapids,NA,NA,NA,Los Angeles FC,Dick's Sporting Goods Park
+2025-10-18,St. Louis CITY SC,NA,NA,NA,Real Salt Lake City,Energizer Park
+2025-10-18,Sporting Kansas City,NA,NA,NA,Houston Dynamo FC,Children's Mercy Park
