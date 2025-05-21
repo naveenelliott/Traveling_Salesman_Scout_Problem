@@ -1,0 +1,128 @@
+---
+title: "unique player id join"
+output: html_document
+date: "2025-05-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(stringi)
+```
+
+```{r}
+fm_dat <- read_csv("leagues_concat.csv")
+```
+
+```{r}
+fm_dat_clean <- fm_dat %>%
+  arrange(name) %>%
+  mutate(clean_name = str_remove_all(name, "[\\.-]"),
+         clean_name = stri_trans_general(clean_name, "Latin-ASCII"),
+         base_code = str_to_lower(str_c(str_sub(word(clean_name, 1), 1, 1), word(clean_name, -1)))) %>%
+  group_by(base_code) %>%
+  mutate(
+    dup_count = row_number(),
+    player_code = if_else(dup_count == 1, base_code, str_c(base_code, dup_count - 1))
+  ) %>%
+  ungroup() %>%
+  select(-...1, -clean_name, -base_code, -dup_count)
+```
+
+```{r}
+write_csv(fm_dat_clean, "player_codes.csv")
+```
+
+```{r}
+tmkt <- read_csv("transfermarkt_data_processed.csv")
+```
+
+```{r}
+tmkt_clean <- tmkt %>%
+  arrange(player_name) %>%
+  mutate(clean_name = str_remove_all(player_name, "[\\.-]"),
+         clean_name = stri_trans_general(clean_name, "Latin-ASCII"),
+         base_code = str_to_lower(str_c(str_sub(word(clean_name, 1), 1, 1), word(clean_name, -1)))) %>%
+  group_by(base_code) %>%
+  mutate(
+    dup_count = row_number(),
+    player_code = if_else(dup_count == 1, base_code, str_c(base_code, dup_count - 1))
+  ) %>%
+  ungroup() %>%
+  select(player_name, player_code, market_value, Team)
+```
+
+```{r}
+dat <- fm_dat_clean %>%
+  left_join(tmkt_clean, by="player_code")
+```
+
+```{r}
+write_csv(dat, "tmkt_fotmob_koin.csv")
+```
+
+```{r}
+datcheck <- read_csv("tmkt_fotmob_koin.csv")
+```
+
+```{r}
+asa <- read_csv("asa_data.csv")
+```
+
+```{r}
+asa_clean <- asa %>%
+  arrange(Player) %>%
+  mutate(clean_name = str_remove_all(Player, "[\\.-]"),
+         clean_name = stri_trans_general(clean_name, "Latin-ASCII"),
+         base_code = str_to_lower(str_c(str_sub(word(clean_name, 1), 1, 1), word(clean_name, -1)))) %>%
+  group_by(base_code) %>%
+  mutate(
+    dup_count = row_number(),
+    player_code = if_else(dup_count == 1, base_code, str_c(base_code, dup_count - 1))
+  ) %>%
+  ungroup() %>%
+  select(Player, player_code, Position, Minutes, `Goals Added`, `Goals Added p90`)
+
+
+
+```
+
+```{r}
+
+```
+
+```{r}
+gks <- read_csv("asa_data_gk.csv")
+```
+
+```{r}
+gks_clean <- gks %>%
+  arrange(Player) %>%
+  mutate(clean_name = str_remove_all(Player, "[\\.-]"),
+         clean_name = stri_trans_general(clean_name, "Latin-ASCII"),
+         base_code = str_to_lower(str_c(str_sub(word(clean_name, 1), 1, 1), word(clean_name, -1)))) %>%
+  group_by(base_code) %>%
+  mutate(
+    dup_count = row_number(),
+    player_code = if_else(dup_count == 1, base_code, str_c(base_code, dup_count - 1))
+  ) %>%
+  ungroup() %>%
+  mutate(Position = "GK") %>%
+  select(Player, player_code, Position, Minutes, `Goals Added`, `Goals Added p90`)
+  
+```
+
+```{r}
+asa_full <- bind_rows(asa_clean, gks_clean)
+```
+
+```{r}
+full_df <- datcheck %>%
+  left_join(asa_full, by="player_code")
+
+write_csv(full_df, "fulldf_needs_cleaning.csv")
+```
+

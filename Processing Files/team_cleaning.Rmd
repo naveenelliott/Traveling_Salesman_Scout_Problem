@@ -1,0 +1,156 @@
+---
+title: "team names"
+output: html_document
+date: "2025-05-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+mls <- read_csv("schedules - MLS.csv") %>%
+  filter(Day != "Day")
+```
+
+```{r}
+unique(mls$Home)
+```
+
+```{r}
+teamnames <- read_csv("club_addresses_and_ids.csv") %>%
+  pull(unique(Club))
+
+teamnames
+```
+
+```{r}
+name_map <- c(
+  "LAFC" = "Los Angeles FC",
+  "Portland Timbers" = "Portland Timbers",
+  "Nashville SC" = "Nashville SC",
+  "St. Louis" = "St. Louis CITY SC",
+  "Austin" = "Austin FC",
+  "D.C. United" = "D.C. United",
+  "Atlanta Utd" = "Atlanta United FC",
+  "FC Cincinnati" = "FC Cincinnati",
+  "Columbus Crew" = "Columbus Crew",
+  "Orlando City" = "Orlando City FC",
+  "SJ Earthquakes" = "San Jose Earthquakes",
+  "Inter Miami" = "Inter Miami CF",
+  "Houston Dynamo" = "Houston Dynamo FC",
+  "Seattle Sounders" = "Seattle Sounders FC",
+  "LA Galaxy" = "Los Angeles Galaxy",
+  "Charlotte" = "Charlotte FC",
+  "Real Salt Lake" = "Real Salt Lake City",
+  "Vancouver W'caps" = "Vancouver Whitecaps FC",
+  "Philadelphia Union" = "Philadelphia Union",
+  "Minnesota Utd" = "Minnesota United FC",
+  "NY Red Bulls" = "New York Red Bulls",
+  "San Diego FC" = "San Diego FC",
+  "Sporting KC" = "Sporting Kansas City",
+  "NE Revolution" = "New England Revolution",
+  "Chicago Fire" = "Chicago Fire FC",
+  "Colorado Rapids" = "Colorado Rapids",
+  "NYCFC" = "New York City FC",
+  "FC Dallas" = "FC Dallas",
+  "Toronto FC" = "Toronto FC",
+  "CF Montréal" = "CF Montreal"
+)
+```
+
+```{r}
+mls <- mls %>%
+  mutate(home_team = recode(Home, !!!name_map),
+         away_team = recode(Away, !!!name_map)) %>%
+  rename("home_xg" = "xG...5",
+         "away_xg" = "xG...7") %>%
+  select(Date, home_team, home_xg, Score, away_xg, away_team, Venue)
+
+write_csv(mls, "mls_sched.csv")
+```
+
+```{r}
+uslc <- read_csv("schedules - USLC.csv") %>%
+  filter(Day != "Day")
+```
+
+```{r}
+unique(uslc$Home)
+```
+
+```{r}
+name_map_uslc <- c(
+  "Phx Rising" = "Phoenix Rising FC",
+  "Orange County" = "Orange County SC",
+  "Miami FC" = "Miami FC",
+  "Lexington SC" = "Lexington SC",
+  "B'ham Legion" = "Birmingham Legion FC",
+  "Sac Republic" = "Sacramento Republic FC",
+  "North Carolina" = "North Carolina FC",
+  "LV Lights FC" = "Las Vegas Lights FC",
+  "Charleston" = "Charleston Battery",
+  "San Antonio" = "San Antonio FC",
+  "El Paso" = "El Paso Locomotive FC",
+  "CS Switchbacks" = "Colorado Springs Switchbacks FC",
+  "Monterey Bay" = "Monterey Bay FC",
+  "FC Tulsa" = "FC Tulsa",
+  "New Mexico Utd" = "New Mexico United",
+  "Detroit City" = "Detroit City FC",
+  "Louisville City" = "Louisville City FC",
+  "Pittsburgh" = "Pittsburgh Riverhounds FC",
+  "Roots" = "Oakland Roots SC",
+  "Hartford" = "Hartford Athletic",
+  "Loudoun Utd" = "Loudoun United FC",
+  "Indy Eleven" = "Indy Eleven",
+  "TB Rowdies" = "Tampa Bay Rowdies",
+  "Rhode Island FC" = "Rhode Island FC"
+)
+
+uslc <- uslc %>%
+  mutate(home_team = recode(Home, !!!name_map_uslc),
+         away_team = recode(Away, !!!name_map_uslc)) %>%
+  select(Date, home_team, Score, away_team, Venue)
+
+write_csv(uslc, "uslc_sched.csv")
+```
+
+```{r}
+usl1 <- read_csv("schedules - USL1.csv") %>%
+  filter(Day != "Day")
+```
+
+```{r}
+unique(usl1$Home)
+```
+
+```{r}
+name_map_usl1 <- c(
+  "G'ville Triumph" = "Greenville Triumph SC",
+  "Tormenta FC" = "South Georgia Tormenta FC",
+  "FC Naples" = "FC Naples",
+  "Charlotte Ind'ence" = "Charlotte Independence",
+  "Spokane Velocity FC" = "Spokane Velocity FC",
+  "Richmond" = "Richmond Kickers",
+  "Texoma FC" = "Texoma FC",
+  "Chat'ga Red Wolves" = "Chattanooga Red Wolves SC",
+  "AV Alta FC" = "AV Alta FC",
+  "Fwd Madison" = "Forward Madison FC",
+  "Hearts of Pine" = "Portland Hearts of Pine",
+  "One Knoxville SC" = "One Knoxville SC",
+  "Westchester SC" = "Westchester SC",
+  "Union Omaha" = "Union Omaha"
+)
+
+usl1 <- usl1 %>%
+  mutate(home_team = recode(Home, !!!name_map_uslc),
+         away_team = recode(Away, !!!name_map_uslc)) %>%
+  select(Date, home_team, Score, away_team, Venue)
+
+write_csv(usl1, "usl1_sched.csv")
+```
+
