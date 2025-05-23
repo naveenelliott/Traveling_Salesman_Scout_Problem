@@ -101,3 +101,33 @@ reverse_name_mapping = {v: k for k, v in name_mapping.items()}
 changed_schedule = schedule.copy()
 changed_schedule['home_team'] = changed_schedule['home_team'].map(reverse_name_mapping)
 changed_schedule['away_team'] = changed_schedule['away_team'].map(reverse_name_mapping)
+
+# Sort the schedule by date
+schedule['Date'] = pd.to_datetime(schedule['Date'])
+schedule = schedule.sort_values('Date').reset_index(drop=True)
+
+# Shift the schedule forward by 1 row to get the "next" match
+schedule['Next_home_team'] = schedule['home_team'].shift(-1)
+schedule['Next_Date'] = schedule['Date'].shift(-1)
+
+# Merge distances from home team to next match's home team
+distance_lookup = distance_df.copy()
+
+# Create a unified lookup key for easier merging
+distance_lookup['team_key'] = distance_lookup['Team_1'] + "___" + distance_lookup['Team_2']
+schedule['team_key'] = schedule['home_team'] + "___" + schedule['Next_home_team']
+
+# Merge based on this key
+schedule = schedule.merge(distance_lookup[['team_key', 'Distance_miles']], how='left', on='team_key')
+
+# Also check reverse direction if not found
+missing_distances = schedule[schedule['Distance_miles'].isna()].copy()
+missing_distances['team_key_rev'] = missing_distances['Next_home_team'] + "___" + missing_distances['home_team']
+distance_lookup_rev = distance_lookup.copy()
+distance_lookup_rev['team_key_rev'] = distance_lookup_rev['Team_2'] + "___" + distance_lookup_rev['Team_1']
+
+# Merge reverse matches
+missing_distances = missing_distances.merge(distance_lookup_rev[['team_key_rev', 'Distance_miles']], how='left', on='team_key_rev')
+
+# Fill in the original schedule
+schedule.loc[schedule['Distance_miles'].isna(), 'Distance_miles'] = missing_distances['Distance_miles_y'].values
