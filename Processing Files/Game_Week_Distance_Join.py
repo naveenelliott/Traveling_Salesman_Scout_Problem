@@ -1,5 +1,4 @@
 import pandas as pd
-from rapidfuzz import process, fuzz
 
 mls = pd.read_csv('mls_sched.csv')
 
@@ -93,7 +92,8 @@ name_mapping = {
     'South Georgia Tormenta FC': 'Tormenta FC',
     'Spokane Velocity FC': 'Spokane Velocity FC',
     'Sporting Kansas City': 'Sporting Kansas City',
-    'St. Louis CITY SC': 'St. Louis CITY SC'
+    'St. Louis CITY SC': 'St. Louis CITY SC',
+    'Toronto FC': 'Toronto FC'
 }
 
 reverse_name_mapping = {v: k for k, v in name_mapping.items()}
@@ -106,28 +106,50 @@ changed_schedule['away_team'] = changed_schedule['away_team'].map(reverse_name_m
 schedule['Date'] = pd.to_datetime(schedule['Date'])
 schedule = schedule.sort_values('Date').reset_index(drop=True)
 
-# Shift the schedule forward by 1 row to get the "next" match
-schedule['Next_home_team'] = schedule['home_team'].shift(-1)
-schedule['Next_Date'] = schedule['Date'].shift(-1)
+schedule['home_team'] = schedule['home_team'].map(reverse_name_mapping).fillna(schedule['home_team'])
 
-# Merge distances from home team to next match's home team
-distance_lookup = distance_df.copy()
+distance['team_key'] = distance.apply(
+    lambda row: '___'.join(sorted([row['Team_1'], row['Team_2']])), axis=1
+)
+distance_lookup = dict(zip(distance['team_key'], distance['Distance_miles']))
 
-# Create a unified lookup key for easier merging
-distance_lookup['team_key'] = distance_lookup['Team_1'] + "___" + distance_lookup['Team_2']
-schedule['team_key'] = schedule['home_team'] + "___" + schedule['Next_home_team']
+# Ensure mapping
+schedule['home_team'] = schedule['home_team'].map(reverse_name_mapping).fillna(schedule['home_team'])
 
-# Merge based on this key
-schedule = schedule.merge(distance_lookup[['team_key', 'Distance_miles']], how='left', on='team_key')
+# Filter out rows with missing teams
+schedule = schedule.dropna(subset=['home_team'])
 
-# Also check reverse direction if not found
-missing_distances = schedule[schedule['Distance_miles'].isna()].copy()
-missing_distances['team_key_rev'] = missing_distances['Next_home_team'] + "___" + missing_distances['home_team']
-distance_lookup_rev = distance_lookup.copy()
-distance_lookup_rev['team_key_rev'] = distance_lookup_rev['Team_2'] + "___" + distance_lookup_rev['Team_1']
+# Get unique match days
+unique_dates = sorted(schedule['Date'].dropna().unique())
+distance_rows = []
 
-# Merge reverse matches
-missing_distances = missing_distances.merge(distance_lookup_rev[['team_key_rev', 'Distance_miles']], how='left', on='team_key_rev')
+for i in range(len(unique_dates) - 1):
+    current_date = unique_dates[i]
+    next_date = unique_dates[i + 1]
 
-# Fill in the original schedule
-schedule.loc[schedule['Distance_miles'].isna(), 'Distance_miles'] = missing_distances['Distance_miles_y'].values
+    current_group = schedule[schedule['Date'] == current_date].copy()
+    next_group = schedule[schedule['Date'] == next_date].copy()
+
+    for idx, row in current_group.iterrows():
+        current_team = row['home_team']
+        match_date = row['Date']
+
+        # Build list of (next_team, distance) tuples
+        tuples = []
+        for next_team in next_group['home_team']:
+            key = '___'.join(sorted([current_team, next_team]))
+            distance = distance_lookup.get(key, None)
+            tuples.append((next_team, distance))
+
+        row['Next_Date'] = next_date
+        row['Next_Team_Distances'] = tuples
+        distance_rows.append(row)
+
+# Combine all results
+final_schedule = pd.DataFrame(distance_rows)
+
+final_schedule['Next_Team_Distances'] = final_schedule['Next_Team_Distances'].apply(
+    lambda lst: [(team, dist if dist is not None else 0) for team, dist in lst]
+)
+
+talent = pd.read_csv('talent_score_adj.csv')
