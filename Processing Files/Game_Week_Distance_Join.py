@@ -1,4 +1,5 @@
 import pandas as pd
+from fuzzywuzzy import process
 
 mls = pd.read_csv('mls_sched.csv')
 
@@ -19,7 +20,6 @@ schedule['Date'] = pd.to_datetime(schedule['Date'], errors='coerce')
 schedule = schedule.sort_values('Date').reset_index(drop=True)
 
 distance = pd.read_csv('distancesBetweenStadiums.csv')
-del distance['Team_1_ID'], distance['Team_2_ID']
 
 unique_distances = distance['Team_1'].unique()
 unique_schedules = schedule['home_team'].unique()
@@ -153,3 +153,31 @@ final_schedule['Next_Team_Distances'] = final_schedule['Next_Team_Distances'].ap
 )
 
 talent = pd.read_csv('talent_score_adj.csv')
+
+final_talent = talent.groupby(['Team'])['talent_score'].agg(['mean']).reset_index()
+
+talent_teams = final_talent['Team'].unique()
+
+schedule_teams = final_schedule['home_team'].unique()
+
+team_mapping = {}
+for messy_name in talent_teams:
+    match, score = process.extractOne(messy_name, schedule_teams)
+    team_mapping[messy_name] = match
+    
+final_talent['Team'] = final_talent['Team'].map(team_mapping)
+
+# Merge total talent scores to map team → talent score
+team_to_talent = final_talent.set_index('Team')['mean'].to_dict()
+
+# Add talent scores to the distance tuples
+final_schedule['Next_Team_Distances'] = final_schedule['Next_Team_Distances'].apply(
+    lambda lst: [
+        (
+            team,
+            dist if dist is not None else 0,
+            team_to_talent.get(team, 0)
+        )
+        for team, dist in lst
+    ]
+)
