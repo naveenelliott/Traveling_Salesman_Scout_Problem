@@ -44,31 +44,33 @@ total_distance += best_distance
 current_team = best_next_team
 current_date = next_date
 
+
 # Continue sequentially by following the previous Current_Team
 while current_date in df['Date'].values:
     next_day_games = df[df['Date'] == current_date]
-    # Find the row where current_team is the home team
     row = next_day_games[next_day_games['home_team'] == current_team]
     if row.empty:
         break
 
     row = row.iloc[0]
 
-    # Choose best next team from this stadium
     best_next = None
-    best_talent = -1
+    best_ratio = -1
     for next_team, dist, talent in row['Next_Team_Distances']:
-        if talent > best_talent:
-            best_next = {
-                'Date': row['Date'],
-                'Match': f"{row['home_team']} vs {row['away_team']}",
-                'From_Team': current_team,
-                'Current_Team': next_team,
-                'Distance': dist,
-                'Talent': talent,
-                'Next_Date': row['Next_Date']
-            }
-            best_talent = talent
+        if dist > 0:
+            ratio = talent / dist
+            if ratio > best_ratio:
+                best_next = {
+                    'Date': row['Date'],
+                    'Match': f"{row['home_team']} vs {row['away_team']}",
+                    'From_Team': current_team,
+                    'Current_Team': next_team,
+                    'Distance': dist,
+                    'Talent': talent,
+                    'Ratio': ratio,
+                    'Next_Date': row['Next_Date']
+                }
+                best_ratio = ratio
 
     if best_next is None:
         break
