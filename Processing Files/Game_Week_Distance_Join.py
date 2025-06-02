@@ -116,6 +116,7 @@ distance_lookup = dict(zip(distance['team_key'], distance['Distance_miles']))
 
 # Ensure mapping
 schedule['home_team'] = schedule['home_team'].map(reverse_name_mapping).fillna(schedule['home_team'])
+schedule['away_team'] = schedule['away_team'].map(reverse_name_mapping).fillna(schedule['away_team'])
 
 # Filter out rows with missing teams
 schedule = schedule.dropna(subset=['home_team'])
@@ -172,7 +173,7 @@ team_to_talent = talent.set_index('Team')['mean_talent'].to_dict()
 final_schedule['home_talent'] = final_schedule['home_team'].map(team_to_talent).fillna(0)
 final_schedule['away_talent'] = final_schedule['away_team'].map(team_to_talent).fillna(0)
 
-final_schedule['combined_talent'] = final_schedule['home_talent'] + final_schedule['away_talent']
+final_schedule['avg_talent'] = (final_schedule['home_talent'] + final_schedule['away_talent'])/2
 
 # Step 1: create a lookup for (date, team) → (home_talent, away_talent)
 lookup = final_schedule.set_index(['Date', 'home_team'])[['home_talent', 'away_talent']].to_dict('index')
@@ -183,8 +184,8 @@ final_schedule['Next_Team_Distances'] = final_schedule.apply(
         (
             next_team,
             dist if dist is not None else 0,
-            lookup.get((row['Next_Date'], next_team), {}).get('home_talent', 0) +
-            lookup.get((row['Next_Date'], next_team), {}).get('away_talent', 0)
+            (lookup.get((row['Next_Date'], next_team), {}).get('home_talent', 0) +
+            lookup.get((row['Next_Date'], next_team), {}).get('away_talent', 0))/2
         )
         for next_team, dist in row['Next_Team_Distances']
     ],
