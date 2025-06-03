@@ -1,8 +1,9 @@
 import pandas as pd
 import ast
+from collections import defaultdict
 
 # Load and clean
-df = pd.read_csv('joined_schedule_FINAL.csv')
+df = pd.read_csv('joined_schedule_FINAL_MLS.csv')
 del df['Score'], df['home_talent'], df['away_talent']
 df['Next_Team_Distances'] = df['Next_Team_Distances'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
 
@@ -10,6 +11,8 @@ df['Next_Team_Distances'] = df['Next_Team_Distances'].apply(lambda x: ast.litera
 all_dates = sorted(df['Date'].unique())
 final_schedule = []
 total_distance = 0
+
+team_counts = defaultdict(int)
 
 # START: pick the game on the first date with the best average talent in Next_Team_Distances
 first_day = df[df['Date'] == all_dates[0]]
@@ -40,6 +43,8 @@ best_start = {
 
 # Add to schedule
 final_schedule.append(best_start)
+team_counts[best_row['home_team']] += 1
+team_counts[best_row['away_team']] += 1
 total_distance += best_distance
 current_team = best_next_team
 current_date = next_date
@@ -76,6 +81,8 @@ while current_date in df['Date'].values:
         break
 
     final_schedule.append(best_next)
+    team_counts[row['home_team']] += 1
+    team_counts[row['away_team']] += 1
     total_distance += best_next['Distance']
     current_team = best_next['Current_Team']
     current_date = best_next['Next_Date']
@@ -88,3 +95,4 @@ final_df['Date'] = final_df['Date'].shift(-1)
 final_df['Next_Date'] = final_df['Next_Date'].shift(-1)
 
 print("Total Distance Traveled:", round(total_distance, 2))
+print("Team Appearance Counts:", dict(sorted(team_counts.items(), key=lambda x: -x[1])))

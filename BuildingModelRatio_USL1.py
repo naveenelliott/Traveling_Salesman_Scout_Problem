@@ -2,7 +2,7 @@ import pandas as pd
 import ast
 
 # Load and clean
-df = pd.read_csv('joined_schedule_FINAL.csv')
+df = pd.read_csv('joined_schedule_FINAL_USL1.csv')
 del df['Score'], df['home_talent'], df['away_talent']
 df['Next_Team_Distances'] = df['Next_Team_Distances'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
 
