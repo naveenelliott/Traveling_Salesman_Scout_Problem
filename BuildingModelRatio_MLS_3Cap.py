@@ -26,6 +26,9 @@ final_schedule = []
 total_distance = 0
 team_counts = defaultdict(int)
 
+for team, count in must_scout_counts.items():
+    team_counts[team] = count
+
 # START: pick best opening game
 first_day = df[df['Date'] == all_dates[0]]
 best_row = first_day.loc[first_day['avg_talent'].idxmax()]
@@ -34,7 +37,7 @@ next_date = best_row['Next_Date']
 best_next_team, best_talent, best_distance = None, -1, None
 
 for next_team, dist, talent in best_row['Next_Team_Distances']:
-    if talent > best_talent and team_counts[next_team] < 3:
+    if talent > best_talent and team_counts[next_team] < 4:
         best_next_team, best_talent, best_distance = next_team, talent, dist
 
 if best_next_team is None:
@@ -63,30 +66,40 @@ current_date = next_date
 while current_date in df['Date'].values:
     next_day_games = df[df['Date'] == current_date]
     row = next_day_games[next_day_games['home_team'] == current_team]
+    
     if row.empty:
         break
 
     row = row.iloc[0]
     best_next = None
     best_score = -1
+    
+    valid_options = [(t, d, ta) for t, d, ta in row['Next_Team_Distances'] if d >= 0 and team_counts[t] < 4]
 
-    for next_team, dist, talent in row['Next_Team_Distances']:
+    forced_over_limit = False
+    if not valid_options:
+        valid_options = [(t, d, ta) for t, d, ta in row['Next_Team_Distances'] if d >= 0]
+        forced_over_limit = True  # flag to identify fallback scenario
+    
+
+
+    for next_team, dist, talent in valid_options:
         if dist <= 0:
             continue
         # Penalty logic
-        if must_scout_counts[next_team] >= 3:
-            penalty = 0.6
-        elif must_scout_counts[next_team] == 2:
-            penalty = 0.75
-        elif must_scout_counts[next_team] == 1:
-            penalty = 0.9
-        elif team_counts[next_team] >= 2:
-            penalty = 0.8
+        if team_counts[next_team] >= 4:
+            penalty = 0.1
+        if team_counts[next_team] == 3:
+            penalty = 0.3
+        elif team_counts[next_team] == 2:
+            penalty = 0.5
+        elif team_counts[next_team] == 1:
+            penalty = 0.7
         else:
             penalty = 1.0
 
         freshness_weight = 1 / (1 + team_counts[next_team])
-        score = (talent / dist) * freshness_weight * penalty
+        score = ((talent ** 2) / dist) * freshness_weight * penalty
 
         if score > best_score:
             best_next = {
@@ -100,6 +113,7 @@ while current_date in df['Date'].values:
                 'Next_Date': row['Next_Date']
             }
             best_score = score
+            
 
     if best_next is None:
         break
@@ -110,6 +124,9 @@ while current_date in df['Date'].values:
     team_counts[row['away_team']] += 1
     current_team = best_next['Current_Team']
     current_date = best_next['Next_Date']
+    
+    if forced_over_limit and team_counts[next_team] >= 4:
+        print(f"{best_next['Date']} → {next_team} already scouted {team_counts[next_team]} times\n")
 
 # Final DataFrame adjustments
 final_df = pd.DataFrame(final_schedule)

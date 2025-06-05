@@ -121,16 +121,57 @@ schedule['away_team'] = schedule['away_team'].map(reverse_name_mapping).fillna(s
 # Filter out rows with missing teams
 schedule = schedule.dropna(subset=['home_team'])
 
+nah = True
+
+if nah == False:
+    schedule_mls = schedule.loc[~(
+        (schedule['Date'] == pd.Timestamp('2025-06-12')) &
+        (schedule['home_team'] == 'New York City FC') &
+        (schedule['away_team'] == 'Atlanta United FC')
+    )]
+    
+    schedule_mls = schedule_mls.loc[~(
+        (schedule_mls['Date'] == pd.Timestamp('2025-07-06')) &
+        (schedule_mls['home_team'] == 'Seattle Sounders FC') &
+        (schedule_mls['away_team'] == 'Columbus Crew')
+    )]
+    
+    schedule_mls = schedule_mls.loc[~(
+        (schedule_mls['Date'] == pd.Timestamp('2025-09-01')) &
+        (schedule_mls['home_team'] == 'Los Angeles FC') &
+        (schedule_mls['away_team'] == 'San Diego FC')
+    )]
+    
+    schedule_mls = schedule_mls.loc[~(
+        (schedule_mls['Date'] == pd.Timestamp('2025-09-16')) &
+        (schedule_mls['home_team'] == 'Inter Miami CF') &
+        (schedule_mls['away_team'] == 'Seattle Sounders FC')
+    )]
+    
+    schedule_mls = schedule_mls.loc[~(
+        (schedule_mls['Date'] == pd.Timestamp('2025-09-19')) &
+        (schedule_mls['home_team'] == 'New York City FC') &
+        (schedule_mls['away_team'] == 'Charlotte FC')
+    )]
+    
+    schedule_mls = schedule_mls.loc[~(
+        (schedule_mls['Date'] == pd.Timestamp('2025-09-24')) &
+        (schedule_mls['home_team'] == 'New York City FC') &
+        (schedule_mls['away_team'] == 'Inter Miami CF')
+    )]
+else:
+    schedule_mls = schedule.copy()
+
 # Get unique match days
-unique_dates = sorted(schedule['Date'].dropna().unique())
+unique_dates = sorted(schedule_mls['Date'].dropna().unique())
 distance_rows = []
 
 for i in range(len(unique_dates) - 1):
     current_date = unique_dates[i]
     next_date = unique_dates[i + 1]
 
-    current_group = schedule[schedule['Date'] == current_date].copy()
-    next_group = schedule[schedule['Date'] == next_date].copy()
+    current_group = schedule_mls[schedule_mls['Date'] == current_date].copy()
+    next_group = schedule_mls[schedule_mls['Date'] == next_date].copy()
 
     for idx, row in current_group.iterrows():
         current_team = row['home_team']
