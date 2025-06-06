@@ -106,7 +106,7 @@ while current_date in df['Date'].values:
         penalty_away = 1 / (1 + team_counts[next_away])
         
         penalty = (penalty_home + penalty_away) / 2
-        score = (talent**2) / (dist + 1e-6) * penalty
+        score = (talent) / (dist + 1e-6) * penalty
 
         if score > best_score:
             best_next = {

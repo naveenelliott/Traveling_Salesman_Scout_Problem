@@ -123,51 +123,14 @@ schedule['away_team'] = schedule['away_team'].map(reverse_name_mapping).fillna(s
 # Filter out rows with missing teams
 schedule = schedule.dropna(subset=['home_team'])
 
-nah = True
 
-if nah == False:
-    schedule_mls = schedule.loc[~(
-        (schedule['Date'] == pd.Timestamp('2025-06-12')) &
-        (schedule['home_team'] == 'New York City FC') &
-        (schedule['away_team'] == 'Atlanta United FC')
-    )]
-    
-    schedule_mls = schedule_mls.loc[~(
-        (schedule_mls['Date'] == pd.Timestamp('2025-07-06')) &
-        (schedule_mls['home_team'] == 'Seattle Sounders FC') &
-        (schedule_mls['away_team'] == 'Columbus Crew')
-    )]
-    
-    schedule_mls = schedule_mls.loc[~(
-        (schedule_mls['Date'] == pd.Timestamp('2025-09-01')) &
-        (schedule_mls['home_team'] == 'Los Angeles FC') &
-        (schedule_mls['away_team'] == 'San Diego FC')
-    )]
-    
-    schedule_mls = schedule_mls.loc[~(
-        (schedule_mls['Date'] == pd.Timestamp('2025-09-16')) &
-        (schedule_mls['home_team'] == 'Inter Miami CF') &
-        (schedule_mls['away_team'] == 'Seattle Sounders FC')
-    )]
-    
-    schedule_mls = schedule_mls.loc[~(
-        (schedule_mls['Date'] == pd.Timestamp('2025-09-19')) &
-        (schedule_mls['home_team'] == 'New York City FC') &
-        (schedule_mls['away_team'] == 'Charlotte FC')
-    )]
-    
-    schedule_mls = schedule_mls.loc[~(
-        (schedule_mls['Date'] == pd.Timestamp('2025-09-24')) &
-        (schedule_mls['home_team'] == 'New York City FC') &
-        (schedule_mls['away_team'] == 'Inter Miami CF')
-    )]
-else:
-    schedule_mls = schedule.copy()
+schedule_mls = schedule.copy()
 
 # Get unique match days
 unique_dates = sorted(schedule_mls['Date'].dropna().unique())
 distance_rows = []
 
+# Step through matchdays and append (next_home, next_away, distance) to each match
 for i in range(len(unique_dates) - 1):
     current_date = unique_dates[i]
     next_date = unique_dates[i + 1]
@@ -190,8 +153,9 @@ for i in range(len(unique_dates) - 1):
         row['Next_Team_Distances'] = tuples
         distance_rows.append(row)
 
-# Combine all results
+# Build combined schedule with distances
 final_schedule = pd.DataFrame(distance_rows)
+
 
 final_schedule['Next_Team_Distances'] = final_schedule['Next_Team_Distances'].apply(
     lambda lst: [(team, dist if dist is not None else 0) for team, dist in lst]
@@ -218,7 +182,13 @@ final_schedule['away_talent'] = final_schedule['away_team'].map(team_to_talent).
 
 final_schedule['avg_talent'] = (final_schedule['home_talent'] + final_schedule['away_talent'])/2
 
-final_schedule_mls = final_schedule[final_schedule['avg_talent'] >= 0.45].copy()
+
+# Scale avg_talent globally
+global_scaler = MinMaxScaler()
+global_scaler.fit(final_schedule[['avg_talent']])
+final_schedule['scaled_avg_talent'] = global_scaler.transform(final_schedule[['avg_talent']])
+
+final_schedule_mls = final_schedule[final_schedule['scaled_avg_talent'] >= 0.39].copy()
 
 # Step 1: create a lookup for (date, team) → (home_talent, away_talent)
 lookup = final_schedule_mls.set_index(['Date', 'home_team'])[['home_talent', 'away_talent']].to_dict('index')
@@ -252,7 +222,8 @@ for i in range(len(unique_dates) - 1):
             avg_talent = (
                 team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
             ) / 2
-            if avg_talent >= 0.45:
+            scaled_talent = global_scaler.transform([[avg_talent]])[0][0]
+            if scaled_talent >= 0.39:
                 tuples.append((next_home, next_away, dist, avg_talent))
 
         # Only keep the row if it has valid next teams
@@ -263,7 +234,7 @@ for i in range(len(unique_dates) - 1):
 # Rebuild final_schedule
 final_schedule_mls = pd.DataFrame(distance_rows)
 
-def scale_distance_and_talent(df, col_name='Next_Team_Distances'):
+def scale_distance_and_talent(df, scaler, col_name='Next_Team_Distances'):
     """
     Scales distance inversely (lower = closer to 1) and talent directly (higher = closer to 1)
     in a column of (home_team, away_team, distance, talent) tuples.
@@ -272,10 +243,12 @@ def scale_distance_and_talent(df, col_name='Next_Team_Distances'):
     all_tuples = [tup for lst in df[col_name] if lst for tup in lst]
     distances = [t[2] for t in all_tuples]
     talents = [t[3] for t in all_tuples]
+    
+    distance_scaler = MinMaxScaler()
+    distance_scaler.fit(np.array(distances).reshape(-1, 1))
+    dist_scaled = 1 - distance_scaler.transform(np.array(distances).reshape(-1, 1)).flatten()
 
-    # Convert to arrays and scale
-    dist_scaled = 1 - MinMaxScaler().fit_transform(np.array(distances).reshape(-1, 1)).flatten()
-    talent_scaled = MinMaxScaler().fit_transform(np.array(talents).reshape(-1, 1)).flatten()
+    talent_scaled = scaler.transform(np.array(talents).reshape(-1, 1)).flatten()
 
     # Rebuild scaled tuples
     scaled_tuples = list(zip(
@@ -296,11 +269,11 @@ def scale_distance_and_talent(df, col_name='Next_Team_Distances'):
     df[col_name] = scaled_lists
     return df
 
-final_schedule_mls = scale_distance_and_talent(final_schedule_mls)
+final_schedule_mls = scale_distance_and_talent(final_schedule_mls, global_scaler)
 
 final_schedule_mls.to_csv('joined_schedule_FINAL_MLS.csv', index=False)
 
-final_schedule_uslc = final_schedule[final_schedule['avg_talent'] < 0.51].copy()
+final_schedule_uslc = final_schedule[final_schedule['scaled_avg_talent'] < 0.46].copy()
 
 # Step 1: create a lookup for (date, team) → (home_talent, away_talent)
 lookup = final_schedule_uslc.set_index(['Date', 'home_team'])[['home_talent', 'away_talent']].to_dict('index')
@@ -334,7 +307,8 @@ for i in range(len(unique_dates) - 1):
             avg_talent = (
                 team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
             ) / 2
-            if avg_talent < 0.51:
+            scaled_talent = global_scaler.transform([[avg_talent]])[0][0]
+            if scaled_talent < 0.46:
                 tuples.append((next_home, next_away, dist, avg_talent))
 
         # Only keep the row if it has valid next teams
@@ -345,11 +319,11 @@ for i in range(len(unique_dates) - 1):
 # Rebuild final_schedule
 final_schedule_uslc = pd.DataFrame(distance_rows)
 
-final_schedule_uslc = scale_distance_and_talent(final_schedule_uslc)
+final_schedule_uslc = scale_distance_and_talent(final_schedule_uslc, global_scaler)
 
 final_schedule_uslc.to_csv('joined_schedule_FINAL_USLC.csv', index=False)
 
-final_schedule_usl1 = final_schedule[final_schedule['avg_talent'] < 0.43].copy()
+final_schedule_usl1 = final_schedule[final_schedule['scaled_avg_talent'] < 0.34].copy()
 
 # Step 1: create a lookup for (date, team) → (home_talent, away_talent)
 lookup = final_schedule_usl1.set_index(['Date', 'home_team'])[['home_talent', 'away_talent']].to_dict('index')
@@ -383,7 +357,8 @@ for i in range(len(unique_dates) - 1):
             avg_talent = (
                 team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
             ) / 2
-            if avg_talent < 0.43:
+            scaled_talent = global_scaler.transform([[avg_talent]])[0][0]
+            if scaled_talent < 0.34:
                 tuples.append((next_home, next_away, dist, avg_talent))
         # Only keep the row if it has valid next teams
         if tuples:
@@ -393,6 +368,6 @@ for i in range(len(unique_dates) - 1):
 # Rebuild final_schedule
 final_schedule_usl1 = pd.DataFrame(distance_rows)
 
-final_schedule_usl1 = scale_distance_and_talent(final_schedule_usl1)
+final_schedule_usl1 = scale_distance_and_talent(final_schedule_usl1, global_scaler)
 
 final_schedule_usl1.to_csv('joined_schedule_FINAL_USL1.csv', index=False)

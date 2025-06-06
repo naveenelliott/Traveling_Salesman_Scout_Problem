@@ -38,7 +38,7 @@ x = {i: LpVariable(f"x_{i}", cat=LpBinary) for i in range(len(options))}
 
 # Objective: Weight talent more than distance (talent^2 / (distance + 1))
 model += lpSum([
-    x[i] * ((options[i]["talent"] ** 2) / (options[i]["distance"] + 1e-6))
+    x[i] * ((options[i]["talent"]) / (options[i]["distance"] + 1e-6))
     for i in range(len(options))
 ])
 
