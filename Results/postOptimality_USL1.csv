@@ -1,0 +1,69 @@
+Date,Match,From_Team,Current_Team,Distance,Talent,Next_Date,Score
+2025-05-24,Orange County SC vs Colorado Springs Switchbacks FC,Orange County SC,"('FC Naples', 'Union Omaha')",0.14986583510004425,0.404090907620972,2025-05-25,
+2025-05-25,FC Naples vs Union Omaha,FC Naples,"('Las Vegas Lights FC', 'Phoenix Rising FC')",0.23507659677159887,0.7081446413588961,2025-05-28,2.1332055456247754
+2025-05-28,Las Vegas Lights FC vs Phoenix Rising FC,Las Vegas Lights FC,"('Birmingham Legion FC', 'Indy Eleven')",0.4077242125093101,0.6420160648734596,2025-06-04,0.3791014894126063
+2025-06-04,Birmingham Legion FC vs Indy Eleven,Birmingham Legion FC,"('Hartford Athletic', 'North Carolina FC')",0.6481461496359369,0.5342729432454694,2025-06-06,0.16515206734565133
+2025-06-06,Hartford Athletic vs North Carolina FC,Hartford Athletic,"('Monterey Bay FC', 'Lexington SC')",0.037163349080874264,0.7621348184535823,2025-06-07,15.629211754395962
+2025-06-07,Monterey Bay FC vs Lexington SC,Monterey Bay FC,"('Union Omaha', 'Greenville Triumph SC')",0.4812743635146277,0.45586449060916845,2025-06-12,0.1439317623911856
+2025-06-12,Union Omaha vs Greenville Triumph SC,Union Omaha,"('One Knoxville SC', 'Richmond Kickers')",0.7251168840409565,0.5049603774759435,2025-06-13,0.11721541578851524
+2025-06-13,One Knoxville SC vs Richmond Kickers,One Knoxville SC,"('Rhode Island FC', 'North Carolina FC')",0.7113132235533954,0.8856143666532932,2025-06-14,0.643197884418853
+2025-06-14,Rhode Island FC vs North Carolina FC,Rhode Island FC,"('Charlotte Independence', 'Greenville Triumph SC')",0.7482815811036871,0.7609360864175527,2025-06-15,0.4642821379792838
+2025-06-15,Charlotte Independence vs Greenville Triumph SC,Charlotte Independence,"('Birmingham Legion FC', 'Sacramento Republic FC')",0.8676196938539773,0.8178251622381782,2025-06-18,0.4496844075118852
+2025-06-18,Birmingham Legion FC vs Sacramento Republic FC,Birmingham Legion FC,"('Hartford Athletic', 'Loudoun United FC')",0.6481461496359369,0.6966388621318333,2025-06-20,0.2807844471573301
+2025-06-20,Hartford Athletic vs Loudoun United FC,Hartford Athletic,"('Monterey Bay FC', 'El Paso Locomotive FC')",0.037163349080874264,0.989739691720197,2025-06-21,17.572120981404197
+2025-06-21,Monterey Bay FC vs El Paso Locomotive FC,Monterey Bay FC,"('Tampa Bay Rowdies', 'Indy Eleven')",0.13517948053776518,0.8577000019305923,2025-06-25,3.401236676262502
+2025-06-25,Tampa Bay Rowdies vs Indy Eleven,Tampa Bay Rowdies,"('AV Alta FC', 'FC Naples')",0.21258059687629727,0.37245895565819453,2025-06-28,0.24471604495952387
+2025-06-28,AV Alta FC vs FC Naples,AV Alta FC,"('Birmingham Legion FC', 'Charleston Battery')",0.3422834988085821,0.946128439186005,2025-07-02,1.4710772834753691
+2025-07-02,Birmingham Legion FC vs Charleston Battery,Birmingham Legion FC,"('El Paso Locomotive FC', 'San Antonio FC')",0.5774165163466733,0.9586622261790592,2025-07-04,1.0610846142635488
+2025-07-04,El Paso Locomotive FC vs San Antonio FC,El Paso Locomotive FC,"('Miami FC', 'FC Tulsa')",0.3971552866181046,0.9364216735494282,2025-07-05,1.655932903945763
+2025-07-05,Miami FC vs FC Tulsa,Miami FC,"('Portland Hearts of Pine', 'South Georgia Tormenta FC')",0.5032681314820385,0.14404414050915104,2025-07-06,0.010994098712906023
+2025-07-06,Portland Hearts of Pine vs South Georgia Tormenta FC,Portland Hearts of Pine,"('North Carolina FC', 'Birmingham Legion FC')",0.7410788519396856,0.6448233168498219,2025-07-11,0.0631202895980806
+2025-07-11,North Carolina FC vs Birmingham Legion FC,North Carolina FC,"('Oakland Roots SC', 'Phoenix Rising FC')",0.1218567743097646,0.6646322357252803,2025-07-12,2.416675293621583
+2025-07-12,Oakland Roots SC vs Phoenix Rising FC,Oakland Roots SC,"('Pittsburgh Riverhounds FC', 'Loudoun United FC')",0.1734188574390244,0.6869914046356025,2025-07-13,0.7937625048369459
+2025-07-13,Pittsburgh Riverhounds FC vs Loudoun United FC,Pittsburgh Riverhounds FC,"('Forward Madison FC', 'Charlotte Independence')",0.8112141404630957,0.6388927221301981,2025-07-16,0.16772530081967155
+2025-07-16,Forward Madison FC vs Charlotte Independence,Forward Madison FC,"('North Carolina FC', 'Indy Eleven')",0.7220740453496044,0.843881205230048,2025-07-18,0.13149796421242732
+2025-07-18,North Carolina FC vs Indy Eleven,North Carolina FC,"('Sacramento Republic FC', 'Lexington SC')",0.14000985312349135,0.8822535720337046,2025-07-19,1.8531214973734875
+2025-07-19,Sacramento Republic FC vs Lexington SC,Sacramento Republic FC,"('Greenville Triumph SC', 'Richmond Kickers')",0.2044781344612363,0.4114308318621833,2025-07-20,0.1419148607742719
+2025-07-20,Greenville Triumph SC vs Richmond Kickers,Greenville Triumph SC,"('Forward Madison FC', 'South Georgia Tormenta FC')",0.7505181980663675,0.20576918119657317,2025-07-23,0.009671237733496287
+2025-07-23,Forward Madison FC vs South Georgia Tormenta FC,Forward Madison FC,"('Pittsburgh Riverhounds FC', 'Miami FC')",0.8112141404630957,0.47656612268912046,2025-07-29,0.06299307426904051
+2025-07-29,Pittsburgh Riverhounds FC vs Miami FC,Pittsburgh Riverhounds FC,"('One Knoxville SC', 'Charlotte Independence')",0.8637271701058561,0.8544656320313131,2025-07-30,0.16906048490538197
+2025-07-30,One Knoxville SC vs Charlotte Independence,One Knoxville SC,"('Colorado Springs Switchbacks FC', 'Lexington SC')",0.5750313633896911,0.6586618829304811,2025-08-01,0.20118773766316303
+2025-08-01,Colorado Springs Switchbacks FC vs Lexington SC,Colorado Springs Switchbacks FC,"('Charlotte Independence', 'Texoma FC')",0.5085201324154618,0.49250599076874013,2025-08-02,0.27256869884182966
+2025-08-02,Charlotte Independence vs Texoma FC,Charlotte Independence,"('Chattanooga Red Wolves SC', 'Forward Madison FC')",0.9068343181525611,0.30540703969666905,2025-08-06,0.058774861183523354
+2025-08-06,Chattanooga Red Wolves SC vs Forward Madison FC,Chattanooga Red Wolves SC,"('Spokane Velocity FC', 'AV Alta FC')",0.31625993664064966,0.7288507297736837,2025-08-09,0.4199249138498822
+2025-08-09,Spokane Velocity FC vs AV Alta FC,Spokane Velocity FC,"('Westchester SC', 'South Georgia Tormenta FC')",0.2006347559281012,0.08474888388193791,2025-08-10,0.004971954501724587
+2025-08-10,Westchester SC vs South Georgia Tormenta FC,Westchester SC,"('North Carolina FC', 'Detroit City FC')",0.8435557377094003,0.9861812032994559,2025-08-15,0.33626830971847677
+2025-08-15,North Carolina FC vs Detroit City FC,North Carolina FC,"('Sacramento Republic FC', 'Oakland Roots SC')",0.14000985312349135,0.7563423900798205,2025-08-16,1.0895418429257466
+2025-08-16,Sacramento Republic FC vs Oakland Roots SC,Sacramento Republic FC,"('Portland Hearts of Pine', 'Spokane Velocity FC')",0.026644432315051203,0.6323435434033182,2025-08-17,2.7512169651418756
+2025-08-17,Portland Hearts of Pine vs Spokane Velocity FC,Portland Hearts of Pine,"('Union Omaha', 'Charlotte Independence')",0.5131080155643848,0.7053068197759187,2025-08-20,0.1508106622582275
+2025-08-20,Union Omaha vs Charlotte Independence,Union Omaha,"('Forward Madison FC', 'Spokane Velocity FC')",0.864060980269154,0.6940685840907403,2025-08-21,0.06581824646243623
+2025-08-21,Forward Madison FC vs Spokane Velocity FC,Forward Madison FC,"('Louisville City FC', 'New Mexico United')",0.8592807052044329,0.917561684919501,2025-08-23,0.6531962999119219
+2025-08-23,Louisville City FC vs New Mexico United,Louisville City FC,"('Westchester SC', 'Portland Hearts of Pine')",0.7625997644865009,0.08466169067403584,2025-08-24,0.0012587801159204695
+2025-08-24,Westchester SC vs Portland Hearts of Pine,Westchester SC,"('One Knoxville SC', 'FC Naples')",0.7692191000024613,0.5532497198763664,2025-08-27,0.0615822918602553
+2025-08-27,One Knoxville SC vs FC Naples,One Knoxville SC,"('Orange County SC', 'Birmingham Legion FC')",0.2773006799142844,0.8077625477595274,2025-08-30,0.6862806024640352
+2025-08-30,Orange County SC vs Birmingham Legion FC,Orange County SC,"('One Knoxville SC', 'Spokane Velocity FC')",0.2773006799142844,0.9096414939918553,2025-08-31,0.31496994955703456
+2025-08-31,One Knoxville SC vs Spokane Velocity FC,One Knoxville SC,"('Hartford Athletic', 'Indy Eleven')",0.7339912693951809,0.5314656912691074,2025-09-03,0.056119757359135214
+2025-09-03,Hartford Athletic vs Indy Eleven,Hartford Athletic,"('Phoenix Rising FC', 'Las Vegas Lights FC')",0.1873745744563019,0.7081446413588961,2025-09-05,0.7136737141119287
+2025-09-05,Phoenix Rising FC vs Las Vegas Lights FC,Phoenix Rising FC,"('Chattanooga Red Wolves SC', 'Charlotte Independence')",0.438550659855639,0.6768927331507739,2025-09-06,0.2216169861577952
+2025-09-06,Chattanooga Red Wolves SC vs Charlotte Independence,Chattanooga Red Wolves SC,"('Spokane Velocity FC', 'Westchester SC')",0.31625993664064966,0.5730482867761051,2025-09-07,0.09518057481049007
+2025-09-07,Spokane Velocity FC vs Westchester SC,Spokane Velocity FC,"('New Mexico United', 'Detroit City FC')",0.6213355191498446,0.8454825250193816,2025-09-10,0.25885997775493674
+2025-09-10,New Mexico United vs Detroit City FC,New Mexico United,"('North Carolina FC', 'El Paso Locomotive FC')",0.42531653703030325,0.9368565999119631,2025-09-12,0.28006479252473904
+2025-09-12,North Carolina FC vs El Paso Locomotive FC,North Carolina FC,"('Monterey Bay FC', 'Hartford Athletic')",0.1250451457314561,0.5871560350537035,2025-09-13,0.44801248144072137
+2025-09-13,Monterey Bay FC vs Hartford Athletic,Monterey Bay FC,"('Birmingham Legion FC', 'Tampa Bay Rowdies')",0.2721501525619938,0.6586421135503664,2025-09-17,0.3225956073530413
+2025-09-17,Birmingham Legion FC vs Tampa Bay Rowdies,Birmingham Legion FC,"('Oakland Roots SC', 'FC Tulsa')",0.2652017622989402,0.7211331240946006,2025-09-20,0.5229035355524191
+2025-09-20,Oakland Roots SC vs FC Tulsa,Oakland Roots SC,"('Portland Hearts of Pine', 'FC Naples')",0.004265470735625554,0.27595176928782905,2025-09-21,2.107094551196958
+2025-09-21,Portland Hearts of Pine vs FC Naples,Portland Hearts of Pine,"('Colorado Springs Switchbacks FC', 'New Mexico United')",0.33624108239493866,0.6553999352114686,2025-09-24,0.21899990558621898
+2025-09-24,Colorado Springs Switchbacks FC vs New Mexico United,Colorado Springs Switchbacks FC,"('North Carolina FC', 'Miami FC')",0.4717509185559877,0.7986290941462919,2025-09-26,0.15491662686426594
+2025-09-26,North Carolina FC vs Miami FC,North Carolina FC,"('El Paso Locomotive FC', 'Rhode Island FC')",0.407918079286421,0.9757825093588461,2025-09-27,0.5557541947244955
+2025-09-27,El Paso Locomotive FC vs Rhode Island FC,El Paso Locomotive FC,"('New Mexico United', 'Lexington SC')",0.9161484993616461,0.5685530483652741,2025-09-28,0.04480485474667324
+2025-09-28,New Mexico United vs Lexington SC,New Mexico United,"('One Knoxville SC', 'Chattanooga Red Wolves SC')",0.531506310404302,0.520979949597784,2025-10-01,0.07427797820748988
+2025-10-01,One Knoxville SC vs Chattanooga Red Wolves SC,One Knoxville SC,"('South Georgia Tormenta FC', 'Westchester SC')",0.8994563745224391,0.08474888388193791,2025-10-03,0.0006956828496858651
+2025-10-03,South Georgia Tormenta FC vs Westchester SC,South Georgia Tormenta FC,"('Colorado Springs Switchbacks FC', 'San Antonio FC')",0.501060994930456,0.8179042397586389,2025-10-04,0.3178807033781676
+2025-10-04,Colorado Springs Switchbacks FC vs San Antonio FC,Colorado Springs Switchbacks FC,"('Rhode Island FC', 'Las Vegas Lights FC')",0.3547268386708943,0.6657788597719636,2025-10-05,0.24991638196769808
+2025-10-05,Rhode Island FC vs Las Vegas Lights FC,Rhode Island FC,"('North Carolina FC', 'Phoenix Rising FC')",0.7881643917396328,0.9279801482402259,2025-10-10,0.10839256116130273
+2025-10-10,North Carolina FC vs Phoenix Rising FC,North Carolina FC,"('New Mexico United', 'Orange County SC')",0.42531653703030325,0.8689290098360416,2025-10-11,0.3025964927794195
+2025-10-11,New Mexico United vs Orange County SC,New Mexico United,"('Westchester SC', 'FC Naples')",0.33520891669909125,0.21665651266061614,2025-10-12,0.012002724810383694
+2025-10-12,Westchester SC vs FC Naples,Westchester SC,"('Birmingham Legion FC', 'North Carolina FC')",0.6838042723672857,0.6448233168498219,2025-10-16,0.03420357867949479
+2025-10-16,Birmingham Legion FC vs North Carolina FC,Birmingham Legion FC,"('Lexington SC', 'Sacramento Republic FC')",0.8771359473436069,0.8822535720337046,2025-10-17,0.11268571982951049
+2025-10-17,Lexington SC vs Sacramento Republic FC,Lexington SC,"('Phoenix Rising FC', 'San Antonio FC')",0.42026106993109225,0.9497857745073224,2025-10-18,0.3339001792767966
+2025-10-18,Phoenix Rising FC vs San Antonio FC,Phoenix Rising FC,"('North Carolina FC', 'Rhode Island FC')",0.30460882015938084,0.8856143666532932,2025-10-19,0.24243353130352308

@@ -1,0 +1,48 @@
+id,match,date,from_team,away_team,next_home,next_away,distance,talent,next_date
+10,Real Salt Lake City vs Vancouver Whitecaps FC,2025-05-24,Real Salt Lake City,Vancouver Whitecaps FC,New York City FC,Chicago Fire FC,0.2903603462865486,0.555416119062569,2025-05-25
+15,New York City FC vs Chicago Fire FC,2025-05-25,New York City FC,Chicago Fire FC,Inter Miami CF,CF Montreal,0.6179583103089505,0.5058064638612854,2025-05-28
+25,Inter Miami CF vs CF Montreal,2025-05-28,Inter Miami CF,CF Montreal,Vancouver Whitecaps FC,Portland Timbers,0.0,0.7983328143325594,2025-05-31
+44,Vancouver Whitecaps FC vs Portland Timbers,2025-05-31,Vancouver Whitecaps FC,Portland Timbers,Seattle Sounders FC,Minnesota United FC,0.9561565152077197,0.7609024607256647,2025-06-01
+45,Seattle Sounders FC vs Minnesota United FC,2025-06-01,Seattle Sounders FC,Minnesota United FC,D.C. United,Chicago Fire FC,0.1631069453658639,0.43174633573936894,2025-06-07
+46,D.C. United vs Chicago Fire FC,2025-06-07,D.C. United,Chicago Fire FC,Vancouver Whitecaps FC,Seattle Sounders FC,0.15104636138874183,0.855987633194792,2025-06-08
+50,Vancouver Whitecaps FC vs Seattle Sounders FC,2025-06-08,Vancouver Whitecaps FC,Seattle Sounders FC,New York City FC,Atlanta United FC,0.12684079864694608,0.4835083675155232,2025-06-12
+52,New York City FC vs Atlanta United FC,2025-06-12,New York City FC,Atlanta United FC,Portland Timbers,San Jose Earthquakes,0.1215599236196312,0.7021320808337737,2025-06-13
+53,Portland Timbers vs San Jose Earthquakes,2025-06-13,Portland Timbers,San Jose Earthquakes,Philadelphia Union,Charlotte FC,0.13622148999097128,0.6987241607538606,2025-06-14
+58,Philadelphia Union vs Charlotte FC,2025-06-14,Philadelphia Union,Charlotte FC,Charleston Battery,Phoenix Rising FC,0.8037342887288804,0.06449194172130968,2025-06-21
+67,Charleston Battery vs Phoenix Rising FC,2025-06-21,Charleston Battery,Phoenix Rising FC,Vancouver Whitecaps FC,San Diego FC,0.10819524203912667,0.9247061926217555,2025-06-25
+69,Vancouver Whitecaps FC vs San Diego FC,2025-06-25,Vancouver Whitecaps FC,San Diego FC,Inter Miami CF,Atlanta United FC,0.0,0.5056096001501691,2025-06-28
+92,Inter Miami CF vs Atlanta United FC,2025-06-28,Inter Miami CF,Atlanta United FC,Columbus Crew,Philadelphia Union,0.6531817902501925,0.8068023381566571,2025-06-29
+95,Columbus Crew vs Philadelphia Union,2025-06-29,Columbus Crew,Philadelphia Union,New York City FC,Toronto FC,0.8283017013954459,0.4966063664284548,2025-07-03
+97,New York City FC vs Toronto FC,2025-07-03,New York City FC,Toronto FC,Los Angeles Galaxy,Vancouver Whitecaps FC,0.11720292351070227,0.5773992334705456,2025-07-04
+98,Los Angeles Galaxy vs Vancouver Whitecaps FC,2025-07-04,Los Angeles Galaxy,Vancouver Whitecaps FC,Charlotte FC,Orlando City FC,0.23534099251946727,0.7567420742974089,2025-07-05
+101,Charlotte FC vs Orlando City FC,2025-07-05,Charlotte FC,Orlando City FC,Seattle Sounders FC,Columbus Crew,0.1768206858739575,0.7208078848949975,2025-07-06
+112,Seattle Sounders FC vs Columbus Crew,2025-07-06,Seattle Sounders FC,Columbus Crew,New England Revolution,Inter Miami CF,0.10553055906701103,0.5385252126487989,2025-07-09
+113,New England Revolution vs Inter Miami CF,2025-07-09,New England Revolution,Inter Miami CF,Los Angeles FC,FC Dallas,0.06953708831060335,0.6756879708787782,2025-07-12
+118,Los Angeles FC vs FC Dallas,2025-07-12,Los Angeles FC,FC Dallas,St. Louis CITY SC,Portland Timbers,0.4278943570654218,0.4577454698541159,2025-07-13
+129,St. Louis CITY SC vs Portland Timbers,2025-07-13,St. Louis CITY SC,Portland Timbers,San Jose Earthquakes,FC Dallas,0.38063564905733593,0.71310395166665,2025-07-16
+137,San Jose Earthquakes vs FC Dallas,2025-07-16,San Jose Earthquakes,FC Dallas,New England Revolution,Orlando City FC,0.03792943074253985,0.679217144859847,2025-07-19
+153,New England Revolution vs Orlando City FC,2025-07-19,New England Revolution,Orlando City FC,San Diego FC,Nashville SC,0.07672082721083451,0.7157812981378304,2025-07-25
+164,San Diego FC vs Nashville SC,2025-07-25,San Diego FC,Nashville SC,Philadelphia Union,Colorado Rapids,0.15293016808210802,0.6927263796885201,2025-07-26
+166,Philadelphia Union vs Colorado Rapids,2025-07-26,Philadelphia Union,Colorado Rapids,FC Tulsa,Loudoun United FC,0.586941616134814,0.01997424647584345,2025-08-01
+174,FC Tulsa vs Loudoun United FC,2025-08-01,FC Tulsa,Loudoun United FC,New England Revolution,D.C. United,0.5024778821927982,0.39275419669095246,2025-08-09
+178,New England Revolution vs D.C. United,2025-08-09,New England Revolution,D.C. United,Los Angeles Galaxy,Seattle Sounders FC,0.0686388420865891,0.3682249782858733,2025-08-10
+189,Los Angeles Galaxy vs Seattle Sounders FC,2025-08-10,Los Angeles Galaxy,Seattle Sounders FC,New England Revolution,Los Angeles FC,0.0686388420865891,0.6107623189526536,2025-08-16
+193,New England Revolution vs Los Angeles FC,2025-08-16,New England Revolution,Los Angeles FC,San Jose Earthquakes,San Diego FC,0.03792943074253985,0.8285054591229697,2025-08-17
+203,San Jose Earthquakes vs San Diego FC,2025-08-17,San Jose Earthquakes,San Diego FC,Vancouver Whitecaps FC,Houston Dynamo FC,0.7034482902128792,0.5327374195419823,2025-08-18
+205,Vancouver Whitecaps FC vs Houston Dynamo FC,2025-08-18,Vancouver Whitecaps FC,Houston Dynamo FC,Philadelphia Union,Chicago Fire FC,0.1377574009946333,0.6601913703647153,2025-08-23
+212,Philadelphia Union vs Chicago Fire FC,2025-08-23,Philadelphia Union,Chicago Fire FC,Seattle Sounders FC,Sporting Kansas City,0.14792898462990778,0.4548318869295962,2025-08-24
+223,Seattle Sounders FC vs Sporting Kansas City,2025-08-24,Seattle Sounders FC,Sporting Kansas City,Inter Miami CF,Chicago Fire FC,0.02535589376083769,0.5775173516972152,2025-08-30
+233,Inter Miami CF vs Chicago Fire FC,2025-08-30,Inter Miami CF,Chicago Fire FC,Los Angeles FC,San Diego FC,0.16170288874348981,0.7910894783350981,2025-09-01
+239,Los Angeles FC vs San Diego FC,2025-09-01,Los Angeles FC,San Diego FC,Charleston Battery,Indy Eleven,0.2066839354716392,0.019077487147157957,2025-09-06
+241,Charleston Battery vs Indy Eleven,2025-09-06,Charleston Battery,Indy Eleven,Vancouver Whitecaps FC,Philadelphia Union,0.10819524203912667,0.9419820864564521,2025-09-13
+245,Vancouver Whitecaps FC vs Philadelphia Union,2025-09-13,Vancouver Whitecaps FC,Philadelphia Union,Inter Miami CF,Seattle Sounders FC,0.0,0.6501338126042797,2025-09-16
+260,Inter Miami CF vs Seattle Sounders FC,2025-09-16,Inter Miami CF,Seattle Sounders FC,New York City FC,Charlotte FC,0.6179583103089505,0.5939489094517145,2025-09-19
+261,New York City FC vs Charlotte FC,2025-09-19,New York City FC,Charlotte FC,San Jose Earthquakes,St. Louis CITY SC,0.08154816415985355,0.628373810402235,2025-09-20
+265,San Jose Earthquakes vs St. Louis CITY SC,2025-09-20,San Jose Earthquakes,St. Louis CITY SC,Los Angeles FC,Real Salt Lake City,0.8909224676073151,0.6081243452236964,2025-09-21
+276,Los Angeles FC vs Real Salt Lake City,2025-09-21,Los Angeles FC,Real Salt Lake City,New York City FC,Inter Miami CF,0.11788727115994613,0.6313530145637936,2025-09-24
+277,New York City FC vs Inter Miami CF,2025-09-24,New York City FC,Inter Miami CF,Seattle Sounders FC,Vancouver Whitecaps FC,0.13526541004738746,0.855987633194792,2025-09-27
+294,Seattle Sounders FC vs Vancouver Whitecaps FC,2025-09-27,Seattle Sounders FC,Vancouver Whitecaps FC,Sacramento Republic FC,Orange County SC,0.7755857686783303,0.039297274867760246,2025-10-01
+295,Sacramento Republic FC vs Orange County SC,2025-10-01,Sacramento Republic FC,Orange County SC,Inter Miami CF,New England Revolution,0.08879352140872487,0.5385252126487989,2025-10-04
+305,Inter Miami CF vs New England Revolution,2025-10-04,Inter Miami CF,New England Revolution,Vancouver Whitecaps FC,San Jose Earthquakes,0.0,0.9689611548806782,2025-10-05
+310,Vancouver Whitecaps FC vs San Jose Earthquakes,2025-10-05,Vancouver Whitecaps FC,San Jose Earthquakes,Detroit City FC,Loudoun United FC,0.29279509637781376,0.020892357217116908,2025-10-11
+312,Detroit City FC vs Loudoun United FC,2025-10-11,Detroit City FC,Loudoun United FC,Vancouver Whitecaps FC,FC Dallas,0.29279509637781376,0.8093046851654355,2025-10-18

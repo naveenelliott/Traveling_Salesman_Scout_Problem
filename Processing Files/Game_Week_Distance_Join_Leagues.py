@@ -1,5 +1,7 @@
 import pandas as pd
 from fuzzywuzzy import process
+from sklearn.preprocessing import MinMaxScaler
+import numpy as np
 
 mls = pd.read_csv('mls_sched.csv')
 
@@ -239,12 +241,19 @@ for i in range(len(unique_dates) - 1):
         row_copy['Next_Date'] = next_date
 
         tuples = []
-        for next_team in next_group['home_team']:
-            key = '___'.join(sorted([current_team, next_team]))
+        for _, next_row in next_group.iterrows():
+            next_home = next_row['home_team']
+            next_away = next_row['away_team']
+            
+            # Distance from current_team to next_home (primary anchor)
+            key = '___'.join(sorted([current_team, next_home]))
             dist = distance_lookup.get(key, 0)
-            talent = (team_to_talent.get(next_team, 0) + team_to_talent.get(next_team, 0)) / 2  # same team, avg for symmetry
-            if talent >= 0.45:
-                tuples.append((next_team, dist, talent))
+            
+            avg_talent = (
+                team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
+            ) / 2
+            if avg_talent >= 0.45:
+                tuples.append((next_home, next_away, dist, avg_talent))
 
         # Only keep the row if it has valid next teams
         if tuples:
@@ -253,6 +262,41 @@ for i in range(len(unique_dates) - 1):
 
 # Rebuild final_schedule
 final_schedule_mls = pd.DataFrame(distance_rows)
+
+def scale_distance_and_talent(df, col_name='Next_Team_Distances'):
+    """
+    Scales distance inversely (lower = closer to 1) and talent directly (higher = closer to 1)
+    in a column of (home_team, away_team, distance, talent) tuples.
+    """
+    # Flatten all tuples
+    all_tuples = [tup for lst in df[col_name] if lst for tup in lst]
+    distances = [t[2] for t in all_tuples]
+    talents = [t[3] for t in all_tuples]
+
+    # Convert to arrays and scale
+    dist_scaled = 1 - MinMaxScaler().fit_transform(np.array(distances).reshape(-1, 1)).flatten()
+    talent_scaled = MinMaxScaler().fit_transform(np.array(talents).reshape(-1, 1)).flatten()
+
+    # Rebuild scaled tuples
+    scaled_tuples = list(zip(
+        [t[0] for t in all_tuples],   # home_team
+        [t[1] for t in all_tuples],   # away_team
+        dist_scaled,
+        talent_scaled
+    ))
+
+    # Rebuild list-of-lists structure
+    pointer = 0
+    scaled_lists = []
+    for lst in df[col_name]:
+        count = len(lst)
+        scaled_lists.append(scaled_tuples[pointer:pointer+count])
+        pointer += count
+
+    df[col_name] = scaled_lists
+    return df
+
+final_schedule_mls = scale_distance_and_talent(final_schedule_mls)
 
 final_schedule_mls.to_csv('joined_schedule_FINAL_MLS.csv', index=False)
 
@@ -279,12 +323,19 @@ for i in range(len(unique_dates) - 1):
         row_copy['Next_Date'] = next_date
 
         tuples = []
-        for next_team in next_group['home_team']:
-            key = '___'.join(sorted([current_team, next_team]))
+        for _, next_row in next_group.iterrows():
+            next_home = next_row['home_team']
+            next_away = next_row['away_team']
+            
+            # Distance from current_team to next_home (primary anchor)
+            key = '___'.join(sorted([current_team, next_home]))
             dist = distance_lookup.get(key, 0)
-            talent = (team_to_talent.get(next_team, 0) + team_to_talent.get(next_team, 0)) / 2  # same team, avg for symmetry
-            if talent < 0.51:
-                tuples.append((next_team, dist, talent))
+            
+            avg_talent = (
+                team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
+            ) / 2
+            if avg_talent < 0.51:
+                tuples.append((next_home, next_away, dist, avg_talent))
 
         # Only keep the row if it has valid next teams
         if tuples:
@@ -293,6 +344,8 @@ for i in range(len(unique_dates) - 1):
 
 # Rebuild final_schedule
 final_schedule_uslc = pd.DataFrame(distance_rows)
+
+final_schedule_uslc = scale_distance_and_talent(final_schedule_uslc)
 
 final_schedule_uslc.to_csv('joined_schedule_FINAL_USLC.csv', index=False)
 
@@ -319,13 +372,19 @@ for i in range(len(unique_dates) - 1):
         row_copy['Next_Date'] = next_date
 
         tuples = []
-        for next_team in next_group['home_team']:
-            key = '___'.join(sorted([current_team, next_team]))
+        for _, next_row in next_group.iterrows():
+            next_home = next_row['home_team']
+            next_away = next_row['away_team']
+            
+            # Distance from current_team to next_home (primary anchor)
+            key = '___'.join(sorted([current_team, next_home]))
             dist = distance_lookup.get(key, 0)
-            talent = (team_to_talent.get(next_team, 0) + team_to_talent.get(next_team, 0)) / 2  # same team, avg for symmetry
-            if talent < 0.43:
-                tuples.append((next_team, dist, talent))
-
+            
+            avg_talent = (
+                team_to_talent.get(next_home, 0) + team_to_talent.get(next_away, 0)
+            ) / 2
+            if avg_talent < 0.43:
+                tuples.append((next_home, next_away, dist, avg_talent))
         # Only keep the row if it has valid next teams
         if tuples:
             row_copy['Next_Team_Distances'] = tuples
@@ -333,5 +392,7 @@ for i in range(len(unique_dates) - 1):
 
 # Rebuild final_schedule
 final_schedule_usl1 = pd.DataFrame(distance_rows)
+
+final_schedule_usl1 = scale_distance_and_talent(final_schedule_usl1)
 
 final_schedule_usl1.to_csv('joined_schedule_FINAL_USL1.csv', index=False)

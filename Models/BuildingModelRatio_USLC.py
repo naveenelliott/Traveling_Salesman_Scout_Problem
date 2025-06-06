@@ -1,11 +1,21 @@
 import pandas as pd
+import re
 import ast
 from collections import defaultdict
 
 # Load and clean
-df = pd.read_csv('joined_schedule_FINAL_MLS.csv')
+df = pd.read_csv('joined_schedule_FINAL_USLC.csv')
 df.drop(columns=['Score', 'home_talent', 'away_talent'], inplace=True)
-df['Next_Team_Distances'] = df['Next_Team_Distances'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else [])
+
+def clean_and_eval(cell):
+    if pd.isna(cell):
+        return []
+    # Remove np.float64 wrappers
+    cleaned = re.sub(r'np\.float64\((.*?)\)', r'\1', cell)
+    return ast.literal_eval(cleaned)
+
+df['Next_Team_Distances'] = df['Next_Team_Distances'].apply(clean_and_eval)
+
 
 # Determine "must scout" teams based on single viable game per day
 all_dates = sorted(df['Date'].unique())
@@ -14,7 +24,7 @@ for date in all_dates:
     games = df[df['Date'] == date]
     viable_games = []
     for _, row in games.iterrows():
-        if any(dist > 0 for _, dist, _ in row['Next_Team_Distances']):
+        if any(dist > 0 for _, _, dist, _ in row['Next_Team_Distances']):
             viable_games.append(row)
     if len(viable_games) == 1:
         row = viable_games[0]
@@ -24,6 +34,7 @@ for date in all_dates:
 # Initialize
 final_schedule = []
 total_distance = 0
+total_talent = 0
 team_counts = defaultdict(int)
 
 for team, count in must_scout_counts.items():
@@ -36,14 +47,14 @@ from_team = best_row['home_team']
 next_date = best_row['Next_Date']
 best_next_team, best_talent, best_distance = None, -1, None
 
-for next_team, dist, talent in best_row['Next_Team_Distances']:
-    if talent > best_talent and team_counts[next_team] < 4:
-        best_next_team, best_talent, best_distance = next_team, talent, dist
+for next_home, next_away, dist, talent in best_row['Next_Team_Distances']:
+    if talent > best_talent and team_counts[next_home] < 5 and team_counts[next_away] < 5:
+        best_next_team, best_talent, best_distance = (next_home, next_away), talent, dist
 
 if best_next_team is None:
-    for next_team, dist, talent in best_row['Next_Team_Distances']:
+    for next_home, next_away, dist, talent in best_row['Next_Team_Distances']:
         if talent > best_talent:
-            best_next_team, best_talent, best_distance = next_team, talent, dist
+            best_next_team, best_talent, best_distance = (next_home, next_away), talent, dist
 
 best_start = {
     'Date': best_row['Date'],
@@ -57,6 +68,7 @@ best_start = {
 
 final_schedule.append(best_start)
 total_distance += best_distance
+total_talent += best_talent
 team_counts[best_row['home_team']] += 1
 team_counts[best_row['away_team']] += 1
 current_team = best_next_team
@@ -65,7 +77,10 @@ current_date = next_date
 # Continue the sequence
 while current_date in df['Date'].values:
     next_day_games = df[df['Date'] == current_date]
-    row = next_day_games[next_day_games['home_team'] == current_team]
+    row = next_day_games[
+        (next_day_games['home_team'].isin(current_team)) | 
+        (next_day_games['away_team'].isin(current_team))
+    ]
     
     if row.empty:
         break
@@ -74,39 +89,25 @@ while current_date in df['Date'].values:
     best_next = None
     best_score = -1
     
-    valid_options = [(t, d, ta) for t, d, ta in row['Next_Team_Distances'] if d >= 0 and team_counts[t] < 4]
-
-    forced_over_limit = False
-    if not valid_options:
-        valid_options = [(t, d, ta) for t, d, ta in row['Next_Team_Distances'] if d >= 0]
-        forced_over_limit = True  # flag to identify fallback scenario
-    
+    valid_options = [
+        (home, away, dist, talent) for home, away, dist, talent in row['Next_Team_Distances']
+    ]
 
 
-    for next_team, dist, talent in valid_options:
-        if dist <= 0:
-            continue
-        # Penalty logic
-        if team_counts[next_team] >= 4:
-            penalty = 0.1
-        if team_counts[next_team] == 3:
-            penalty = 0.3
-        elif team_counts[next_team] == 2:
-            penalty = 0.5
-        elif team_counts[next_team] == 1:
-            penalty = 0.7
-        else:
-            penalty = 1.0
 
-        freshness_weight = 1 / (1 + team_counts[next_team])
-        score = ((talent ** 2) / dist) * freshness_weight * penalty
+    for next_home, next_away, dist, talent in valid_options:
+        penalty_home = 1 / (1 + team_counts[next_home])
+        penalty_away = 1 / (1 + team_counts[next_away])
+        
+        penalty = (penalty_home + penalty_away) / 2
+        score = (talent**2) / (dist + 1e-6) * penalty
 
         if score > best_score:
             best_next = {
                 'Date': row['Date'],
                 'Match': f"{row['home_team']} vs {row['away_team']}",
-                'From_Team': current_team,
-                'Current_Team': next_team,
+                'From_Team': current_team[0],
+                'Current_Team': (next_home, next_away),
                 'Distance': dist,
                 'Talent': talent,
                 'Score': score,
@@ -120,20 +121,21 @@ while current_date in df['Date'].values:
 
     final_schedule.append(best_next)
     total_distance += best_next['Distance']
+    total_talent += best_next['Talent']
+    team_counts[best_next['Current_Team'][0]] += 1
+    team_counts[best_next['Current_Team'][1]] += 1
     team_counts[row['home_team']] += 1
     team_counts[row['away_team']] += 1
     current_team = best_next['Current_Team']
     current_date = best_next['Next_Date']
-    
-    if forced_over_limit and team_counts[next_team] >= 4:
-        print(f"{best_next['Date']} → {next_team} already scouted {team_counts[next_team]} times\n")
 
 # Final DataFrame adjustments
 final_df = pd.DataFrame(final_schedule)
-final_df['Match'] = final_df['Match'].shift(-1)
-final_df['Date'] = final_df['Date'].shift(-1)
-final_df['Next_Date'] = final_df['Next_Date'].shift(-1)
 
-# Results
-print("Total Distance Traveled:", round(total_distance, 2))
+final_df.to_csv('Results/postOptimality_USLC.csv', index=False)
+
+print('Total Talent: ', total_talent)
+
+print('Total Distance: ', total_distance)
+
 print("Team Appearance Counts:", dict(sorted(team_counts.items(), key=lambda x: -x[1])))
