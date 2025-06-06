@@ -34,7 +34,9 @@ for date in all_dates:
 # Initialize
 final_schedule = []
 total_distance = 0
+total_talent = 0
 team_counts = defaultdict(int)
+team_month_counts = defaultdict(int)
 
 for team, count in must_scout_counts.items():
     team_counts[team] = count
@@ -47,7 +49,12 @@ next_date = best_row['Next_Date']
 best_next_team, best_talent, best_distance = None, -1, None
 
 for next_home, next_away, dist, talent in best_row['Next_Team_Distances']:
-    if talent > best_talent and team_counts[next_home] < 5 and team_counts[next_away] < 5:
+    match_month = pd.to_datetime(next_date).month
+    if (
+        talent > best_talent and
+        team_month_counts[(next_home, match_month)] == 0 and
+        team_month_counts[(next_away, match_month)] == 0
+    ):
         best_next_team, best_talent, best_distance = (next_home, next_away), talent, dist
 
 if best_next_team is None:
@@ -65,10 +72,12 @@ best_start = {
     'Next_Date': next_date
 }
 
+match_month = pd.to_datetime(best_row['Date']).month
 final_schedule.append(best_start)
 total_distance += best_distance
-team_counts[best_row['home_team']] += 1
-team_counts[best_row['away_team']] += 1
+total_talent += best_talent
+team_month_counts[(best_row['home_team'], match_month)] += 1
+team_month_counts[(best_row['away_team'], match_month)] += 1
 current_team = best_next_team
 current_date = next_date
 
@@ -87,10 +96,11 @@ while current_date in df['Date'].values:
     best_next = None
     best_score = -1
     
+    match_month = pd.to_datetime(current_date).month
     valid_options = [
-            (home, away, dist, talent) for home, away, dist, talent in row['Next_Team_Distances']
-            if team_counts[home] < 5 and team_counts[away] < 5
-        ]
+        (home, away, dist, talent) for home, away, dist, talent in row['Next_Team_Distances']
+        if team_month_counts[(home, match_month)] == 0 and team_month_counts[(away, match_month)] == 0
+    ]
 
     forced_over_limit = False
     if not valid_options:
@@ -127,10 +137,11 @@ while current_date in df['Date'].values:
 
     final_schedule.append(best_next)
     total_distance += best_next['Distance']
+    total_talent += best_next['Talent']
     team_counts[best_next['Current_Team'][0]] += 1
     team_counts[best_next['Current_Team'][1]] += 1
-    team_counts[row['home_team']] += 1
-    team_counts[row['away_team']] += 1
+    team_month_counts[(row['home_team'], match_month)] += 1
+    team_month_counts[(row['away_team'], match_month)] += 1
     current_team = best_next['Current_Team']
     current_date = best_next['Next_Date']
     
@@ -139,6 +150,10 @@ while current_date in df['Date'].values:
 
 # Final DataFrame adjustments
 final_df = pd.DataFrame(final_schedule)
+
+print('Total Talent: ', total_talent)
+
+print('Total Distance: ', total_distance)
 
 # Results
 print("Team Appearance Counts:", dict(sorted(team_counts.items(), key=lambda x: -x[1])))
