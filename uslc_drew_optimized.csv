@@ -1,0 +1,69 @@
+match_id,date,avg_talent,match_home_team,match_away_team,next_team,distance_km,team_score
+Oakland Roots SC vs. New Mexico United,2025-05-24,0.319213743983787,Oakland Roots SC,New Mexico United,FC Naples,0.0869380173562847,0.13644029013388315
+Westchester SC vs. Richmond Kickers,2025-05-25,0.2649885540512805,Westchester SC,Richmond Kickers,Las Vegas Lights FC,0.18127280536242207,0.23910327726153469
+Las Vegas Lights FC vs. Phoenix Rising FC,2025-05-28,0.37170469047343174,Las Vegas Lights FC,Phoenix Rising FC,Houston Dynamo FC,0.5494562219728776,0.45701357703617507
+Houston Dynamo FC vs. Sporting Kansas City,2025-05-31,0.49929848164520474,Houston Dynamo FC,Sporting Kansas City,Birmingham Legion FC,0.7921135525321197,0.21677512784849062
+Birmingham Legion FC vs. Indy Eleven,2025-06-04,0.35863080990694907,Birmingham Legion FC,Indy Eleven,Hartford Athletic,0.6481461496359369,0.1803959307480154
+Hartford Athletic vs. North Carolina FC,2025-06-06,0.3373295695220969,Hartford Athletic,North Carolina FC,Sacramento Republic FC,0.061256692113139666,0.3908212168756078
+Rhode Island FC vs. Miami FC,2025-06-07,0.3972896298420999,Rhode Island FC,Miami FC,Spokane Velocity FC,0.16918450259239481,0.3597817521744052
+Spokane Velocity FC vs. Charlotte Independence,2025-06-11,0.442365986166591,Spokane Velocity FC,Charlotte Independence,Union Omaha,0.5810861071518786,0.15392151168813328
+Union Omaha vs. Greenville Triumph SC,2025-06-12,0.32182790897455027,Union Omaha,Greenville Triumph SC,One Knoxville SC,0.7251168840409565,0.17049861580542336
+One Knoxville SC vs. Richmond Kickers,2025-06-13,0.33153435957904986,One Knoxville SC,Richmond Kickers,Sacramento Republic FC,0.24292261200745802,0.35165851056579367
+Sacramento Republic FC vs. San Antonio FC,2025-06-14,0.43760955567882176,Sacramento Republic FC,San Antonio FC,Portland Hearts of Pine,0.026644432315051203,0.09187256671232158
+Portland Hearts of Pine vs. Union Omaha,2025-06-15,0.28549617001654665,Portland Hearts of Pine,Union Omaha,Miami FC,0.5032681314820385,0.3713900530665284
+Miami FC vs. Charleston Battery,2025-06-18,0.4491630357848076,Miami FC,Charleston Battery,Hartford Athletic,0.5661312531377349,0.235218379516126
+Hartford Athletic vs. Loudoun United FC,2025-06-20,0.3694299525093979,Hartford Athletic,Loudoun United FC,Monterey Bay FC,0.037163349080874264,0.33418314579349206
+Monterey Bay FC vs. El Paso Locomotive FC,2025-06-21,0.4273771433251442,Monterey Bay FC,El Paso Locomotive FC,Loudoun United FC,0.11901406927162983,0.4121414289010974
+Loudoun United FC vs. Louisville City FC,2025-06-25,0.4730243335003162,Loudoun United FC,Louisville City FC,AV Alta FC,0.17414816697598068,0.12575984021059372
+AV Alta FC vs. FC Naples,2025-06-28,0.30533830553098035,AV Alta FC,FC Naples,Portland Hearts of Pine,0.043672401695191154,0.08119211678903204
+Spokane Velocity FC vs. Texoma FC,2025-07-02,0.33998056384913733,Spokane Velocity FC,Texoma FC,Loudoun United FC,0.2413060970096429,0.3957207270906077
+Loudoun United FC vs. Orange County SC,2025-07-03,0.46340946169357566,Loudoun United FC,Orange County SC,Las Vegas Lights FC,0.24563310068333544,0.27006898283017755
+Las Vegas Lights FC vs. Sacramento Republic FC,2025-07-04,0.38983614994963883,Las Vegas Lights FC,Sacramento Republic FC,Rhode Island FC,0.13417738143873614,0.23086622602814266
+Oakland Roots SC vs. Detroit City FC,2025-07-05,0.3746086944378253,Oakland Roots SC,Detroit City FC,Portland Hearts of Pine,0.004265470735625554,0.04863614585851772
+Portland Hearts of Pine vs. South Georgia Tormenta FC,2025-07-06,0.26017979507171646,Portland Hearts of Pine,South Georgia Tormenta FC,North Carolina FC,0.7410788519396856,0.21772298949771407
+North Carolina FC vs. Birmingham Legion FC,2025-07-11,0.3591858147022975,North Carolina FC,Birmingham Legion FC,Monterey Bay FC,0.1250451457314561,0.35875412277089547
+Monterey Bay FC vs. Orange County SC,2025-07-12,0.44176427467498647,Monterey Bay FC,Orange County SC,Pittsburgh Riverhounds FC,0.17274158715005095,0.23196093948217533
+Pittsburgh Riverhounds FC vs. Loudoun United FC,2025-07-13,0.367522612085947,Pittsburgh Riverhounds FC,Loudoun United FC,FC Tulsa,0.6647979278300913,0.3502634184201058
+Portland Hearts of Pine vs. Greenville Triumph SC,2025-07-16,0.2964942955883849,Portland Hearts of Pine,Greenville Triumph SC,Union Omaha,0.5131080155643848,0.09190200728215259
+North Carolina FC vs. Indy Eleven,2025-07-18,0.398540344873871,North Carolina FC,Indy Eleven,Sacramento Republic FC,0.14000985312349135,0.2978907247594951
+Sacramento Republic FC vs. Lexington SC,2025-07-19,0.4061267132384578,Sacramento Republic FC,Lexington SC,Greenville Triumph SC,0.2044781344612363,0.13891859730225675
+Greenville Triumph SC vs. Richmond Kickers,2025-07-20,0.31304319927014784,Greenville Triumph SC,Richmond Kickers,Forward Madison FC,0.7505181980663675,0.0694774523593239
+Forward Madison FC vs. South Georgia Tormenta FC,2025-07-23,0.27238307923112015,Forward Madison FC,South Georgia Tormenta FC,Houston Dynamo FC,0.6415606823292757,0.4028618231160872
+Houston Dynamo FC vs. Los Angeles Galaxy,2025-07-25,0.46759081299250427,Houston Dynamo FC,Los Angeles Galaxy,Pittsburgh Riverhounds FC,0.5841906367575266,0.1609113662826418
+Pittsburgh Riverhounds FC vs. Miami FC,2025-07-29,0.3259207033416597,Pittsburgh Riverhounds FC,Miami FC,Orange County SC,0.2167095309028858,0.3683462156577548
+Orange County SC vs. Phoenix Rising FC,2025-07-30,0.44738076686453376,Orange County SC,Phoenix Rising FC,Westchester SC,0.10140373645464773,0.06225772506379601
+Westchester SC vs. Chattanooga Red Wolves SC,2025-08-01,0.2681556866855846,Westchester SC,Chattanooga Red Wolves SC,Spokane Velocity FC,0.2006347559281012,0.2567750864497086
+Richmond Kickers vs. FC Naples,2025-08-02,0.3028073575741508,Richmond Kickers,FC Naples,Monterey Bay FC,0.11050350925484731,0.3502634184201058
+Monterey Bay FC vs. FC Tulsa,2025-08-06,0.4367926824236963,Monterey Bay FC,FC Tulsa,Rhode Island FC,0.013747428380027626,0.353847937473859
+Oakland Roots SC vs. Colorado Springs Switchbacks FC,2025-08-09,0.33702861621757707,Oakland Roots SC,Colorado Springs Switchbacks FC,Westchester SC,0.05978710541160559,0.02861524990366865
+Westchester SC vs. South Georgia Tormenta FC,2025-08-10,0.24845688881085282,Westchester SC,South Georgia Tormenta FC,North Carolina FC,0.8435557377094003,0.33298163102687073
+North Carolina FC vs. Detroit City FC,2025-08-15,0.4266736161197729,North Carolina FC,Detroit City FC,Sacramento Republic FC,0.14000985312349135,0.25537712726721506
+Sacramento Republic FC vs. Oakland Roots SC,2025-08-16,0.381233575621738,Sacramento Republic FC,Oakland Roots SC,Portland Hearts of Pine,0.026644432315051203,0.21350922502607383
+Portland Hearts of Pine vs. Spokane Velocity FC,2025-08-17,0.35671851423693385,Portland Hearts of Pine,Spokane Velocity FC,Orange County SC,0.040291658660478236,0.3482608938090703
+Orange County SC vs. San Antonio FC,2025-08-20,0.4356201370814108,Orange County SC,San Antonio FC,Forward Madison FC,0.3924936253727863,0.23435053152688
+Forward Madison FC vs. Spokane Velocity FC,2025-08-21,0.36892179839633754,Forward Madison FC,Spokane Velocity FC,Monterey Bay FC,0.3513427524778956,0.31110071211029144
+Monterey Bay FC vs. San Antonio FC,2025-08-23,0.4138616040130674,Monterey Bay FC,San Antonio FC,Westchester SC,0.058209323313645256,0.028585809333837642
+Westchester SC vs. Portland Hearts of Pine,2025-08-24,0.24843965036951765,Westchester SC,Portland Hearts of Pine,Forward Madison FC,0.7037185409487399,0.040862202455655194
+One Knoxville SC vs. FC Naples,2025-08-27,0.34108135315929355,One Knoxville SC,FC Naples,Oakland Roots SC,0.2253820429133967,0.21481932881171284
+Oakland Roots SC vs. Monterey Bay FC,2025-08-30,0.35748562395598366,Oakland Roots SC,Monterey Bay FC,One Knoxville SC,0.2253820429133967,0.30713818850505226
+One Knoxville SC vs. Spokane Velocity FC,2025-08-31,0.41154141350383955,One Knoxville SC,Spokane Velocity FC,Hartford Athletic,0.7339912693951809,0.17944806909879218
+Hartford Athletic vs. Indy Eleven,2025-09-03,0.33677456472674855,Hartford Athletic,Indy Eleven,Phoenix Rising FC,0.1873745744563019,0.23910327726153469
+Phoenix Rising FC vs. Las Vegas Lights FC,2025-09-05,0.37170469047343174,Phoenix Rising FC,Las Vegas Lights FC,Rhode Island FC,0.16310748985756518,0.3704622166634154
+Miami FC vs. Hartford Athletic,2025-09-06,0.32782804376511065,Miami FC,Hartford Athletic,Spokane Velocity FC,0.0752507732486265,0.1934883290712247
+New Mexico United vs. Detroit City FC,2025-09-10,0.3988569321162881,New Mexico United,Detroit City FC,North Carolina FC,0.42531653703030325,0.31632730134509357
+North Carolina FC vs. El Paso Locomotive FC,2025-09-12,0.41692194735643234,North Carolina FC,El Paso Locomotive FC,Sacramento Republic FC,0.14000985312349135,0.37174383241447795
+Sacramento Republic FC vs. Phoenix Rising FC,2025-09-13,0.4493701854619447,Sacramento Republic FC,Phoenix Rising FC,Richmond Kickers,0.1282855821759854,0.07686965232644499
+Birmingham Legion FC vs. Tampa Bay Rowdies,2025-09-17,0.36191784534982263,Birmingham Legion FC,Tampa Bay Rowdies,Oakland Roots SC,0.2652017622989402,0.24348880615970203
+Miami FC vs. Rhode Island FC,2025-09-20,0.3972896298420999,Miami FC,Rhode Island FC,Spokane Velocity FC,0.0752507732486265,0.24718114075603215
+Westchester SC vs. Texoma FC,2025-09-21,0.2317016999817211,Westchester SC,Texoma FC,Colorado Springs Switchbacks FC,0.4019781882617611,0.22129415838739364
+Colorado Springs Switchbacks FC vs. New Mexico United,2025-09-24,0.3612768538960398,Colorado Springs Switchbacks FC,New Mexico United,North Carolina FC,0.4717509185559877,0.26965512774389677
+One Knoxville SC vs. Charlotte Independence,2025-09-26,0.40063292782694415,One Knoxville SC,Charlotte Independence,Monterey Bay FC,0.229376459237293,0.3621517395276188
+Orange County SC vs. Charleston Battery,2025-09-27,0.49087829057884913,Orange County SC,Charleston Battery,Loudoun United FC,0.16390885534757604,0.34537058328714265
+Loudoun United FC vs. Tampa Bay Rowdies,2025-09-28,0.4339277633040455,Loudoun United FC,Tampa Bay Rowdies,Sacramento Republic FC,0.13878277481214873,0.3993119212263977
+One Knoxville SC vs. Chattanooga Red Wolves SC,2025-10-01,0.33470149221335393,One Knoxville SC,Chattanooga Red Wolves SC,Charlotte Independence,0.9334862495016465,0.3597817521744052
+Phoenix Rising FC vs. New Mexico United,2025-10-04,0.3873503538239937,Phoenix Rising FC,New Mexico United,Rhode Island FC,0.16310748985756518,0.22479857645670565
+Union Omaha vs. FC Naples,2025-10-05,0.3115920672785532,Union Omaha,FC Naples,North Carolina FC,0.6300646102546682,0.31333018951057745
+Charlotte Independence vs. AV Alta FC,2025-10-10,0.36488988019863094,Charlotte Independence,AV Alta FC,Spokane Velocity FC,0.24427707315120895,0.21353866559590473
+Texoma FC vs. Richmond Kickers,2025-10-11,0.25997350992434765,Texoma FC,Richmond Kickers,Westchester SC,0.510526205012053,0.07315353275539926
+Charlotte Independence vs. Chattanooga Red Wolves SC,2025-10-17,0.3655260648761054,Charlotte Independence,Chattanooga Red Wolves SC,Orange County SC,0.21098425102901497,0.41233500628016406
+El Paso Locomotive FC vs. FC Tulsa,2025-10-18,0.4441640841421973,El Paso Locomotive FC,FC Tulsa,North Carolina FC,0.407918079286421,0.2990254887057484
