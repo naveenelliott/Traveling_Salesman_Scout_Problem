@@ -1,6 +1,6 @@
 import pandas as pd
 
-final_df = pd.read_csv('Results/optimizer_MLS.csv')
+final_df = pd.read_csv('Results/optimizer_USL1.csv')
 del final_df['id'], final_df['away_team'], final_df['next_away']
 
 distance = pd.read_csv('address_lat_lon_ids.csv')
@@ -39,3 +39,5 @@ del final_df['Club']
 final_df = final_df[['match', 'date', 'from_team', 'latitude_from', 'longitude_from',
                      'next_date', 'next_home', 'latitude_next', 
                      'longitude_next', 'distance', 'talent']]
+
+final_df.to_csv('react_app_data_usl1.csv', index=False)
