@@ -2,9 +2,10 @@ import pandas as pd
 import ast
 from collections import defaultdict
 from pulp import *
+from datetime import datetime
 
 # Load data
-df = pd.read_csv("joined_schedule_FINAL_MLS.csv")
+df = pd.read_csv("joined_schedule_FINAL_USL1.csv")
 
 def clean_and_eval(cell):
     if pd.isna(cell):
@@ -76,6 +77,16 @@ if manual_first_game is not None:
         if i != manual_first_game and opt['date'] == first_game_date:
             model += x[i] == 0, f"Block_Alt_FirstDate_{i}"
 
+# HARD CONSTRAINT: Each team must be scouted at least once
+#all_teams = set(df['home_team']).union(df['away_team'])
+#for team in all_teams:
+#    team_vars = [
+#        x[i] for i, opt in enumerate(options)
+#        if team in [opt['from_team'], opt['away_team'], opt['next_home'], opt['next_away']]
+#    ]
+#    model += lpSum(team_vars) >= 1, f"MinOneAppearance_{team}"
+    
+
 # Solve the model
 model.solve()
 
@@ -104,5 +115,5 @@ print('Total Distance: ', total_distance)
 
 print("Team Appearance Counts:", dict(sorted(team_counts.items(), key=lambda x: -x[1])))
 
-final_df.to_csv('Results/optimizer_MLS.csv', index=False)
+final_df.to_csv('Results/optimizer_USL1.csv', index=False)
 
