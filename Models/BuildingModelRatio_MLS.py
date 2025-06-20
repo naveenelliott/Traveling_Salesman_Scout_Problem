@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # Load and clean
 df = pd.read_csv('joined_schedule_FINAL_MLS.csv')
-df.drop(columns=['Score', 'home_talent', 'away_talent'], inplace=True)
+df.drop(columns=['Score', 'home_talent', 'away_talent', 'scaled_avg_talent'], inplace=True)
 
 def clean_and_eval(cell):
     if pd.isna(cell):
