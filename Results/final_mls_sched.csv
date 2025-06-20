@@ -1,0 +1,43 @@
+match_id,date,avg_talent,match_home_team,match_away_team,corrected_next_team,distance_km.y,team_score.y
+Philadelphia Union vs. Inter Miami CF,5/24/2025,0.720629128,Philadelphia Union,Inter Miami CF,Atlanta United FC,0.767507316,0.679816164
+Atlanta United FC vs. FC Cincinnati,5/25/2025,0.629756871,Atlanta United FC,FC Cincinnati,Vancouver Whitecaps FC,0.199335341,0.981290196
+Vancouver Whitecaps FC vs. Minnesota United FC,5/28/2025,0.806280031,Vancouver Whitecaps FC,Minnesota United FC,Vancouver Whitecaps FC,1,0.873905766
+Vancouver Whitecaps FC vs. Portland Timbers,5/31/2025,0.743402845,Vancouver Whitecaps FC,Portland Timbers,Seattle Sounders FC,0.956156515,0.850502098
+Seattle Sounders FC vs. Minnesota United FC,6/1/2025,0.729699212,Seattle Sounders FC,Minnesota United FC,Sacramento Republic FC,0.775585769,0.390821217
+Sacramento Republic FC vs. FC Tulsa,6/7/2025,0.460540634,Sacramento Republic FC,FC Tulsa,Vancouver Whitecaps FC,0.732625122,0.909954964
+Vancouver Whitecaps FC vs. Seattle Sounders FC,6/8/2025,0.764510859,Vancouver Whitecaps FC,Seattle Sounders FC,New York City FC,0.126840799,0.67705893
+New York City FC vs. Atlanta United FC,6/12/2025,0.628142418,New York City FC,Atlanta United FC,Los Angeles FC,0.117887271,0.744234473
+Los Angeles FC vs. Toronto FC,6/13/2025,0.667475952,Los Angeles FC,Toronto FC,Columbus Crew,0.288057047,0.956220699
+Columbus Crew vs. Vancouver Whitecaps FC,6/14/2025,0.791600999,Columbus Crew,Vancouver Whitecaps FC,Charleston Battery,0.810957722,0.415065115
+Charleston Battery vs. Phoenix Rising FC,6/21/2025,0.47473625,Charleston Battery,Phoenix Rising FC,FC Dallas,0.647130516,0.820615648
+FC Dallas vs. San Jose Earthquakes,6/25/2025,0.712199692,FC Dallas,San Jose Earthquakes,Chicago Fire FC,0.722397396,0.712451643
+Chicago Fire FC vs. Charlotte FC,6/28/2025,0.648866039,Chicago Fire FC,Charlotte FC,Columbus Crew,0.899661158,0.879201412
+Columbus Crew vs. Philadelphia Union,6/29/2025,0.746503623,Columbus Crew,Philadelphia Union,Loudoun United FC,0.893015217,0.395720727
+Loudoun United FC vs. Orange County SC,7/3/2025,0.463409462,Loudoun United FC,Orange County SC,FC Dallas,0.586815845,0.821313162
+FC Dallas vs. Minnesota United FC,7/4/2025,0.712608111,FC Dallas,Minnesota United FC,Portland Timbers,0.419866899,0.673333381
+Portland Timbers vs. New England Revolution,7/5/2025,0.625960984,Portland Timbers,New England Revolution,Seattle Sounders FC,0.948222594,0.825432602
+Seattle Sounders FC vs. Columbus Crew,7/6/2025,0.715020181,Seattle Sounders FC,Columbus Crew,New England Revolution,0.105530559,0.71145871
+New England Revolution vs. Inter Miami CF,7/9/2025,0.648284643,New England Revolution,Inter Miami CF,Sporting Kansas City,0.553428838,0.6591287
+Sporting Kansas City vs. Seattle Sounders FC,7/12/2025,0.617643667,Sporting Kansas City,Seattle Sounders FC,St. Louis CITY SC,0.914381856,0.660950445
+St. Louis CITY SC vs. Portland Timbers,7/13/2025,0.618710359,St. Louis CITY SC,Portland Timbers,San Diego FC,0.439322625,0.739958338
+San Diego FC vs. Toronto FC,7/16/2025,0.664972131,San Diego FC,Toronto FC,Columbus Crew,0.29786309,0.736364086
+Columbus Crew vs. D.C. United,7/19/2025,0.662867576,Columbus Crew,D.C. United,New England Revolution,0.774285476,0.619140597
+New England Revolution vs. CF Montreal,7/25/2025,0.594229291,New England Revolution,CF Montreal,Chicago Fire FC,0.694365352,0.754056339
+Chicago Fire FC vs. New York Red Bulls,7/26/2025,0.673226984,Chicago Fire FC,New York Red Bulls,New York City FC,0.74057014,0.813689738
+New York City FC vs. Columbus Crew,8/9/2025,0.70814434,New York City FC,Columbus Crew,New York Red Bulls,0.997878055,0.728026734
+New York Red Bulls vs. Real Salt Lake City,8/10/2025,0.657985777,New York Red Bulls,Real Salt Lake City,New York Red Bulls,1,0.85322925
+New York Red Bulls vs. Philadelphia Union,8/16/2025,0.731296051,New York Red Bulls,Philadelphia Union,San Jose Earthquakes,0.08352349,0.892771485
+San Jose Earthquakes vs. San Diego FC,8/17/2025,0.754449356,San Jose Earthquakes,San Diego FC,Vancouver Whitecaps FC,0.70344829,0.70783984
+Vancouver Whitecaps FC vs. Houston Dynamo FC,8/18/2025,0.646165674,Vancouver Whitecaps FC,Houston Dynamo FC,Charleston Battery,0.108195242,0.442439626
+Charleston Battery vs. Loudoun United FC,8/23/2025,0.490764945,Charleston Battery,Loudoun United FC,Seattle Sounders FC,0.128170098,0.6591287
+Seattle Sounders FC vs. Sporting Kansas City,8/24/2025,0.617643667,Seattle Sounders FC,Sporting Kansas City,Los Angeles Galaxy,0.651470769,0.57578801
+Los Angeles Galaxy vs. FC Dallas,8/30/2025,0.568844897,Los Angeles Galaxy,FC Dallas,Los Angeles FC,0.994944219,0.869376804
+Los Angeles FC vs. San Diego FC,9/1/2025,0.740750986,Los Angeles FC,San Diego FC,Chicago Fire FC,0.37515728,0.663978479
+Chicago Fire FC vs. New England Revolution,9/6/2025,0.620483375,Chicago Fire FC,New England Revolution,Charlotte FC,0.786438433,0.759931874
+New York City FC vs. Charlotte FC,9/19/2025,0.668575822,New York City FC,Charlotte FC,Los Angeles Galaxy,0.117202924,0.595991317
+Los Angeles Galaxy vs. FC Cincinnati,9/20/2025,0.580674611,Los Angeles Galaxy,FC Cincinnati,Los Angeles FC,0.994944219,0.754976198
+Los Angeles FC vs. Real Salt Lake City,9/21/2025,0.673765593,Los Angeles FC,Real Salt Lake City,New York City FC,0.117887271,0.769500134
+New York City FC vs. Inter Miami CF,9/24/2025,0.682269844,New York City FC,Inter Miami CF,Orange County SC,0.119906018,0.442633204
+Orange County SC vs. Charleston Battery,9/27/2025,0.490878291,Orange County SC,Charleston Battery,Sacramento Republic FC,0.927920799,0.399311921
+Sacramento Republic FC vs. Orange County SC,10/1/2025,0.465512226,Sacramento Republic FC,Orange County SC,Real Salt Lake City,0.809446578,0.682671871
+Real Salt Lake City vs. Colorado Rapids,10/4/2025,0.631428983,Real Salt Lake City,Colorado Rapids,Sacramento Republic FC,0.809446578,0.44603082
