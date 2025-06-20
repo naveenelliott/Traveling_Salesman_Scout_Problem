@@ -1,0 +1,51 @@
+match_id,date,avg_talent,match_home_team,match_away_team,corrected_next_team,distance_km.y,team_score.y
+Miami FC vs. Birmingham Legion FC,2025-05-24,0.34968428894531123,Miami FC,Birmingham Legion FC,Texoma FC,0.5876096325335236,0.08206984093066078
+Texoma FC vs. Greenville Triumph SC,2025-05-25,0.2797563452005884,Texoma FC,Greenville Triumph SC,Indy Eleven,0.7369888233861025,0.17944806909879218
+Indy Eleven vs. Hartford Athletic,2025-05-28,0.33677456472674855,Indy Eleven,Hartford Athletic,Birmingham Legion FC,0.841336989200384,0.21677512784849062
+Birmingham Legion FC vs. Indy Eleven,2025-06-04,0.35863080990694907,Birmingham Legion FC,Indy Eleven,Hartford Athletic,0.6481461496359369,0.1803959307480154
+Hartford Athletic vs. North Carolina FC,2025-06-06,0.3373295695220969,Hartford Athletic,North Carolina FC,Forward Madison FC,0.6853127294147212,0.11271387321312776
+Forward Madison FC vs. Union Omaha,2025-06-07,0.29769945417595034,Forward Madison FC,Union Omaha,Union Omaha,0.864060980269154,0.15392151168813328
+Union Omaha vs. Greenville Triumph SC,2025-06-12,0.32182790897455027,Union Omaha,Greenville Triumph SC,One Knoxville SC,0.7251168840409565,0.17049861580542336
+One Knoxville SC vs. Richmond Kickers,2025-06-13,0.33153435957904986,One Knoxville SC,Richmond Kickers,Lexington SC,0.9488286668476861,0.19197052299979966
+Lexington SC vs. New Mexico United,2025-06-14,0.3441068816005068,Lexington SC,New Mexico United,Charlotte Independence,0.8996063789853304,0.2569281774128298
+Charlotte Independence vs. Greenville Triumph SC,2025-06-15,0.3821417675180421,Charlotte Independence,Greenville Triumph SC,Birmingham Legion FC,0.8676196938539773,0.27613663240161457
+Birmingham Legion FC vs. Sacramento Republic FC,2025-06-18,0.3933889623367637,Birmingham Legion FC,Sacramento Republic FC,Lexington SC,0.8771359473436069,0.22239554692346308
+Lexington SC vs. Colorado Springs Switchbacks FC,2025-06-20,0.3619217538342968,Lexington SC,Colorado Springs Switchbacks FC,Greenville Triumph SC,0.9114651538564198,0.14432756599445684
+Greenville Triumph SC vs. Chattanooga Red Wolves SC,2025-06-21,0.3162103319044519,Greenville Triumph SC,Chattanooga Red Wolves SC,Union Omaha,0.6833223346805143,0.12013551375007991
+Union Omaha vs. Richmond Kickers,2025-06-25,0.3020450736983096,Union Omaha,Richmond Kickers,AV Alta FC,0.5302308092886157,0.12575984021059372
+AV Alta FC vs. FC Naples,2025-06-28,0.30533830553098035,AV Alta FC,FC Naples,Westchester SC,0.10896988916791295,0.09063475430964946
+Westchester SC vs. Greenville Triumph SC,2025-07-02,0.28477138932752133,Westchester SC,Greenville Triumph SC,Pittsburgh Riverhounds FC,0.8829187551769532,0.12963193185826993
+Pittsburgh Riverhounds FC vs. New Mexico United,2025-07-04,0.3076055450951612,Pittsburgh Riverhounds FC,New Mexico United,Rhode Island FC,0.8300717084160671,0.23086622602814266
+Rhode Island FC vs. Birmingham Legion FC,2025-07-05,0.3668816206321643,Rhode Island FC,Birmingham Legion FC,Portland Hearts of Pine,0.9500844756338045,0.04863614585851772
+Portland Hearts of Pine vs. South Georgia Tormenta FC,2025-07-06,0.26017979507171646,Portland Hearts of Pine,South Georgia Tormenta FC,North Carolina FC,0.7410788519396856,0.21772298949771407
+North Carolina FC vs. Birmingham Legion FC,2025-07-11,0.3591858147022975,North Carolina FC,Birmingham Legion FC,Detroit City FC,0.8140802388738205,0.22749530959956643
+Detroit City FC vs. Hartford Athletic,2025-07-12,0.3649078359726504,Detroit City FC,Hartford Athletic,Pittsburgh Riverhounds FC,0.9254974451787638,0.23196093948217533
+Pittsburgh Riverhounds FC vs. Loudoun United FC,2025-07-13,0.367522612085947,Pittsburgh Riverhounds FC,Loudoun United FC,One Knoxville SC,0.8637271701058561,0.17482108026801046
+One Knoxville SC vs. AV Alta FC,2025-07-16,0.3340653075358795,One Knoxville SC,AV Alta FC,North Carolina FC,0.8936965293078939,0.2849343905260965
+North Carolina FC vs. Indy Eleven,2025-07-18,0.398540344873871,North Carolina FC,Indy Eleven,Charlotte Independence,0.9547633809588145,0.1948792324370181
+Forward Madison FC vs. South Georgia Tormenta FC,2025-07-23,0.27238307923112015,Forward Madison FC,South Georgia Tormenta FC,Pittsburgh Riverhounds FC,0.8112141404630957,0.1609113662826418
+Pittsburgh Riverhounds FC vs. Miami FC,2025-07-29,0.3259207033416597,Pittsburgh Riverhounds FC,Miami FC,Hartford Athletic,0.8543996107770235,0.1328893718922206
+Hartford Athletic vs. New Mexico United,2025-07-30,0.3095128855186121,Hartford Athletic,New Mexico United,Westchester SC,0.963190821716345,0.06225772506379601
+Westchester SC vs. Chattanooga Red Wolves SC,2025-08-01,0.2681556866855846,Westchester SC,Chattanooga Red Wolves SC,One Knoxville SC,0.7692191000024613,0.14223566876766514
+One Knoxville SC vs. Portland Hearts of Pine,2025-08-02,0.314985455897287,One Knoxville SC,Portland Hearts of Pine,FC Naples,0.7476100514395254,0.09320386928007934
+FC Naples vs. South Georgia Tormenta FC,2025-08-06,0.286275692333723,FC Naples,South Georgia Tormenta FC,Portland Hearts of Pine,0.4990175146995497,0.07686965232644499
+Portland Hearts of Pine vs. Richmond Kickers,2025-08-09,0.2767114603121442,Portland Hearts of Pine,Richmond Kickers,Westchester SC,0.8974175456751999,0.02861524990366865
+Westchester SC vs. South Georgia Tormenta FC,2025-08-10,0.24845688881085282,Westchester SC,South Georgia Tormenta FC,North Carolina FC,0.8435557377094003,0.33298163102687073
+North Carolina FC vs. Detroit City FC,2025-08-15,0.4266736161197729,North Carolina FC,Detroit City FC,Hartford Athletic,0.8068606413272432,0.22692125254440298
+Hartford Athletic vs. FC Tulsa,2025-08-16,0.36457170630786195,Hartford Athletic,FC Tulsa,One Knoxville SC,0.7339912693951809,0.1855015301913
+One Knoxville SC vs. Union Omaha,2025-08-17,0.34031906928345235,One Knoxville SC,Union Omaha,Union Omaha,0.7251168840409565,0.23814509386065297
+Union Omaha vs. Charlotte Independence,2025-08-20,0.3711436419462038,Union Omaha,Charlotte Independence,Forward Madison FC,0.864060980269154,0.23435053152688
+Forward Madison FC vs. Spokane Velocity FC,2025-08-21,0.36892179839633754,Forward Madison FC,Spokane Velocity FC,Richmond Kickers,0.7314333269619617,0.17049861580542336
+Richmond Kickers vs. One Knoxville SC,2025-08-23,0.33153435957904986,Richmond Kickers,One Knoxville SC,Westchester SC,0.89523205761085,0.028585809333837642
+Westchester SC vs. Portland Hearts of Pine,2025-08-24,0.24843965036951765,Westchester SC,Portland Hearts of Pine,Forward Madison FC,0.7037185409487399,0.040862202455655194
+Forward Madison FC vs. Texoma FC,2025-08-27,0.2556278904019884,Forward Madison FC,Texoma FC,Chattanooga Red Wolves SC,0.7816111023285577,0.11486403251899047
+Westchester SC vs. Richmond Kickers,2025-09-03,0.2649885540512805,Westchester SC,Richmond Kickers,Lexington SC,0.7844869773643309,0.23947708185559446
+Lexington SC vs. North Carolina FC,2025-09-05,0.3719235656039916,Lexington SC,North Carolina FC,Oakland Roots SC,0.24629136539120644,0.08821972290205937
+New Mexico United vs. Detroit City FC,2025-09-10,0.3988569321162881,New Mexico United,Detroit City FC,Charlotte Independence,0.4662284927574346,0.23944695585857967
+Charlotte Independence vs. FC Naples,2025-09-12,0.371905925822045,Charlotte Independence,FC Naples,Charleston Battery,0.935592165984911,0.29869840968594596
+Louisville City FC vs. Las Vegas Lights FC,2025-09-20,0.39746160315896845,Louisville City FC,Las Vegas Lights FC,Spokane Velocity FC,0.3697636606079231,0.24718114075603215
+Spokane Velocity FC vs. Chattanooga Red Wolves SC,2025-09-21,0.3764345505530008,Spokane Velocity FC,Chattanooga Red Wolves SC,Colorado Springs Switchbacks FC,0.6774044008664868,0.22129415838739364
+FC Tulsa vs. Lexington SC,2025-10-04,0.39916570238975657,FC Tulsa,Lexington SC,Rhode Island FC,0.4948910218677349,0.22479857645670565
+Rhode Island FC vs. Las Vegas Lights FC,2025-10-05,0.36332880824503944,Rhode Island FC,Las Vegas Lights FC,Charlotte Independence,0.7482815811036871,0.22746464393736343
+Charlotte Independence vs. AV Alta FC,2025-10-10,0.36488988019863094,Charlotte Independence,AV Alta FC,Rhode Island FC,0.7482815811036871,0.30369137104946076
+Lexington SC vs. Sacramento Republic FC,2025-10-17,0.4061267132384578,Lexington SC,Sacramento Republic FC,Indy Eleven,0.9425162742558257,0.3397568392942071
