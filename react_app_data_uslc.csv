@@ -1,62 +1,62 @@
 match,date,from_team,latitude_from,longitude_from,next_home,latitude_next,longitude_next,distance,avg_talent
-Miami FC vs. Birmingham Legion FC,2025-05-24,miami fc,25.7639,-80.1899,texoma fc,33.63773,-96.60976,0.0,0.349684289
-Texoma FC vs. Greenville Triumph SC,2025-05-25,texoma fc,33.63773,-96.60976,san antonio fc,29.5403962,-98.3949009,0.0,0.279756345
-San Antonio FC vs. FC Tulsa,2025-05-28,san antonio fc,29.5403962,-98.3949009,houston dynamo fc,29.7513,-95.3578,0.0,0.430648545
-Houston Dynamo FC vs. Sporting Kansas City,2025-05-31,houston dynamo fc,29.7513,-95.3578,birmingham legion fc,33.5133982,-86.8009311,0.0,0.499298482
-Birmingham Legion FC vs. Indy Eleven,2025-06-04,birmingham legion fc,33.5133982,-86.8009311,hartford athletic,41.7539073,-72.661055,0.0,0.35863081
-Hartford Athletic vs. North Carolina FC,2025-06-06,hartford athletic,41.7539073,-72.661055,louisville city fc,38.2716112,-85.7085769,0.0,0.33732957
+Miami FC vs. Birmingham Legion FC,2025-05-24,miami fc,25.7639,-80.1899,texoma fc,33.63773,-96.60976,1124.4304291430735,0.349684289
+Texoma FC vs. Greenville Triumph SC,2025-05-25,texoma fc,33.63773,-96.60976,san antonio fc,29.5403962,-98.3949009,301.2718118260259,0.279756345
+San Antonio FC vs. FC Tulsa,2025-05-28,san antonio fc,29.5403962,-98.3949009,houston dynamo fc,29.7513,-95.3578,183.2998490332425,0.430648545
+Houston Dynamo FC vs. Sporting Kansas City,2025-05-31,houston dynamo fc,29.7513,-95.3578,birmingham legion fc,33.5133982,-86.8009311,566.8266423762668,0.499298482
+Birmingham Legion FC vs. Indy Eleven,2025-06-04,birmingham legion fc,33.5133982,-86.8009311,hartford athletic,41.7539073,-72.661055,959.370555600254,0.35863081
+Hartford Athletic vs. North Carolina FC,2025-06-06,hartford athletic,41.7539073,-72.661055,louisville city fc,38.2716112,-85.7085769,731.8002684020126,0.33732957
 Louisville City FC vs. Tampa Bay Rowdies,2025-06-07,louisville city fc,38.2716112,-85.7085769,louisville city fc,38.2716112,-85.7085769,0.0,0.443655981
-Louisville City FC vs. Rhode Island FC,2025-06-11,louisville city fc,38.2716112,-85.7085769,union omaha,41.15111542,-96.10290527,0.0,0.448619756
-Union Omaha vs. Greenville Triumph SC,2025-06-12,union omaha,41.15111542,-96.10290527,one knoxville sc,35.97233,-83.915533,0.0,0.321827909
-One Knoxville SC vs. Richmond Kickers,2025-06-13,one knoxville sc,35.97233,-83.915533,lexington sc,37.9589802,-84.3935367,0.0,0.33153436
-Lexington SC vs. New Mexico United,2025-06-14,lexington sc,37.9589802,-84.3935367,charlotte independence,35.2198156,-80.8292123,0.0,0.344106882
-Charlotte Independence vs. Greenville Triumph SC,2025-06-15,charlotte independence,35.2198156,-80.8292123,birmingham legion fc,33.5133982,-86.8009311,0.0,0.382141768
-Birmingham Legion FC vs. Sacramento Republic FC,2025-06-18,birmingham legion fc,33.5133982,-86.8009311,hartford athletic,41.7539073,-72.661055,0.0,0.393388962
-Hartford Athletic vs. Loudoun United FC,2025-06-20,hartford athletic,41.7539073,-72.661055,richmond kickers,37.5817846,-77.4884784,0.0,0.369429953
-Richmond Kickers vs. Spokane Velocity FC,2025-06-21,richmond kickers,37.5817846,-77.4884784,union omaha,41.15111542,-96.10290527,0.0,0.373267418
-Union Omaha vs. Richmond Kickers,2025-06-25,union omaha,41.15111542,-96.10290527,av alta fc,34.7016636,-118.1748123,0.0,0.302045074
-AV Alta FC vs. FC Naples,2025-06-28,av alta fc,34.7016636,-118.1748123,westchester sc,40.711376,-74.004442,0.0,0.305338306
-Westchester SC vs. Greenville Triumph SC,2025-07-02,westchester sc,40.711376,-74.004442,loudoun united fc,39.069037,-77.5455554,0.0,0.284771389
-Loudoun United FC vs. Orange County SC,2025-07-03,loudoun united fc,39.069037,-77.5455554,pittsburgh riverhounds fc,40.41973877,-80.0602951,0.0,0.463409462
-Pittsburgh Riverhounds FC vs. New Mexico United,2025-07-04,pittsburgh riverhounds fc,40.41973877,-80.0602951,rhode island fc,41.8684026,-71.3831786,0.0,0.307605545
-Rhode Island FC vs. Birmingham Legion FC,2025-07-05,rhode island fc,41.8684026,-71.3831786,portland hearts of pine,43.6593917,-70.2638855,0.0,0.366881621
-Portland Hearts of Pine vs. South Georgia Tormenta FC,2025-07-06,portland hearts of pine,43.6593917,-70.2638855,north carolina fc,35.7873226,-78.7542068,0.0,0.260179795
-North Carolina FC vs. Birmingham Legion FC,2025-07-11,north carolina fc,35.7873226,-78.7542068,detroit city fc,42.34395218,-83.01856995,0.0,0.359185815
-Detroit City FC vs. Hartford Athletic,2025-07-12,detroit city fc,42.34395218,-83.01856995,pittsburgh riverhounds fc,40.41973877,-80.0602951,0.0,0.364907836
-Pittsburgh Riverhounds FC vs. Loudoun United FC,2025-07-13,pittsburgh riverhounds fc,40.41973877,-80.0602951,one knoxville sc,35.97233,-83.915533,0.0,0.367522612
-One Knoxville SC vs. AV Alta FC,2025-07-16,one knoxville sc,35.97233,-83.915533,north carolina fc,35.7873226,-78.7542068,0.0,0.334065308
-North Carolina FC vs. Indy Eleven,2025-07-18,north carolina fc,35.7873226,-78.7542068,charlotte independence,35.2198156,-80.8292123,0.0,0.398540345
-Charlotte Independence vs. Portland Hearts of Pine,2025-07-19,charlotte independence,35.2198156,-80.8292123,greenville triumph sc,34.8511,-82.3988,0.0,0.345810029
-Greenville Triumph SC vs. Richmond Kickers,2025-07-20,greenville triumph sc,34.8511,-82.3988,forward madison fc,43.08438492,-89.37054443,0.0,0.313043199
-Forward Madison FC vs. South Georgia Tormenta FC,2025-07-23,forward madison fc,43.08438492,-89.37054443,houston dynamo fc,29.7513,-95.3578,0.0,0.272383079
-Houston Dynamo FC vs. Los Angeles Galaxy,2025-07-25,houston dynamo fc,29.7513,-95.3578,pittsburgh riverhounds fc,40.41973877,-80.0602951,0.0,0.467590813
-Pittsburgh Riverhounds FC vs. Miami FC,2025-07-29,pittsburgh riverhounds fc,40.41973877,-80.0602951,hartford athletic,41.7539073,-72.661055,0.0,0.325920703
-Hartford Athletic vs. New Mexico United,2025-07-30,hartford athletic,41.7539073,-72.661055,fc tulsa,36.0463933,-95.9494684,0.0,0.309512886
-FC Tulsa vs. Loudoun United FC,2025-08-01,fc tulsa,36.0463933,-95.9494684,one knoxville sc,35.97233,-83.915533,0.0,0.458437869
-One Knoxville SC vs. Portland Hearts of Pine,2025-08-02,one knoxville sc,35.97233,-83.915533,rhode island fc,41.8684026,-71.3831786,0.0,0.314985456
+Louisville City FC vs. Rhode Island FC,2025-06-11,louisville city fc,38.2716112,-85.7085769,union omaha,41.15111542,-96.10290527,587.9405307490701,0.448619756
+Union Omaha vs. Greenville Triumph SC,2025-06-12,union omaha,41.15111542,-96.10290527,one knoxville sc,35.97233,-83.915533,749.500872052106,0.321827909
+One Knoxville SC vs. Richmond Kickers,2025-06-13,one knoxville sc,35.97233,-83.915533,lexington sc,37.9589802,-84.3935367,139.5246073514481,0.33153436
+Lexington SC vs. New Mexico United,2025-06-14,lexington sc,37.9589802,-84.3935367,charlotte independence,35.2198156,-80.8292123,273.73491542556127,0.344106882
+Charlotte Independence vs. Greenville Triumph SC,2025-06-15,charlotte independence,35.2198156,-80.8292123,birmingham legion fc,33.5133982,-86.8009311,360.9503426676525,0.382141768
+Birmingham Legion FC vs. Sacramento Republic FC,2025-06-18,birmingham legion fc,33.5133982,-86.8009311,hartford athletic,41.7539073,-72.661055,959.370555600254,0.393388962
+Hartford Athletic vs. Loudoun United FC,2025-06-20,hartford athletic,41.7539073,-72.661055,richmond kickers,37.5817846,-77.4884784,385.9924850528092,0.369429953
+Richmond Kickers vs. Spokane Velocity FC,2025-06-21,richmond kickers,37.5817846,-77.4884784,union omaha,41.15111542,-96.10290527,1024.5400199666085,0.373267418
+Union Omaha vs. Richmond Kickers,2025-06-25,union omaha,41.15111542,-96.10290527,av alta fc,34.7016636,-118.1748123,1280.8804821386525,0.302045074
+AV Alta FC vs. FC Naples,2025-06-28,av alta fc,34.7016636,-118.1748123,westchester sc,40.711376,-74.004442,2429.4975075618604,0.305338306
+Westchester SC vs. Greenville Triumph SC,2025-07-02,westchester sc,40.711376,-74.004442,loudoun united fc,39.069037,-77.5455554,219.6468140478017,0.284771389
+Loudoun United FC vs. Orange County SC,2025-07-03,loudoun united fc,39.069037,-77.5455554,pittsburgh riverhounds fc,40.41973877,-80.0602951,163.14875575093515,0.463409462
+Pittsburgh Riverhounds FC vs. New Mexico United,2025-07-04,pittsburgh riverhounds fc,40.41973877,-80.0602951,rhode island fc,41.8684026,-71.3831786,463.32930374471806,0.307605545
+Rhode Island FC vs. Birmingham Legion FC,2025-07-05,rhode island fc,41.8684026,-71.3831786,portland hearts of pine,43.6593917,-70.2638855,136.10049824586503,0.366881621
+Portland Hearts of Pine vs. South Georgia Tormenta FC,2025-07-06,portland hearts of pine,43.6593917,-70.2638855,north carolina fc,35.7873226,-78.7542068,705.9787051193517,0.260179795
+North Carolina FC vs. Birmingham Legion FC,2025-07-11,north carolina fc,35.7873226,-78.7542068,detroit city fc,42.34395218,-83.01856995,506.9319103489533,0.359185815
+Detroit City FC vs. Hartford Athletic,2025-07-12,detroit city fc,42.34395218,-83.01856995,pittsburgh riverhounds fc,40.41973877,-80.0602951,203.13990407816223,0.364907836
+Pittsburgh Riverhounds FC vs. Loudoun United FC,2025-07-13,pittsburgh riverhounds fc,40.41973877,-80.0602951,one knoxville sc,35.97233,-83.915533,371.56376260623847,0.367522612
+One Knoxville SC vs. AV Alta FC,2025-07-16,one knoxville sc,35.97233,-83.915533,north carolina fc,35.7873226,-78.7542068,289.8488097674586,0.334065308
+North Carolina FC vs. Indy Eleven,2025-07-18,north carolina fc,35.7873226,-78.7542068,charlotte independence,35.2198156,-80.8292123,123.342917231443,0.398540345
+Charlotte Independence vs. Portland Hearts of Pine,2025-07-19,charlotte independence,35.2198156,-80.8292123,greenville triumph sc,34.8511,-82.3988,92.55197569566585,0.345810029
+Greenville Triumph SC vs. Richmond Kickers,2025-07-20,greenville triumph sc,34.8511,-82.3988,forward madison fc,43.08438492,-89.37054443,680.2412271048637,0.313043199
+Forward Madison FC vs. South Georgia Tormenta FC,2025-07-23,forward madison fc,43.08438492,-89.37054443,houston dynamo fc,29.7513,-95.3578,977.3266001975824,0.272383079
+Houston Dynamo FC vs. Los Angeles Galaxy,2025-07-25,houston dynamo fc,29.7513,-95.3578,pittsburgh riverhounds fc,40.41973877,-80.0602951,1133.7527198436565,0.467590813
+Pittsburgh Riverhounds FC vs. Miami FC,2025-07-29,pittsburgh riverhounds fc,40.41973877,-80.0602951,hartford athletic,41.7539073,-72.661055,396.9964408800085,0.325920703
+Hartford Athletic vs. New Mexico United,2025-07-30,hartford athletic,41.7539073,-72.661055,fc tulsa,36.0463933,-95.9494684,1310.8494411623224,0.309512886
+FC Tulsa vs. Loudoun United FC,2025-08-01,fc tulsa,36.0463933,-95.9494684,one knoxville sc,35.97233,-83.915533,673.7127460130419,0.458437869
+One Knoxville SC vs. Portland Hearts of Pine,2025-08-02,one knoxville sc,35.97233,-83.915533,rhode island fc,41.8684026,-71.3831786,787.138162130263,0.314985456
 Rhode Island FC vs. Detroit City FC,2025-08-06,rhode island fc,41.8684026,-71.3831786,rhode island fc,41.8684026,-71.3831786,0.0,0.434369422
-Rhode Island FC vs. Loudoun United FC,2025-08-09,rhode island fc,41.8684026,-71.3831786,westchester sc,40.711376,-74.004442,0.0,0.438891539
-Westchester SC vs. South Georgia Tormenta FC,2025-08-10,westchester sc,40.711376,-74.004442,north carolina fc,35.7873226,-78.7542068,0.0,0.248456889
-North Carolina FC vs. Detroit City FC,2025-08-15,north carolina fc,35.7873226,-78.7542068,hartford athletic,41.7539073,-72.661055,0.0,0.426673616
-Hartford Athletic vs. FC Tulsa,2025-08-16,hartford athletic,41.7539073,-72.661055,one knoxville sc,35.97233,-83.915533,0.0,0.364571706
-One Knoxville SC vs. Union Omaha,2025-08-17,one knoxville sc,35.97233,-83.915533,union omaha,41.15111542,-96.10290527,0.0,0.340319069
-Union Omaha vs. Charlotte Independence,2025-08-20,union omaha,41.15111542,-96.10290527,forward madison fc,43.08438492,-89.37054443,0.0,0.371143642
-Forward Madison FC vs. Spokane Velocity FC,2025-08-21,forward madison fc,43.08438492,-89.37054443,richmond kickers,37.5817846,-77.4884784,0.0,0.368921798
-Richmond Kickers vs. One Knoxville SC,2025-08-23,richmond kickers,37.5817846,-77.4884784,westchester sc,40.711376,-74.004442,0.0,0.33153436
-Westchester SC vs. Portland Hearts of Pine,2025-08-24,westchester sc,40.711376,-74.004442,forward madison fc,43.08438492,-89.37054443,0.0,0.24843965
-Forward Madison FC vs. Texoma FC,2025-08-27,forward madison fc,43.08438492,-89.37054443,chattanooga red wolves sc,35.05036163,-85.31054688,0.0,0.25562789
-Lexington SC vs. North Carolina FC,2025-09-05,lexington sc,37.9589802,-84.3935367,oakland roots sc,37.7255905,-122.2324865,0.0,0.371923566
-Oakland Roots SC vs. Pittsburgh Riverhounds FC,2025-09-06,oakland roots sc,37.7255905,-122.2324865,spokane velocity fc,47.667363,-117.420367,0.0,0.283357307
-Spokane Velocity FC vs. Westchester SC,2025-09-07,spokane velocity fc,47.667363,-117.420367,new mexico united,35.0795,-106.606,0.0,0.344995608
-New Mexico United vs. Detroit City FC,2025-09-10,new mexico united,35.0795,-106.606,charlotte independence,35.2198156,-80.8292123,0.0,0.398856932
-Charlotte Independence vs. FC Naples,2025-09-12,charlotte independence,35.2198156,-80.8292123,charleston battery,32.7915338,-79.9024332,0.0,0.371905926
-Charleston Battery vs. Oakland Roots SC,2025-09-13,charleston battery,32.7915338,-79.9024332,union omaha,41.15111542,-96.10290527,0.0,0.40659964
-Union Omaha vs. Spokane Velocity FC,2025-09-17,union omaha,41.15111542,-96.10290527,louisville city fc,38.2716112,-85.7085769,0.0,0.382052128
-Louisville City FC vs. Las Vegas Lights FC,2025-09-20,louisville city fc,38.2716112,-85.7085769,spokane velocity fc,47.667363,-117.420367,0.0,0.397461603
-Spokane Velocity FC vs. Chattanooga Red Wolves SC,2025-09-21,spokane velocity fc,47.667363,-117.420367,colorado springs switchbacks fc,38.8955559,-104.7132438,0.0,0.376434551
-Pittsburgh Riverhounds FC vs. Las Vegas Lights FC,2025-09-27,pittsburgh riverhounds fc,40.41973877,-80.0602951,westchester sc,40.711376,-74.004442,0.0,0.291959882
-Westchester SC vs. Forward Madison FC,2025-09-28,westchester sc,40.711376,-74.004442,el paso locomotive fc,31.763608,-106.484592,0.0,0.260642935
-Orange County SC vs. El Paso Locomotive FC,2025-10-04,orange county sc,36.216459,-119.328777,rhode island fc,41.8684026,-71.3831786,0.0,0.449135676
-Rhode Island FC vs. Las Vegas Lights FC,2025-10-05,rhode island fc,41.8684026,-71.3831786,charlotte independence,35.2198156,-80.8292123,0.0,0.363328808
-Charlotte Independence vs. AV Alta FC,2025-10-10,charlotte independence,35.2198156,-80.8292123,lexington sc,37.9589802,-84.3935367,0.0,0.36488988
-Lexington SC vs. Sacramento Republic FC,2025-10-17,lexington sc,37.9589802,-84.3935367,charleston battery,32.7915338,-79.9024332,0.0,0.406126713
+Rhode Island FC vs. Loudoun United FC,2025-08-09,rhode island fc,41.8684026,-71.3831786,westchester sc,40.711376,-74.004442,158.07082194226064,0.438891539
+Westchester SC vs. South Georgia Tormenta FC,2025-08-10,westchester sc,40.711376,-74.004442,north carolina fc,35.7873226,-78.7542068,426.5635253924559,0.248456889
+North Carolina FC vs. Detroit City FC,2025-08-15,north carolina fc,35.7873226,-78.7542068,hartford athletic,41.7539073,-72.661055,526.6169849965762,0.426673616
+Hartford Athletic vs. FC Tulsa,2025-08-16,hartford athletic,41.7539073,-72.661055,one knoxville sc,35.97233,-83.915533,725.3038254684642,0.364571706
+One Knoxville SC vs. Union Omaha,2025-08-17,one knoxville sc,35.97233,-83.915533,union omaha,41.15111542,-96.10290527,749.500872052106,0.340319069
+Union Omaha vs. Charlotte Independence,2025-08-20,union omaha,41.15111542,-96.10290527,forward madison fc,43.08438492,-89.37054443,370.65359026764736,0.371143642
+Forward Madison FC vs. Spokane Velocity FC,2025-08-21,forward madison fc,43.08438492,-89.37054443,richmond kickers,37.5817846,-77.4884784,732.2783538154234,0.368921798
+Richmond Kickers vs. One Knoxville SC,2025-08-23,richmond kickers,37.5817846,-77.4884784,westchester sc,40.711376,-74.004442,285.662012778815,0.33153436
+Westchester SC vs. Portland Hearts of Pine,2025-08-24,westchester sc,40.711376,-74.004442,forward madison fc,43.08438492,-89.37054443,807.8459499305021,0.24843965
+Forward Madison FC vs. Texoma FC,2025-08-27,forward madison fc,43.08438492,-89.37054443,chattanooga red wolves sc,35.05036163,-85.31054688,595.4627976337124,0.25562789
+Lexington SC vs. North Carolina FC,2025-09-05,lexington sc,37.9589802,-84.3935367,oakland roots sc,37.7255905,-122.2324865,2055.0744884478886,0.371923566
+Oakland Roots SC vs. Pittsburgh Riverhounds FC,2025-09-06,oakland roots sc,37.7255905,-122.2324865,spokane velocity fc,47.667363,-117.420367,728.2916784196601,0.283357307
+Spokane Velocity FC vs. Westchester SC,2025-09-07,spokane velocity fc,47.667363,-117.420367,new mexico united,35.0795,-106.606,1032.4728662295722,0.344995608
+New Mexico United vs. Detroit City FC,2025-09-10,new mexico united,35.0795,-106.606,charlotte independence,35.2198156,-80.8292123,1455.390261999495,0.398856932
+Charlotte Independence vs. FC Naples,2025-09-12,charlotte independence,35.2198156,-80.8292123,charleston battery,32.7915338,-79.9024332,175.61547057145938,0.371905926
+Charleston Battery vs. Oakland Roots SC,2025-09-13,charleston battery,32.7915338,-79.9024332,union omaha,41.15111542,-96.10290527,1063.0098132152343,0.40659964
+Union Omaha vs. Spokane Velocity FC,2025-09-17,union omaha,41.15111542,-96.10290527,louisville city fc,38.2716112,-85.7085769,587.9405307490701,0.382052128
+Louisville City FC vs. Las Vegas Lights FC,2025-09-20,louisville city fc,38.2716112,-85.7085769,spokane velocity fc,47.667363,-117.420367,1718.4128764156942,0.397461603
+Spokane Velocity FC vs. Chattanooga Red Wolves SC,2025-09-21,spokane velocity fc,47.667363,-117.420367,colorado springs switchbacks fc,38.8955559,-104.7132438,879.5945215739075,0.376434551
+Pittsburgh Riverhounds FC vs. Las Vegas Lights FC,2025-09-27,pittsburgh riverhounds fc,40.41973877,-80.0602951,westchester sc,40.711376,-74.004442,319.2356678206984,0.291959882
+Westchester SC vs. Forward Madison FC,2025-09-28,westchester sc,40.711376,-74.004442,el paso locomotive fc,31.763608,-106.484592,1903.4625523131056,0.260642935
+Orange County SC vs. El Paso Locomotive FC,2025-10-04,orange county sc,36.216459,-119.328777,rhode island fc,41.8684026,-71.3831786,2574.7112794461746,0.449135676
+Rhode Island FC vs. Las Vegas Lights FC,2025-10-05,rhode island fc,41.8684026,-71.3831786,charlotte independence,35.2198156,-80.8292123,686.3396240839829,0.363328808
+Charlotte Independence vs. AV Alta FC,2025-10-10,charlotte independence,35.2198156,-80.8292123,lexington sc,37.9589802,-84.3935367,273.73491542556127,0.36488988
+Lexington SC vs. Sacramento Republic FC,2025-10-17,lexington sc,37.9589802,-84.3935367,charleston battery,32.7915338,-79.9024332,437.1415951695578,0.406126713

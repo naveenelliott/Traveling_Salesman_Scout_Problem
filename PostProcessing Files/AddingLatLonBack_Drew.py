@@ -51,6 +51,9 @@ final_df = final_df[['match', 'date', 'from_team', 'latitude_from', 'longitude_f
 distance = pd.read_csv('distancesBetweenStadiums.csv')
 del distance['Team_1_ID'], distance['Team_2_ID']
 
+distance['Team_1'] = distance['Team_1'].str.lower()
+distance['Team_2'] = distance['Team_2'].str.lower()
+
 final_df = pd.merge(final_df, distance, left_on=['from_team', 'next_home'], right_on=['Team_1', 'Team_2'], how='left')
 
 final_df = pd.merge(final_df, distance, left_on=['from_team', 'next_home'], right_on=['Team_2', 'Team_1'], how='left')
