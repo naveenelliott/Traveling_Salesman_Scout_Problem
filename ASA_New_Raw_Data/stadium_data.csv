@@ -1,0 +1,186 @@
+stadium_id,stadium_name,year_built,street,city,province,country,postal_code,latitude,longitude,capacity,roof,turf,field_x,field_y,competition
+0x5g6ojM7O,Shell Energy Stadium,2012.0,2200 Texas Avenue,Houston,Texas,USA,77590,29.7522,-95.3524,22039.0,0.0,0.0,115.0,73.0,mls
+0x5gJZjM7O,Chase Stadium,2020.0,1350 NW 55th Street,Fort Lauderdale,Florida,USA,33309,26.1931,-80.1611,18000.0,0.0,0.0,115.0,75.0,mls
+2lqRRVnqr0,BMO Field,2007.0,170 Princes' Boulevard,Toronto,Ontario,Canada,M6K 3C3,43.6328,-79.4186,30991.0,0.0,0.0,115.0,74.0,mls
+2vQ1eawQrA,Lower.com Field,2021.0,96 Columbus Crew Way,Columbus,Ohio,USA,43215,39.9685,-83.0171,20371.0,0.0,0.0,115.0,75.0,mls
+4wM4ez45jB,Energizer Park,2022.0,2100 Market Street,St. Louis,Missouri,USA,63103,38.6312,-90.2105,22423.0,0.0,0.0,114.0,74.0,mls
+7vQ7xbOMD1,BMO Stadium,2018.0,3939 South Figueroa Street,Los Angeles,California,USA,90037,34.013,-118.285,22000.0,0.0,0.0,115.0,75.0,mls
+9vQ2dvm5K6,Stade Olympique,1976.0,4545 Pierre-de-Coubertin Avenue,Montreal,Quebec,Canada,H1V 0B2,45.558,-73.552,61004.0,1.0,1.0,120.0,77.0,mls
+9Yqda07QvJ,Lumen Field,2002.0,800 Occidental Avenue South,Seattle,Washington,USA,98134,47.5952,-122.3316,38500.0,0.0,1.0,116.0,75.0,mls
+9YqdkYR5vJ,SeatGeek Stadium,2006.0,7000 South Harlem Avenue,Bridgeview,Illinois,USA,60455,41.7647,-87.8061,20000.0,0.0,0.0,120.0,75.0,mls
+9z5ka6gQA3,Dick's Sporting Goods Park,2007.0,6000 Victory Way,Commerce City,Colorado,USA,80022,39.8056,-104.8919,18081.0,0.0,0.0,120.0,75.0,mls
+a35rBv45L6,Navy-Marine Corps Memorial Stadium,1959.0,550 Taylor Avenue,Annapolis,Maryland,USA,21401,38.985,-76.507,34000.0,0.0,1.0,,,mls
+BLMvlGBqxe,Pratt & Whitney Stadium at Rentschler Field,2003.0,615 Silver Lane,East Hartford,Connecticut,USA,06118,41.7597,-72.6189,38066.0,0.0,0.0,,,mls
+e7MzlRjqr0,America First Field,2008.0,9256 State Street,Sandy,Utah,USA,84070,40.5829,-111.8932,20213.0,0.0,0.0,120.0,75.0,mls
+EeV5DDZ5Kn,TBC,,,,,,,,,,,,,,mls
+EGMP1135aY,ESPN Wide World of Sports Complex,1997.0,700 S Victory Way,Reunion,Florida,USA,34747,28.3371,-81.556,,0.0,0.0,120.0,75.0,mls
+EGMPlN4MaY,Rose Bowl,,,,,,,,,,,,,,mls
+eV5Dz2JQKn,Levi's Stadium,2014.0,4900 Marie P DeBartolo Way,Santa Clara,California,USA,95054,37.403,-121.97,68500.0,0.0,0.0,115.0,75.0,mls
+eV5DzVRQKn,TCF Bank Stadium,2009.0,420 SE 23rd Avenue,Minneapolis,Minnesota,USA,55455,44.976,-93.225,50805.0,0.0,1.0,,,mls
+eVq32yn5WO,Yankee Stadium,2009.0,1 East 161st Street,The Bronx,New York,USA,10451,40.8292,-73.9264,28743.0,0.0,0.0,110.0,70.0,mls
+eVq3alGMWO,Toyota Stadium,2005.0,9200 World Cup Way,Frisco,Texas,USA,75033,33.1544,-96.8353,20500.0,0.0,0.0,117.0,74.0,mls
+gOMnY6mQwN,Bobby Dodd Stadium,1913.0,155 North Avenue Northwest,Atlanta,Georgia,USA,30313,33.7725,-84.3928,55000.0,0.0,0.0,,,mls
+gpMOzdEQzy,Soldier Field,1924.0,1410 S Museum Campus Drive,Chicago,Illinois,USA,60605,41.8623,-87.6167,61500.0,0.0,0.0,114.0,74.0,mls
+gpMOzPrQzy,Camping World Stadium,1936.0,1 Citrus Bowl Place,Orlando,Florida,USA,32805,28.5389,-81.4028,19500.0,0.0,1.0,114.0,74.0,mls
+jYQJ1PBqGR,RFK Stadium,1961.0,2400 East Capitol Street SE,Washington,District of Columbia,USA,20003,38.89,-76.972,45596.0,0.0,0.0,110.0,72.0,mls
+jYQJZDDQGR,Q2 Stadium,2021.0,10414 McKalla Place,Austin,Texas,USA,78758,30.3882,-97.7198,20500.0,0.0,0.0,115.0,75.0,mls
+jYQJZPZQGR,Geodis Park,2022.0,501 Benton Avenue,Nashville,Tennessee,USA,37203,36.1302,-86.7656,30109.0,0.0,0.0,120.0,75.0,mls
+KAqBkLJQbg,Nippert Stadium,1915.0,2700 Bearcat Way,Cincinnati,Ohio,USA,45219,39.131,-84.516,32250.0,0.0,1.0,,,mls
+KAqBVWBqbg,Citi Field,2009.0,41 Seaver Way,Flushing,New York,USA,11368,40.7569,-73.8458,41922.0,0.0,0.0,110.0,70.0,mls
+KPqjRnYq6v,FedExField,1997.0,1600 FedEx Way,Landover,Maryland,USA,20785,38.9078,-76.8644,82000.0,0.0,0.0,,,mls
+KXMe8pxQ64,Nissan Stadium,1999.0,1 Titans Way,Nashville,Tennessee,USA,37213,36.1664,-86.7714,69143.0,0.0,0.0,,,mls
+KXMeOR2q64,Bank of America Stadium,,800 S Mint Street,Charlotte,North Carolina,USA,28202,35.2258,-80.853,,0.0,1.0,114.0,74.0,mls
+ljqEDnO5x0,BC Place,1983.0,777 Pacific Boulevard,Vancouver,British Columbia,Canada,V6B 4Y8,49.2767,-123.1119,22120.0,1.0,1.0,117.0,75.0,mls
+ljqEVDNQx0,Rogers Centre,1989.0,1 Blue Jays Way,Toronto,Ontario,Canada,M5V 0L7,43.6414,-79.3892,47568.0,1.0,1.0,,,mls
+NPqxy6XQ9d,Children's Mercy Park,2011.0,1 Sporting Way,Kansas City,Kansas,USA,66111,39.1214,-94.821,18467.0,0.0,0.0,120.0,75.0,mls
+NWMW84L5lz,Red Bull Arena,2010.0,600 Cape May Street,Harrison,New Jersey,USA,07029,40.7367,-74.1503,25000.0,0.0,0.0,120.0,75.0,mls
+NWMW8pj5lz,Stade Saputo,2008.0,4750 Sherbrooke Street E,Montreal,Quebec,Canada,H1V 3S8,45.5631,-73.5525,19619.0,0.0,0.0,120.0,77.0,mls
+NWMW8ZN5lz,Subaru Park,2010.0,1 Stadium Drive,Chester,Pennsylvania,USA,19013,39.8322,-75.3789,18500.0,0.0,0.0,120.0,75.0,mls
+NWMWoaeMlz,Mercedes-Benz Stadium,2017.0,1 AMB Drive NW,Atlanta,Georgia,USA,30313,33.7556,-84.4,42500.0,1.0,1.0,115.0,75.0,mls
+Oa5wKLY514,TQL Stadium,2021.0,1501 Central Pkwy,Cincinnati,Ohio,USA,45214,39.1114,-84.5222,26000.0,0.0,0.0,110.0,75.0,mls
+Oa5wKXY514,Snapdragon Stadium,,,,,,,,,,,,,,mls
+Oa5wY94Q14,Stanford Stadium,2006.0,625 Nelson Road,Stanford,California,USA,94305,37.4344,-122.1611,50424.0,0.0,0.0,114.0,74.0,mls
+odMXGRrQYL,Allianz Field,2019.0,400 Snelling Ave N,St Paul,Minnesota,USA,55104,44.9528,-93.165,19400.0,0.0,0.0,120.0,75.0,mls
+p6qbeb850G,Historic Crew Stadium,1999.0,1 Black and Gold Boulevard,Columbus,Ohio,USA,43211,40.0094,-82.9911,19968.0,0.0,0.0,115.0,75.0,mls
+p6qbejp50G,FirstEnergy Stadium,,,,,,,,,,,,,,mls
+p6qbX06M0G,Providence Park,1926.0,1844 SW Morrison St,Portland,Oregon,USA,97205,45.5214,-122.6917,25218.0,0.0,1.0,110.0,75.0,mls
+Vj58BPwQ8n,Buck Shaw Stadium,1962.0,500 El Camino Real,Santa Clara,California,USA,95053,37.3506,-121.9367,10525.0,0.0,0.0,115.0,74.0,mls
+Vj58W84M8n,PayPal Park,2015.0,1123 Coleman Avenue,San Jose,California,USA,95110,37.3514,-121.925,18000.0,0.0,0.0,115.0,74.0,mls
+vzqoGO7qap,Maryland SoccerPlex,2000.0,18031 Central Park Circle,Boyds,Maryland,USA,20841,39.1528,-77.3136,4000.0,0.0,0.0,115.0,75.0,mls
+vzqoJrj5ap,Inter&Co Stadium,2017.0,655 West Church Street,Orlando,Florida,USA,32805,28.5411,-81.3893,25500.0,0.0,0.0,120.0,75.0,mls
+vzqor1Z5ap,Arrowhead Stadium,,,,,,,,,,,,114.0,74.0,mls
+wvq9p1Y5Wn,Dignity Health Sports Park,2003.0,18400 Avalon Boulevard,Carson,California,USA,90746,33.864,-118.261,27000.0,0.0,0.0,120.0,75.0,mls
+wvq9p775Wn,Gillette Stadium,2002.0,1 Patriot Place,Foxborough,Massachusetts,USA,02035,42.091,-71.264,65878.0,0.0,1.0,116.0,75.0,mls
+xW5pwORMg1,Audi Field,2018.0,100 Potomac Avenue SW,Washington,District of Columbia,USA,20024,38.8683,-77.0122,20000.0,0.0,0.0,115.0,75.0,mls
+0Oq62v7q6D,Torero Stadium,1961.0,5998 Alcala Park Way,San Diego,California,USA,92111,32.7972,-117.1708,,,,,,uslc
+0Oq63rXQ6D,Goodman Stadium,,,Bethlehem,Pennsylvania,USA,18015,,,,,,,,uslc
+0x5gW6w57O,Cashman Field,1983.0,850 Las Vegas Blvd N,Las Vegas,Nevada,USA,89101,36.1721,-115.1224,,,,,,uslc
+2lqRj4Wqr0,StubHub Center - Track Stadium,,,Carson,California,USA,90746,,,,,,,,uslc
+2lqRlYWMr0,Cardinale Stadium,2022.0,4111 2nd Ave,Seaside,California,USA,93955,36.6217,-121.7935,,,,,,uslc
+2lqRRVnqr0,BMO Field,2007.0,170 Princes' Boulevard,Toronto,Ontario,Canada,M6K 3C3,43.6328,-79.4186,30991.0,0.0,0.0,115.0,74.0,uslc
+2lqRXGLMr0,Centreville Bank Stadium,,,Pawtucket,Rhode Island,USA,02860,,,,,,,,uslc
+2vQ1djbqrA,Sportsplex at Matthews,,,Matthews,North Carolina,USA,28105,,,,,,,,uslc
+315VPJ6Q9x,Greater Nevada Field,,,Reno,Nevada,USA,89501,,,,,,,,uslc
+315VWeEq9x,Dillon Stadium,1935.0,250 Huyshope Ave,Hartford,Connecticut,USA,06106,41.7484,72.6881,,,,,,uslc
+4JMA8POQKg,World Wide Technology Soccer Park,,,Fenton,Missouri,USA,63026,,,,,,,,uslc
+4JMALEDQKg,City Stadium,,,Richmond,Virginia,USA,23220,,,,,,,,uslc
+4wM4284qjB,Legion Field,,,Birmingham,Alabama,USA,35204,,,,,,,,uslc
+7vQ7waDQD1,Wild Horse Pass,,19593 S 48th St,Chandler,Arizona,USA,85226,33.3092,-111.9198,,,,,,uslc
+7vQ7weEQD1,Merrit College,,,Oakland,California,USA,94619,,,,,,,,uslc
+7vQ7xJOMD1,Casino Arizona Field,,,Tempe,Arizona,USA,85281,,,,,,,,uslc
+9vQ22zoQK6,Oakland-Alameda County Coliseum,,,Oakland,California,USA,94621,,,,,,,,uslc
+9vQ2NGaQK6,UNM Soccer Complex,,,Albuquerque,New Mexico,USA,87131,,,,,,,,uslc
+9z5kbmlMA3,Merlo Field,,,Portland,Oregon,USA,97203,,,,,,,,uslc
+9z5kWaP5A3,BBVA Field,,,Birmingham,Alabama,USA,35205,,,,,,,,uslc
+a35rBK25L6,McLeod Athletic Park,,,Langley,British Columbia,Canada,V1M 3A5,,,,,,,,uslc
+aDQ0N1E5Ev,Marina Auto Stadium,,,Rochester,New York,USA,14608,,,,,,,,uslc
+BLMvkn35xe,Al Lang Stadium,1947.0,180 2nd Avenue SE,St Petersburg,Florida,USA,33701,27.7723,-82.6386,,,,,,uslc
+BLMvlGBqxe,Pratt & Whitney Stadium at Rentschler Field,2003.0,615 Silver Lane,East Hartford,Connecticut,USA,06118,41.7597,-72.6189,38066.0,0.0,0.0,,,uslc
+BLMvra8Mxe,Lynn Family Stadium,2020.0,350 Adams Street,Louisville,Kentucky,USA,40206,38.2503,-85.7034,,,,,,uslc
+e7Mz0bJqr0,McCarthy Stadium at La Salle University,,,Philadelphia,Pennsylvania,USA,19141,,,,,,,,uslc
+e7MzlRjqr0,America First Field,2008.0,9256 State Street,Sandy,Utah,USA,84070,40.5829,-111.8932,20213.0,0.0,0.0,120.0,75.0,uslc
+EGMPrl4qaY,AutoZone Park,2000.0,200 Union Ave,Memphis,Tennessee,USA,38103,35.144,-90.048,,,,,,uslc
+EGMPZjjqaY,H-E-B Park,2017.0,1616 S Raul Longoria Rd #9169,Edinburg,Texas,USA,78542,26.4661,-98.0695,,,,,,uslc
+eV5Dka9MKn,Championship Soccer Stadium,2017.0,8272 Great Park Blvd,Irvine,California,USA,92618,33.7074,-117.7054,,,,,,uslc
+eV5DkGRMKn,Monarch Park Stadium,,,Toronto,Ontario,Canada,M4C 5M1,,,,,,,,uslc
+eV5DReaQKn,Phoenix Rising Stadium at 38th St/Washington,2023.0,3801 E Washington St,Phoenix,Arizona,USA,85034,33.4413,-112.0421,,,,,,uslc
+eVq3yYvMWO,Shawnee Mission South District Stadium,,,Overland Park,Kansas,USA,66207,,,,,,,,uslc
+gjMN1K3QKp,Starfire Sports Complex,,,Tukwila,Washington,USA,98188,,,,,,,,uslc
+gjMN69KMKp,Lamport Stadium,,,Toronto,Ontario,Canada,M6K 1X9,,,,,,,,uslc
+gjMN6nvMKp,ONEOK Field,2010.0,201 N Elgin Ave,Tulsa,Oklahoma,USA,74120,36.1442,-95.9734,,,,,,uslc
+gjMN7lK5Kp,Segra Field,2019.0,42095 Loudoun United Dr,Leesburg,Virginia,USA,20175,39.042,-77.6054,,,,,,uslc
+gjMN7vk5Kp,Southwest University Park,2014.0,1 Ballpark Plaza,El Paso,Texas,USA,79901,31.7584,-106.4783,,,,,,uslc
+gjMNjyvMKp,TD Place Stadium,,,Ottawa,Ontario,Canada,K1S 3W7,,,,,,,,uslc
+gjMNPnpqKp,American Legion Memorial Stadium,1936.0,1218-1238 Armory Dr,Charlotte,North Carolina,USA,28204,35.2132,-80.8231,,,,,,uslc
+gjMNYbkQKp,Lexington Stadium,,,Lexington,Kentucky,USA,40509,,,,,,,,uslc
+gOMnlRAqwN,Charles C. Hughes Stadium,1928.0,3835 Freeport Blvd,Sacramento,California,USA,95822,38.5091,-121.4935,,,,,,uslc
+gpMOe1lqzy,Chukchansi Park,,,Fresno,California,USA,93721,,,,,,,,uslc
+gpMOrLOQzy,WakeMed Soccer Park,,,Cary,North Carolina,USA,27511,,,,,,,,uslc
+gpMOXzy5zy,Las Vegas Ballpark,2019.0,1650 S Pavilion Center Dr,Las Vegas,Nevada,USA,89135,36.1378,-115.3261,,,,,,uslc
+jYQJazGqGR,Michael A. Carroll Stadium,1982.0,1001 W New York St,Indianapolis,Indiana,USA,46202,39.7851,-86.1595,,,,,,uslc
+jYQJgDyMGR,FNB Field,,,Harrisburg,Pennsylvania,USA,17101,,,,,,,,uslc
+jYQJZWyQGR,Pioneer Stadium,1964.0,25800 Carlos Bee Blvd,Hayward,California,USA,94542,37.6586,-122.0472,,,,,,uslc
+KAqBkemQbg,IMG Soccer Complex,,,Bradenton,Florida,USA,34210,,,,,,,,uslc
+KAqBkLJQbg,Nippert Stadium,1915.0,2700 Bearcat Way,Cincinnati,Ohio,USA,45219,39.131,-84.516,32250.0,0.0,1.0,,,uslc
+KAqBvN4qbg,FIU Soccer Stadium,,,Miami,Florida,USA,33199,,,,,,,,uslc
+KPqjB7nq6v,Bold Stadium,,,Austin,Texas,USA,78617,,,,,,,,uslc
+KPqjKnNQ6v,West Community Stadium,,,Fenton,Missouri,USA,63026,,,,,,,,uslc
+KPqjw8PQ6v,Zions Bank Stadium,,,Herriman,Utah,USA,84096,,,,,,,,uslc
+KXMe8pxQ64,Nissan Stadium,1999.0,1 Titans Way,Nashville,Tennessee,USA,37213,36.1664,-86.7714,69143.0,0.0,0.0,,,uslc
+N6MmW2PqEG,Keyworth Stadium,1936.0,3201 Roosevelt St,Hamtramck,Michigan,USA,48212,42.4081,-83.0583,,,,,,uslc
+N6MmW4WqEG,First Tennessee Park,,,Nashville,Tennessee,USA,37219,,,,,,,,uslc
+N6MmWrRqEG,Louisville Slugger Field,2000.0,401 East Main St,Louisville,Kentucky,USA,40202,38.2507,-85.7476,,,,,,uslc
+NPqxy6XQ9d,Children's Mercy Park,2011.0,1 Sporting Way,Kansas City,Kansas,USA,66111,39.1214,-94.821,18467.0,0.0,0.0,120.0,75.0,uslc
+NWMW84L5lz,Red Bull Arena,2010.0,600 Cape May Street,Harrison,New Jersey,USA,07029,40.7367,-74.1503,25000.0,0.0,0.0,120.0,75.0,uslc
+NWMW8ZN5lz,Subaru Park,2010.0,1 Stadium Drive,Chester,Pennsylvania,USA,19013,39.8322,-75.3789,18500.0,0.0,0.0,120.0,75.0,uslc
+NWMWldz5lz,Weidner Field,2021.0,111 W Cimarron St,Colorado Springs,Colorado,USA,80903,38.8388,-104.8145,,,,,,uslc
+NWMWLPL5lz,Lucas Oil Stadium,,,Indianapolis,Indiana,USA,46225,,,,,,,,uslc
+NWMWoE7Mlz,MSU Soccer Park,1998.0,1 Normal Ave,Montclair,New Jersey,USA,07043,40.8401,74.2004,,,,,,uslc
+NWMWoJNMlz,Las Positas College Turf Field,,,Livermore,California,USA,94551,,,,,,,,uslc
+NWMWojYMlz,Hurricane Soccer & Track Stadium,2003.0,512 S Delaware Ave,Tulsa,Oklahoma,USA,74104,36.1464,-95.9526,,,,,,uslc
+Oa5wAVgQ14,Highmark Stadium,2013.0,510 W Station Square Dr,Pittsburgh,Pennsylvania,USA,15219,40.4423,-79.983,,,,,,uslc
+Oa5wdLjq14,Taft Stadium,,,Oklahoma City,Oklahoma,USA,73107,,,,,,,,uslc
+Oa5wdz9q14,Cheney Stadium,,,Tacoma,Washington,USA,98405,,,,,,,,uslc
+odMXRaaqYL,Riccardo Silva Stadium,1995.0,11310 SW 17th St,Miami,Florida,USA,33199,25.7743,-80.1937,,,,,,uslc
+OlMlddAMLz,Beirne Stadium,,,Smithfield,Rhode Island,USA,02917,,,,,,,,uslc
+p6qbX06M0G,Providence Park,1926.0,1844 SW Morrison St,Portland,Oregon,USA,97205,45.5214,-122.6917,25218.0,0.0,1.0,110.0,75.0,uslc
+Pk5L6mmQOW,Children's Mercy Victory Field,,,Kansas City,Missouri,USA,64132,,,,,,,,uslc
+raMyeLAMd2,Thunderbird Stadium,,,Vancouver,British Columbia,Canada,V6T 1Z4,,,,,,,,uslc
+raMyemdMd2,Eagle Field,,,Statesboro,Georgia,USA,30458,,,,,,,,uslc
+raMyKLNqd2,Laney College Field,1962.0,900 Fallon St,Oakland,California,USA,94607,37.8071,-122.2851,,,,,,uslc
+raMyoZkqd2,Isotopes Park,2003.0,1601 Avenida Cesar Chavez SE,Albuquerque,New Mexico,USA,87106,35.079,-106.6169,,,,,,uslc
+Vj5838DM8n,Protective Stadium,2021.0,1020 24th St N,Birmingham,Alabama,USA,35203,33.521,-86.8066,,,,,,uslc
+vzqod6jQap,Ontario Soccer Centre,,,Vaughan,Ontario,Canada,L4L 1A6,,,,,,,,uslc
+vzqod7YQap,Toyota Field,2013.0,5106 David Edwards Dr,San Antonio,Texas,USA,78233,29.5563,-98.3643,,,,,,uslc
+vzqoJrj5ap,Inter&Co Stadium,2017.0,655 West Church Street,Orlando,Florida,USA,32805,28.5411,-81.3893,25500.0,0.0,0.0,120.0,75.0,uslc
+vzqoJxL5ap,Fifth Third Bank Stadium,2010.0,3200 George Busbee Pkwy NW,Kennesaw,Georgia,USA,30144,34.0287,-84.6047,,,,,,uslc
+wvq9p1Y5Wn,Dignity Health Sports Park,2003.0,18400 Avalon Boulevard,Carson,California,USA,90746,33.864,-118.261,27000.0,0.0,0.0,120.0,75.0,uslc
+Xj5Y4lyMbd,Coolray Field,,,Lawrenceville,Georgia,USA,30043,,,,,,,,uslc
+XVqK2kB501,Dr. Mark & Cindy Lynn Stadium,2014.0,339 Byrne Ave,Louisville,Kentucky,USA,40209,38.1901,-85.7519,,,,,,uslc
+XVqKGEaq01,MUSC Health Stadium,,,Charleston,South Carolina,USA,29403,,,,,,,,uslc
+xW5p710Mg1,Patriots Point,2000.0,85 Patriots Point Rd,Mt Pleasant,South Carolina,USA,29464,32.8473,-79.8206,,,,,,uslc
+xW5pwORMg1,Audi Field,2018.0,100 Potomac Avenue SW,Washington,District of Columbia,USA,20024,38.8683,-77.0122,20000.0,0.0,0.0,115.0,75.0,uslc
+xW5pyP0qg1,Papa Murphy’s Park,2014.0,1600 Exposition Blvd,Sacramento,California,USA,95815,38.6093,-121.4443,,,,,,uslc
+0Oq623Aq6D,Erk Russell Park,,,,,,,,,,,,,,usl1
+0Oq62Yxq6D,BMO Training Ground,,,,,,,,,,,,,,usl1
+0x5gJ9jM7O,Caniglia Field,,,,,,,,,,,,,,usl1
+0x5gJZjM7O,Chase Stadium,2020.0,1350 NW 55th Street,Fort Lauderdale,Florida,USA,33309.0,26.1931,-80.1611,18000.0,0.0,0.0,115.0,75.0,usl1
+2lqRJRAqr0,Legacy Early College,,,,,,,,,,,,,,usl1
+2lqRPY0Mr0,Historic Riggs Field,,,,,,,,,,,,,,usl1
+2vQ1djbqrA,Sportsplex at Matthews,,,Matthews,North Carolina,USA,28105.0,,,,,,,,usl1
+315VBov59x,Lancaster Municipal Stadium,,,,,,,,,,,,,,usl1
+315VkkGq9x,Kino North Stadium,,,,,,,,,,,,,,usl1
+4JMALEDQKg,City Stadium,,,Richmond,Virginia,USA,23220.0,,,,,,,,usl1
+7vQ7wgGQD1,Future Legends Complex,,,,,,,,,,,,,,usl1
+9z5kdKeqA3,Sherman Bearcat Stadium,,,,,,,,,,,,,,usl1
+EeV5DDZ5Kn,TBC,,,,,,,,,,,,,,usl1
+EGMPXWyMaY,Fitzpatrick Stadium,,,,,,,,,,,,,,usl1
+eVq3alGMWO,Toyota Stadium,2005.0,9200 World Cup Way,Frisco,Texas,USA,75033.0,33.1544,-96.8353,20500.0,0.0,0.0,117.0,74.0,usl1
+eVq3evGMWO,Jackson Stadium,,,,,,,,,,,,,,usl1
+gjMN6wjMKp,Fresno State Soccer and Lacrosse Stadium,,,,,,,,,,,,,,usl1
+gjMNPnpqKp,American Legion Memorial Stadium,1936.0,1218-1238 Armory Dr,Charlotte,North Carolina,USA,28204.0,35.2132,-80.8231,,,,,,usl1
+gjMNYbkQKp,Lexington Stadium,,,Lexington,Kentucky,USA,40509.0,,,,,,,,usl1
+gOMna3xQwN,Osceola Heritage Park,,,,,,,,,,,,,,usl1
+gOMna6OQwN,David Stanton Field,,,,,,,,,,,,,,usl1
+gpMOLPR5zy,Werner Park,,,,,,,,,,,,,,usl1
+gpMOrLOQzy,WakeMed Soccer Park,,,Cary,North Carolina,USA,27511.0,,,,,,,,usl1
+jYQJgeVMGR,Montverde Academy,,,,,,,,,,,,,,usl1
+jYQJXZd5GR,One Spokane Stadium,,,,,,,,,,,,,,usl1
+jYQJZEDQGR,Sonny Lubick Field at Canvas Stadium,,,,,,,,,,,,,,usl1
+KAqBRKJqbg,Toyota Stadium,,,,,,,,,,,,,,usl1
+KPqjaZn56v,4Rivers Equipment Stadium,,,,,,,,,,,,,,usl1
+KPqjknRQ6v,Regal Soccer Stadium,,,,,,,,,,,,,,usl1
+ljqEJ3kQx0,Grande Sports World,,,,,,,,,,,,,,usl1
+ljqEN6zQx0,Paladin Stadium,,,,,,,,,,,,,,usl1
+Oa5w01Aq14,CHI Memorial Stadium,,,,,,,,,,,,,,usl1
+Pk5LXJG5OW,The Stadium at Memorial Field,,,,,,,,,,,,,,usl1
+Vj58ab4q8n,Hart Park,,,,,,,,,,,,,,usl1
+vzqoOrZqap,Breese Stevens Field,,,,,,,,,,,,,,usl1
+wvq9B7NQWn,Optim Health System Field,,,,,,,,,,,,,,usl1
+wvq9EG1qWn,Paradise Coast Sports Complex,,,,,,,,,,,,,,usl1
+wvq9jp7QWn,Cooley Law School Stadium,,,,,,,,,,,,,,usl1
+wvq9p775Wn,Gillette Stadium,2002.0,1 Patriot Place,Foxborough,Massachusetts,USA,2035.0,42.091,-71.264,65878.0,0.0,1.0,116.0,75.0,usl1
+Xj5YjNEqbd,Severance High School,,,,,,,,,,,,,,usl1
+Xj5YyjR5bd,Globe Life Park,,,,,,,,,,,,,,usl1
+xW5p3VYMg1,Covenant Health Park,,,,,,,,,,,,,,usl1
+xW5pYYGqg1,Morrison Stadium,,,,,,,,,,,,,,usl1

@@ -1,0 +1,107 @@
+team_id,team_name,team_short_name,team_abbreviation,competition
+0KPqjA456v,San Jose Earthquakes,San Jose,SJE,mls
+19vQ2095K6,New England Revolution,New England,NER,mls
+4wM42l4qjB,Chivas USA,Chivas,CHV,mls
+9z5k7Yg5A3,Philadelphia Union,Philadelphia,PHI,mls
+a2lqR4JMr0,Real Salt Lake,Salt Lake,RSL,mls
+a2lqRX2Mr0,New York Red Bulls,New York,NYRB,mls
+APk5LGOMOW,CF Montréal,Montréal,MTL,mls
+EKXMeX3Q64,D.C. United,D.C. United,DCU,mls
+eVq3ya6MWO,Los Angeles FC,Los Angeles FC,LAFC,mls
+gpMOLwl5zy,Austin FC,Austin,ATX,mls
+jYQJ19EqGR,Seattle Sounders FC,Seattle,SEA,mls
+jYQJ8EW5GR,Orlando City SC,Orlando City,ORL,mls
+kaDQ0wRqEv,LA Galaxy,LA Galaxy,LAG,mls
+KAqBN0Vqbg,Atlanta United FC,Atlanta,ATL,mls
+kRQabn8MKZ,Toronto FC,Toronto,TOR,mls
+kRQand1MKZ,Minnesota United FC,Minnesota,MIN,mls
+lgpMOvnQzy,Vancouver Whitecaps FC,Vancouver,VAN,mls
+mKAqBBmqbg,FC Dallas,Dallas,FCD,mls
+mvzqoLZQap,Columbus Crew,Columbus,CLB,mls
+NPqxKXZ59d,Charlotte FC,Charlotte,CLT,mls
+NWMWlBK5lz,FC Cincinnati,Cincinnati,CIN,mls
+pzeQZ6xQKw,Colorado Rapids,Colorado,COL,mls
+Vj58weDM8n,New York City FC,New York City,NYC,mls
+vzqoOgNqap,Nashville SC,Nashville,NSH,mls
+WBLMvYAQxe,Portland Timbers FC,Portland,POR,mls
+wvq9B9wQWn,St. Louis City SC,St. Louis,STL,mls
+X0Oq66zq6D,Chicago Fire FC,Chicago,CHI,mls
+YgOMngl5wN,Houston Dynamo FC,Houston,HOU,mls
+Z2vQ1xlqrA,Sporting Kansas City,Kansas City,SKC,mls
+zeQZBOzQKw,San Diego FC,San Diego,SD,mls
+zeQZkL1MKw,Inter Miami CF,Miami,MIA,mls
+0OlMlzRqLz,Charleston Battery,Charleston,CHS,uslc
+0Oq62Dgq6D,New Mexico United,New Mexico,NM,uslc
+0Oq6332Q6D,Sacramento Republic FC,Sacramento,SAC,uslc
+0Oq6JvPq6D,San Diego Loyal SC,San Diego,SD,uslc
+0x5gJawM7O,Austin Bold FC,Austin,ATX,uslc
+2lqRjjnqr0,Indy Eleven,Indy,IND,uslc
+2vQ14GKqrA,Sporting Kansas City II,Kansas City,SKC,uslc
+2vQ1NowMrA,Tampa Bay Rowdies,Tampa Bay,TBR,uslc
+315VPpXQ9x,Saint Louis FC,Saint Louis,STL,uslc
+315VWlvq9x,Nashville SC (USL),Nashville,NSH,uslc
+4JMAkpDqKg,Toronto FC II,Toronto,TOR,uslc
+4JMAZ1D5Kg,Monterey Bay FC,Monterey Bay,MB,uslc
+4wM4E4d5jB,Ventura County FC,Ventura County,VCFC,uslc
+4wM4lGgMjB,North Carolina FC,North Carolina,NC,uslc
+7vQ7x3YMD1,San Antonio FC,San Antonio,SA,uslc
+7VqGLwzQvW,El Paso Locomotive FC,El Paso,ELP,uslc
+7VqGZE35vW,Oakland Roots SC,Oakland,OAK,uslc
+9jYQJ7ZMGR,Richmond Kickers,Richmond,RIC,uslc
+9vQ2ZkaQK6,The Miami FC,Miami,MIA,uslc
+9YqdojR5vJ,Colorado Springs Switchbacks FC,Colorado Springs,COS,uslc
+9Yqdwg85vJ,New York Red Bulls II,New York,NYRB,uslc
+9z5kAmbQA3,Rhode Island FC,Rhode Island,RI,uslc
+BLMv6m3Mxe,Real Monarchs,Real Monarchs,SLC,uslc
+e7MzZbKMr0,FC Tulsa,Tulsa,TUL,uslc
+EGMPr2yqaY,Fresno FC,Fresno,FRS,uslc
+eVq3rNX5WO,Hartford Athletic,Hartford,HFD,uslc
+gpMOoo1Mzy,Pittsburgh Riverhounds SC,Pittsburgh,PIT,uslc
+KAqBvpmqbg,Loudoun United FC,Loudoun,LDN,uslc
+KPqj6bBq6v,Rochester New York FC,Rochester,ROC,uslc
+KPqjwN4Q6v,Philadelphia Union II,Philadelphia,PHI,uslc
+kRQaeY8QKZ,Orange County SC,Orange County,OC,uslc
+kRQaW3L5KZ,Orlando City B,Orlando City,ORL,uslc
+KXMe8Z2Q64,Tacoma Defiance,Tacoma,TAC,uslc
+ljqEJ7OQx0,Rio Grande Valley FC,Rio Grande Valley,RGV,uslc
+N6MmWV0qEG,Vancouver Whitecaps FC 2,Vancouver,VAN,uslc
+NWMWg9LMlz,Detroit City FC,Detroit,DET,uslc
+NWMWgNDMlz,Memphis 901 FC,Memphis,MEM,uslc
+NWMWlBK5lz,FC Cincinnati,Cincinnati,CIN,uslc
+NWMWllL5lz,Phoenix Rising FC,Phoenix,PHX,uslc
+Oa5w0kDq14,Birmingham Legion FC,Birmingham,BHM,uslc
+odMX7pAQYL,Charlotte Independence,Charlotte,CLT,uslc
+OlMlejP5Lz,Louisville City FC,Louisville,LOU,uslc
+Pk5LzyGQOW,Las Vegas Lights FC,Las Vegas,LV,uslc
+Vj58Wb2M8n,Oklahoma City Energy FC,Oklahoma City,OKC,uslc
+wvq9J83QWn,Lexington SC,Lexington,LEX,uslc
+wvq9jx1QWn,Atlanta United 2,Atlanta,ATL,uslc
+XVqK23a501,Reno 1868 FC,Reno,RNO,uslc
+xW5pkVBMg1,Penn FC,Penn FC,PEN,uslc
+xW5pyJKqg1,Ottawa Fury,Ottawa,OTT,uslc
+zeQZe4DqKw,Portland Timbers 2,Portland,POR,uslc
+2lqRgd2Qr0,One Knoxville SC,Knoxville,KNX,usl1
+2lqRn0Aqr0,FC Naples,Naples,FCN,usl1
+4JMAkpDqKg,Toronto FC II,Toronto,TOR,usl1
+4JMAOrPqKg,Spokane Velocity FC,Spokane,SPK,usl1
+4wM4lGgMjB,North Carolina FC,North Carolina,NC,usl1
+4wM4Z04qjB,FC Tucson,Tucson,TUC,usl1
+9jYQJ7ZMGR,Richmond Kickers,Richmond,RIC,usl1
+e7Mz0LJqr0,Forward Madison FC,Madison,MAD,usl1
+eVq3dWDQWO,Westchester SC,Westchester,WES,usl1
+gOMna8JQwN,South Georgia Tormenta FC,Tormenta,TRM,usl1
+gOMnd3eqwN,Union Omaha,Omaha,OMA,usl1
+gOMnJxBMwN,Northern Colorado Hailstorm FC,Northern Colorado,NCO,usl1
+gpMO1Pyqzy,New England Revolution II,New England,NER,usl1
+jYQJw0PMGR,Portland Hearts of Pine,Portland,POR,usl1
+kRQaW3L5KZ,Orlando City B,Orlando City,ORL,usl1
+ljqE94Vqx0,North Texas SC,North Texas,NTX,usl1
+N6MmGYWqEG,Greenville Triumph SC,Greenville,GVL,usl1
+Oa5wbm8M14,Texoma FC,Texoma,TXO,usl1
+odMX7pAQYL,Charlotte Independence,Charlotte,CLT,usl1
+p6qb32XQ0G,Chattanooga Red Wolves SC,Chattanooga,CHA,usl1
+vzqoeBpMap,Fort Lauderdale CF,Fort Lauderdale,FTL,usl1
+vzqow0Bqap,Central Valley Fuego FC,Fuego,CV,usl1
+vzqoxEZQap,AV Alta FC,Alta,AVA,usl1
+wvq9J83QWn,Lexington SC,Lexington,LEX,usl1
+Xj5Yy7y5bd,Lansing Ignite FC,Lansing,LAN,usl1
