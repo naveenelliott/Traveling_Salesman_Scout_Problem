@@ -4,23 +4,22 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('ASA_New_Raw_Data/asa_data_FINAL.csv')
-
-# Convert to datetime
-df['birth_date'] = pd.to_datetime(df['birth_date'])
-
-# Calculate age
-today = pd.Timestamp(datetime.today())
-df['Age'] = df['birth_date'].apply(lambda x: today.year - x.year - ((today.month, today.day) < (x.month, x.day)))
-
-df.drop(columns={'birth_date', 'height_in', 'height_ft', 'weight_lb', 'minutes_played'}, inplace=True)
+df = pd.read_csv('Clustering/final_joined.csv')
 
 df.dropna(inplace=True)
 
-info_columns = ['player_id', 'player_name', 'team_id', 'team_name']
+info_columns = ['player_name']
 df_info = df[info_columns]
 df_cluster = df.drop(columns=info_columns, errors='ignore')
 
+
+drop_columns = ['fouling_goals_added_above_avg_p90', 'shooting_goals_added_above_avg_p90', 'passing_goals_added_above_avg_p90', 
+                'shooting_goals_added_above_avg_p90', 'dribbling_goals_added_above_avg_p90', 'receiving_goals_added_above_avg_p90', 
+                'points_added_p90', 'xpoints_added_p90', 'rating', 'goals_p90', 'Long ball accuracy_percentile', 'Cross accuracy_percentile',
+                'Aerials won %_percentile', 'Dribbles success rate_percentile', 'goals_minus_xgoals_p90',
+                'interrupting_goals_added_above_avg_p90', 'Fouls committed_percentile']
+
+df_cluster.drop(columns=drop_columns, inplace=True)
 
 # Standardize the data
 scaler = StandardScaler()
@@ -46,5 +45,18 @@ plt.show()
 
 
 # Fit KMeans with 7 clusters
-kmeans = KMeans(n_clusters=9, random_state=42)
+kmeans = KMeans(n_clusters=12, random_state=42)
 df_info['Cluster'] = kmeans.fit_predict(scaled_data)
+
+# Merge scaled data and cluster labels into a DataFrame
+clustered_df = pd.DataFrame(scaled_data, columns=df_cluster.columns)
+clustered_df['Cluster'] = df_info['Cluster']
+
+# Calculate mean feature values for each cluster
+cluster_means = clustered_df.groupby('Cluster').mean()
+
+# Standard deviation of feature means across clusters
+between_cluster_std = cluster_means.std()
+
+# Sort to find least-separated features
+least_separated = between_cluster_std.sort_values()
