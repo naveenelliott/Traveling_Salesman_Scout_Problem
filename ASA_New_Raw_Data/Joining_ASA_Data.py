@@ -26,7 +26,7 @@ wide_df = player_ga.apply(flatten_player_actions, axis=1)
 wide_df.drop(columns={'shooting_count_actions'}, inplace=True)
 
 player_xg = pd.read_csv('ASA_New_Raw_Data/player_xgoals.csv')
-player_xg = player_xg[['player_id', 'team_id', 'shots',
+player_xg = player_xg[['player_id', 'team_id', 'general_position', 'shots',
        'shots_on_target', 'goals', 'xgoals', 'goals_minus_xgoals',
        'key_passes', 'primary_assists', 'xassists',
        'primary_assists_minus_xassists', 'points_added', 'xpoints_added']]
