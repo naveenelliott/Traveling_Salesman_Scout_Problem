@@ -16,8 +16,12 @@ df_cluster = df.drop(columns=info_columns, errors='ignore')
 drop_columns = ['fouling_goals_added_above_avg_p90', 'shooting_goals_added_above_avg_p90', 'passing_goals_added_above_avg_p90', 
                 'shooting_goals_added_above_avg_p90', 'dribbling_goals_added_above_avg_p90', 'receiving_goals_added_above_avg_p90', 
                 'points_added_p90', 'xpoints_added_p90', 'rating', 'goals_p90', 'Long ball accuracy_percentile', 'Cross accuracy_percentile',
-                'Aerials won %_percentile', 'Dribbles success rate_percentile', 'goals_minus_xgoals_p90',
-                'interrupting_goals_added_above_avg_p90', 'Fouls committed_percentile']
+                'Aerials won %_percentile', 'Dribbles success rate_percentile', 'goals_minus_xgoals_p90', 'Duels won %_percentile',
+                'interrupting_goals_added_above_avg_p90', 'Fouls committed_percentile', 'Tackles won %_percentile', 'avg_distance_yds_p90',
+                'xpass_completion_percentage', 'Dribbled past_percentile', 'Interceptions_percentile', 'primary_assists_minus_xassists_p90',
+                'passes_completed_over_expected_p100', 'share_team_touches', 'shots_on_target_p90', 'primary_assists_p90', 'attempted_passes_p90',
+                'Aerials won_percentile', 'avg_vertical_distance_yds_p90', 'Chances created_percentile', 'xassists_p90', 'Dispossessed_percentile',
+                'Duels won_percentile', 'Recoveries_percentile']
 
 df_cluster.drop(columns=drop_columns, inplace=True)
 
@@ -45,7 +49,7 @@ plt.show()
 
 
 # Fit KMeans with 7 clusters
-kmeans = KMeans(n_clusters=12, random_state=42)
+kmeans = KMeans(n_clusters=7, random_state=42)
 df_info['Cluster'] = kmeans.fit_predict(scaled_data)
 
 # Merge scaled data and cluster labels into a DataFrame
