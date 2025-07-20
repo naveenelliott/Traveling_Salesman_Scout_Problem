@@ -1,0 +1,928 @@
+player_name,rating,team_name,competition,Cluster,adjustment,cluster_rating_zscore,cluster_rating_percentile,Cluster Name
+kevin cabral,6.21,Colorado Rapids,mls,0,1.0,0.46464604761532624,59.0,Creative 9s
+aiden mcfadden,5.596424466862469,Louisville City FC,uslc,2,0.8134337887881496,-0.3657434498953709,49.6,High Volume Goalscorers
+ryan spaulding,5.189707572468395,Sacramento Republic FC,uslc,5,0.8134337887881496,-1.1003434612536531,15.6,Attacking FBs
+onni valakari,7.17,San Diego FC,mls,0,1.0,1.64037184589236,96.2,Creative 9s
+ashley westwood,7.08,Charlotte FC,mls,1,1.0,1.3653196288682672,93.0,Progressive Dribblers in Def 3rd
+danny musovski,6.74,Seattle Sounders FC,mls,0,1.0,1.1137446654141057,86.2,Creative 9s
+philip quinton,6.52,Real Salt Lake,mls,1,1.0,0.6695237376062868,61.5,Progressive Dribblers in Def 3rd
+enzo martinez,5.5150810879836545,Birmingham Legion FC,uslc,5,0.8134337887881496,-0.7077832084858027,28.6,Attacking FBs
+wil trapp,6.96,Minnesota United FC,mls,3,1.0,1.1820341908006025,89.4,Progressive Passers in Def 3rd
+amando moreno,5.864857617162559,El Paso Locomotive FC,uslc,7,0.8134337887881496,-0.28880851146494957,51.4,Difference Makers
+augustine williams,5.311722640786617,Pittsburgh Riverhounds SC,uslc,2,0.8134337887881496,-0.698189085487177,29.7,High Volume Goalscorers
+kye rowles,6.81,D.C. United,mls,3,1.0,0.9922651054603713,78.9,Progressive Passers in Def 3rd
+lamar batista,6.027544374920189,FC Tulsa,uslc,6,0.8134337887881496,-0.2639997979395027,50.0,No-Nonsense Defender
+vitor costa,7.22,San Jose Earthquakes,mls,5,1.0,1.349186296207754,94.2,Attacking FBs
+indiana vassilev,6.83,Philadelphia Union,mls,7,1.0,0.8196956708560867,72.1,Difference Makers
+shaq moore,6.97,FC Dallas,mls,5,1.0,1.0475635195765691,81.8,Attacking FBs
+jaylin lindsey,5.637096156301877,New Mexico United,uslc,5,0.8134337887881496,-0.5605731136978588,36.7,Attacking FBs
+raheem edwards,6.72,New York Red Bulls,mls,5,1.0,0.745940742945384,66.2,Attacking FBs
+juan agudelo,5.254782275571447,San Antonio FC,uslc,2,0.8134337887881496,-0.7646782126055377,24.6,High Volume Goalscorers
+jacob murrell,6.18,D.C. United,mls,0,1.0,0.4279046164191686,58.1,Creative 9s
+ariath piol,6.09,Real Salt Lake,mls,0,1.0,0.31768032283069686,57.1,Creative 9s
+dawid bugaj,6.5,CF Montréal,mls,1,1.0,0.6446738843469308,58.4,Progressive Dribblers in Def 3rd
+sam gleadle,5.230379261907802,Louisville City FC,uslc,0,0.8134337887881496,-0.7351095506161178,31.0,Creative 9s
+valentin noel,5.531349763759417,Las Vegas Lights FC,uslc,4,0.8134337887881496,-0.9906792976386979,19.5,10s
+caden clark,6.34,CF Montréal,mls,3,1.0,0.3976553047276486,52.8,Progressive Passers in Def 3rd
+matt miazga,6.87,FC Cincinnati,mls,3,1.0,1.0681727395964642,87.0,Progressive Passers in Def 3rd
+alvaro quezada,5.563887115310943,El Paso Locomotive FC,uslc,7,0.8134337887881496,-0.6344850313137004,37.4,Difference Makers
+georgi minoungou,6.61,Seattle Sounders FC,mls,7,1.0,0.5670169734460043,61.7,Difference Makers
+max arfsten,7.58,Columbus Crew,mls,1,1.0,1.9865659603521777,100.0,Progressive Dribblers in Def 3rd
+hosei kijima,6.53,D.C. United,mls,7,1.0,0.47513381075142863,59.5,Difference Makers
+ian fray,6.65,Inter Miami CF,mls,7,1.0,0.6129585547932921,64.0,Difference Makers
+jake lacava,5.531349763759417,San Antonio FC,uslc,0,0.8134337887881496,-0.3665066510876497,48.6,Creative 9s
+logan ndenbe,6.72,Sporting Kansas City,mls,5,1.0,0.745940742945384,66.2,Attacking FBs
+brandan craig,6.16,CF Montréal,mls,1,1.0,0.22222637893787195,53.8,Progressive Dribblers in Def 3rd
+kamal miller,6.71,Portland Timbers FC,mls,1,1.0,0.9055973435701733,76.6,Progressive Dribblers in Def 3rd
+keaton parks,7.17,New York City FC,mls,6,1.0,1.096775878819315,85.9,No-Nonsense Defender
+kyle duncan,7.26,New York Red Bulls,mls,5,1.0,1.3974459404687438,97.1,Attacking FBs
+florian valot,5.913663644489848,Loudoun United FC,uslc,5,0.8134337887881496,-0.22689689884518566,49.4,Attacking FBs
+paul rothrock,6.71,Seattle Sounders FC,mls,7,1.0,0.6818709268142232,65.8,Difference Makers
+jon bakero,5.498812412207892,Charlotte Independence,uslc,7,0.8134337887881496,-0.7092259004701862,33.3,Difference Makers
+kyle scott,5.694036521517048,Orange County SC,uslc,1,0.8134337887881496,-0.35672982428816036,50.3,Progressive Dribblers in Def 3rd
+rafael santos,6.48,Orlando City SC,mls,5,1.0,0.4563828773794471,54.5,Attacking FBs
+cristian espinoza,7.85,San Jose Earthquakes,mls,4,1.0,1.542834673112838,96.1,10s
+marlon,6.81,Los Angeles FC,mls,1,1.0,1.029846609866955,81.8,Progressive Dribblers in Def 3rd
+alfredo morales,6.39,St. Louis City SC,mls,3,1.0,0.4609116665077253,53.7,Progressive Passers in Def 3rd
+ilie sanchez,6.58,Austin FC,mls,3,1.0,0.7012858412720181,66.7,Progressive Passers in Def 3rd
+ranko veselinovic,6.93,Vancouver Whitecaps FC,mls,6,1.0,0.8109125548943252,67.7,No-Nonsense Defender
+dylan chambost,7.5,Columbus Crew,mls,4,1.0,1.1604010158481854,92.2,10s
+aleksandr guboglo,6.53,CF Montréal,mls,5,1.0,0.516707432705684,58.1,Attacking FBs
+celio pompeu,6.68,St. Louis City SC,mls,7,1.0,0.6474147408037572,64.9,Difference Makers
+lukas engel,7.34,FC Cincinnati,mls,5,1.0,1.4939652289907233,98.1,Attacking FBs
+ola brynhildsen,6.42,Toronto FC,mls,0,1.0,0.7218360659884273,62.9,Creative 9s
+andrew jean-baptiste,4.707015706806282,Westchester SC,usl1,3,0.717532882135104,-1.6682775999012514,5.7,Progressive Passers in Def 3rd
+joaquin pereyra,7.31,Minnesota United FC,mls,4,1.0,0.9527941733330876,76.6,10s
+jader obrian,6.39,Austin FC,mls,2,1.0,0.5609127860000871,63.1,High Volume Goalscorers
+emmanuel sabbi,6.82,Vancouver Whitecaps FC,mls,2,1.0,1.0630227488156772,81.8,High Volume Goalscorers
+tim ream,6.55,Charlotte FC,mls,3,1.0,0.6633320242039715,64.2,Progressive Passers in Def 3rd
+peyton miller,7.04,New England Revolution,mls,5,1.0,1.1320178970333012,84.7,Attacking FBs
+leonardo barroso,6.91,Chicago Fire FC,mls,1,1.0,1.1540958761637377,86.7,Progressive Dribblers in Def 3rd
+sofiane djeffal,5.767245562507981,Lexington SC,uslc,5,0.8134337887881496,-0.4035490125907188,43.5,Attacking FBs
+mitchell taintor,5.807917251947388,San Antonio FC,uslc,6,0.8134337887881496,-0.5255970454273662,42.2,No-Nonsense Defender
+ian murphy,6.61,Colorado Rapids,mls,1,1.0,0.7813480772733916,66.1,Progressive Dribblers in Def 3rd
+tayvon gray,6.96,New York City FC,mls,5,1.0,1.035498608511322,80.8,Attacking FBs
+petar musa,7.17,FC Dallas,mls,2,1.0,1.4717169045958078,93.2,High Volume Goalscorers
+aziel jackson,6.65,Columbus Crew,mls,1,1.0,0.8310477837921045,69.9,Progressive Dribblers in Def 3rd
+luca de la torre,7.04,San Diego FC,mls,5,1.0,1.1320178970333012,84.7,Attacking FBs
+tomas totland,6.49,St. Louis City SC,mls,5,1.0,0.46844778844469426,55.8,Attacking FBs
+andrew gutman,7.16,Chicago Fire FC,mls,5,1.0,1.2767968298162702,93.2,Attacking FBs
+ousmane sylla,5.474409398544248,Orange County SC,uslc,7,0.8134337887881496,-0.7372537264038681,29.3,Difference Makers
+sebastian lletget,6.64,FC Dallas,mls,5,1.0,0.6494214544234047,61.0,Attacking FBs
+preston judd,6.66,San Jose Earthquakes,mls,2,1.0,0.8761911347447601,74.2,High Volume Goalscorers
+jonathan perez,6.68,Nashville SC,mls,0,1.0,1.0402618030217905,82.4,Creative 9s
+osaze urhoghide,6.97,FC Dallas,mls,6,1.0,0.8585564422151568,69.8,No-Nonsense Defender
+emil forsberg,7.19,New York Red Bulls,mls,4,1.0,0.8216740622709218,68.8,10s
+reggie cannon,6.8,Colorado Rapids,mls,1,1.0,1.0174216832372769,81.1,Progressive Dribblers in Def 3rd
+chris donovan,6.36,Philadelphia Union,mls,2,1.0,0.5258818583617908,61.4,High Volume Goalscorers
+peglow,7.14,D.C. United,mls,5,1.0,1.2526670076857749,92.2,Attacking FBs
+owen wolff,6.98,Austin FC,mls,4,1.0,0.59221386791213,61.0,10s
+pedro de la vega,6.73,Seattle Sounders FC,mls,2,1.0,0.9579299659007866,76.3,High Volume Goalscorers
+carl sainte,5.083961179925935,Phoenix Rising FC,uslc,1,0.8134337887881496,-1.1147439600727052,14.7,Progressive Dribblers in Def 3rd
+sean nealis,6.91,New York Red Bulls,mls,3,1.0,1.1187778290205257,87.8,Progressive Passers in Def 3rd
+santiago moreno,7.24,Portland Timbers FC,mls,7,1.0,1.2905968796657865,88.3,Difference Makers
+pavel bucha,7.3,FC Cincinnati,mls,4,1.0,0.9418674974112407,74.7,10s
+daniel munie,6.88,San Jose Earthquakes,mls,6,1.0,0.751357695743286,65.6,No-Nonsense Defender
+dagur dan thorhallsson,6.61,Orlando City SC,mls,1,1.0,0.7813480772733916,66.1,Progressive Dribblers in Def 3rd
+joey akpunonu,5.889260630826204,Charleston Battery,uslc,1,0.8134337887881496,-0.11416530083710616,52.4,Progressive Dribblers in Def 3rd
+nemanja radoja,6.74,Sporting Kansas City,mls,3,1.0,0.9037061989682643,75.2,Progressive Passers in Def 3rd
+phanuel kavita,5.498812412207892,Birmingham Legion FC,uslc,1,0.8134337887881496,-0.5992943477392146,35.0,Progressive Dribblers in Def 3rd
+deandre yedlin,7.07,FC Cincinnati,mls,5,1.0,1.1682126302290439,87.3,Attacking FBs
+marlon vargas,5.81605158983527,New Mexico United,uslc,7,0.8134337887881496,-0.34486416333231423,49.5,Difference Makers
+christopher garcia,4.55633380155791,Forward Madison FC,usl1,7,0.717532882135104,-1.7916998444515584,0.9,Difference Makers
+mohammed sofo,6.79,New York Red Bulls,mls,0,1.0,1.1749803840743676,88.6,Creative 9s
+joseph paintsil,6.96,LA Galaxy,mls,7,1.0,0.9690058102347718,77.9,Difference Makers
+charlie ostrem,5.094483463159238,Union Omaha,usl1,4,0.717532882135104,-1.4680289464221425,7.8,10s
+noble okello,5.612693142638233,Phoenix Rising FC,uslc,5,0.8134337887881496,-0.5900151326554469,35.1,Attacking FBs
+kevin o'toole,6.58,New York City FC,mls,5,1.0,0.5770319880319207,59.4,Attacking FBs
+nico cavallo,6.48,New York City FC,mls,0,1.0,0.7953189283807426,65.7,Creative 9s
+max schneider,5.159061422551398,Union Omaha,usl1,5,0.717532882135104,-1.137317768577734,14.3,Attacking FBs
+sergio oregel,6.63,Chicago Fire FC,mls,1,1.0,0.8061979305327475,67.8,Progressive Dribblers in Def 3rd
+francis westfield,7.25,Philadelphia Union,mls,5,1.0,1.3853810294034967,95.8,Attacking FBs
+edier ocampo,6.78,Vancouver Whitecaps FC,mls,7,1.0,0.7622686941719772,69.4,Difference Makers
+david ayala,7.3,Portland Timbers FC,mls,6,1.0,1.2516185126120172,91.1,No-Nonsense Defender
+wikelman carmona,6.54,New York Red Bulls,mls,0,1.0,0.8688017907730566,71.4,Creative 9s
+maren haile-selassie,6.51,Chicago Fire FC,mls,0,1.0,0.8320603595768991,67.6,Creative 9s
+abdoulaye cissoko,5.572021453198825,FC Tulsa,uslc,3,0.8134337887881496,-0.5739352711882089,40.2,Progressive Passers in Def 3rd
+nathan saliba,6.75,CF Montréal,mls,5,1.0,0.7821354761411266,69.5,Attacking FBs
+diego luna,7.43,Real Salt Lake,mls,4,1.0,1.0839142843952545,87.0,10s
+patrick yazbek,6.66,Nashville SC,mls,1,1.0,0.8434727104217824,71.3,Progressive Dribblers in Def 3rd
+samuel piette,6.64,CF Montréal,mls,3,1.0,0.7771934754081098,70.7,Progressive Passers in Def 3rd
+jared stroud,6.39,D.C. United,mls,0,1.0,0.6850946347922697,61.9,Creative 9s
+nico benalcazar,5.897394968714085,Orange County SC,uslc,3,0.8134337887881496,-0.16229637496643298,48.8,Progressive Passers in Def 3rd
+alex crognale,5.661499169965522,San Antonio FC,uslc,6,0.8134337887881496,-0.6999952104192741,31.2,No-Nonsense Defender
+amadou dia,5.6859021836291666,Louisville City FC,uslc,5,0.8134337887881496,-0.5016890757826803,40.6,Attacking FBs
+brent kallman,4.498931170987102,Union Omaha,usl1,6,0.717532882135104,-2.084726679072586,1.0,No-Nonsense Defender
+tim leibold,6.66,Sporting Kansas City,mls,5,1.0,0.6735512765539,62.3,Attacking FBs
+luis muriel,7.26,Orlando City SC,mls,7,1.0,1.31356767033943,91.9,Difference Makers
+cal jennings,5.881126292938323,Charleston Battery,uslc,2,0.8134337887881496,-0.0332978143035638,56.8,High Volume Goalscorers
+erik thommy,6.86,Sporting Kansas City,mls,0,1.0,1.2607103901987349,92.4,Creative 9s
+jesus ferreira,6.83,Seattle Sounders FC,mls,0,1.0,1.2239689590025773,91.4,Creative 9s
+jonas fjeldberg,5.189707572468395,Colorado Springs Switchbacks FC,uslc,2,0.8134337887881496,-0.8406657864550938,21.2,High Volume Goalscorers
+daniel lovitz,7.23,Nashville SC,mls,5,1.0,1.3612512072730025,94.8,Attacking FBs
+daniel rios,6.55,Vancouver Whitecaps FC,mls,0,1.0,0.8810489345051089,72.4,Creative 9s
+matt polster,7.08,New England Revolution,mls,3,1.0,1.3338494590727872,94.3,Progressive Passers in Def 3rd
+idan toklomati,6.63,Charlotte FC,mls,2,1.0,0.8411602071064628,72.0,High Volume Goalscorers
+agustin ojeda,6.59,New York City FC,mls,2,1.0,0.7944523035887335,68.6,High Volume Goalscorers
+kellyn acosta,6.08,Chicago Fire FC,mls,3,1.0,0.06872222347124891,50.4,Progressive Passers in Def 3rd
+jonathan jimenez,5.010752138935002,Hartford Athletic,uslc,0,0.8134337887881496,-1.0040900448666215,19.0,Creative 9s
+j.c. ngando,7.0,Vancouver Whitecaps FC,mls,4,1.0,0.614067219755824,62.3,10s
+jayden nelson,6.81,Vancouver Whitecaps FC,mls,7,1.0,0.7967248801824423,70.3,Difference Makers
+matthew edwards,6.49,Atlanta United FC,mls,1,1.0,0.632248957717253,56.6,Progressive Dribblers in Def 3rd
+azaad liadi,4.9438015579108665,Portland Hearts of Pine,usl1,2,0.717532882135104,-1.1278096465146528,14.8,High Volume Goalscorers
+sergio santos,6.75,FC Cincinnati,mls,7,1.0,0.7278125081615111,66.7,Difference Makers
+woobens pacius,5.344259992338143,Tampa Bay Rowdies,uslc,2,0.8134337887881496,-0.6601952985623989,33.5,High Volume Goalscorers
+gilberto flores,7.0,FC Cincinnati,mls,6,1.0,0.8942893577057808,74.0,No-Nonsense Defender
+marco pasalic,7.53,Orlando City SC,mls,7,1.0,1.6236733444336229,98.2,Difference Makers
+alexandros katranis,6.88,Real Salt Lake,mls,4,1.0,0.4829471086936572,57.1,10s
+sigurd rosted,6.84,Toronto FC,mls,3,1.0,1.0302189225284177,85.8,Progressive Passers in Def 3rd
+brandon vazquez,6.8,Austin FC,mls,2,1.0,1.0396687970568121,78.8,High Volume Goalscorers
+blake bodily,5.417469033329077,Tampa Bay Rowdies,uslc,5,0.8134337887881496,-0.8255512843161574,23.4,Attacking FBs
+tyler pasher,5.832320265611033,Birmingham Legion FC,uslc,7,0.8134337887881496,-0.32617894604319303,50.5,Difference Makers
+jimmy medranda,5.596424466862469,San Antonio FC,uslc,7,0.8134337887881496,-0.5971145967354569,38.7,Difference Makers
+nick hagglund,6.83,FC Cincinnati,mls,3,1.0,1.0175676501724027,83.7,Progressive Passers in Def 3rd
+kyle adams,5.791648576171625,Louisville City FC,uslc,3,0.8134337887881496,-0.29607901623851024,46.3,Progressive Passers in Def 3rd
+omar valencia,7.12,New York Red Bulls,mls,5,1.0,1.2285371855552807,90.3,Attacking FBs
+mauricio pineda,6.59,Chicago Fire FC,mls,3,1.0,0.7139371136280331,68.7,Progressive Passers in Def 3rd
+daniel salloi,6.9,Sporting Kansas City,mls,2,1.0,1.1564385558511359,87.3,High Volume Goalscorers
+joaquin fernandez,6.55,Sporting Kansas City,mls,6,1.0,0.35829562534642556,53.1,No-Nonsense Defender
+aaron herrera,7.06,D.C. United,mls,5,1.0,1.1561477191637957,86.0,Attacking FBs
+andre lewis,5.144710764908695,Spokane Velocity FC,usl1,6,0.717532882135104,-1.3155404239002664,8.3,No-Nonsense Defender
+diego chara,6.82,Portland Timbers FC,mls,3,1.0,1.0049163778163874,80.9,Progressive Passers in Def 3rd
+mateusz klich,6.55,Atlanta United FC,mls,1,1.0,0.7067985174953217,62.6,Progressive Dribblers in Def 3rd
+joao klauss,6.87,St. Louis City SC,mls,2,1.0,1.1214076282128385,86.0,High Volume Goalscorers
+harrison robledo,5.137535436087345,AV Alta FC,usl1,1,0.717532882135104,-1.0481783398681952,18.2,Progressive Dribblers in Def 3rd
+luis diaz,6.46,New England Revolution,mls,2,1.0,0.6426516171561135,65.3,High Volume Goalscorers
+tanner beason,6.81,New England Revolution,mls,5,1.0,0.8545249425326105,74.7,Attacking FBs
+kevin long,6.76,Toronto FC,mls,3,1.0,0.9290087436802946,76.8,Progressive Passers in Def 3rd
+aleksey miranchuk,7.06,Atlanta United FC,mls,4,1.0,0.6796272752869069,64.9,10s
+michael boxall,7.0,Minnesota United FC,mls,5,1.0,1.0837582527723115,82.5,Attacking FBs
+jamal thiare,6.31,Atlanta United FC,mls,2,1.0,0.46749697896462844,59.7,High Volume Goalscorers
+mitja ilenic,6.82,New York City FC,mls,5,1.0,0.8665898535978587,75.6,Attacking FBs
+vuk latinovich,5.417469033329077,Orange County SC,uslc,3,0.8134337887881496,-0.769463746893551,24.0,Progressive Passers in Def 3rd
+kyle hiebert,6.64,St. Louis City SC,mls,1,1.0,0.8186228571624254,69.2,Progressive Dribblers in Def 3rd
+yosuke hanya,5.230379261907802,Colorado Springs Switchbacks FC,uslc,7,0.8134337887881496,-1.0175319857406935,15.3,Difference Makers
+griffin dorsey,6.7,Houston Dynamo FC,mls,5,1.0,0.7218109208148897,64.3,Attacking FBs
+amine bassi,6.95,Houston Dynamo FC,mls,4,1.0,0.559433840146588,59.7,10s
+cameron dunbar,5.669633507853403,Orange County SC,uslc,7,0.8134337887881496,-0.5130311189344093,41.4,Difference Makers
+handwalla bwana,4.656788405056825,South Georgia Tormenta FC,usl1,7,0.717532882135104,-1.676323760992685,1.8,Difference Makers
+alex mighten,6.64,San Diego FC,mls,7,1.0,0.6014731594564694,63.1,Difference Makers
+tai baribo,7.27,Philadelphia Union,mls,0,1.0,1.762843283212884,98.1,Creative 9s
+timo baumgartl,6.45,St. Louis City SC,mls,3,1.0,0.5368193006438182,55.3,Progressive Passers in Def 3rd
+marco farfan,6.48,FC Dallas,mls,5,1.0,0.4563828773794471,54.5,Attacking FBs
+eduard atuesta,7.29,Orlando City SC,mls,4,1.0,0.9309408214893936,72.7,10s
+djordje mihailovic,7.39,Colorado Rapids,mls,4,1.0,1.0402075807078655,84.4,10s
+chidozie awaziem,6.87,Colorado Rapids,mls,6,1.0,0.7394467239130783,64.6,No-Nonsense Defender
+pep biel,7.36,Charlotte FC,mls,4,1.0,1.0074275529423244,80.5,10s
+albert rusnak,7.3,Seattle Sounders FC,mls,4,1.0,0.9418674974112407,74.7,10s
+julian fernandez,6.9,New York City FC,mls,7,1.0,0.9000934382138407,76.1,Difference Makers
+darren yapi,6.58,Colorado Rapids,mls,2,1.0,0.7827753277093015,67.4,High Volume Goalscorers
+djibril diani,6.46,Charlotte FC,mls,3,1.0,0.5494705729998333,56.1,Progressive Passers in Def 3rd
+cesar araujo,7.15,Orlando City SC,mls,1,1.0,1.452294115276015,95.8,Progressive Dribblers in Def 3rd
+danley jean jacques,7.24,Philadelphia Union,mls,1,1.0,1.5641184549431186,98.6,Progressive Dribblers in Def 3rd
+emmanuel latte lath,6.85,Atlanta United FC,mls,2,1.0,1.0980536764539734,84.3,High Volume Goalscorers
+aaron long,7.06,Los Angeles FC,mls,3,1.0,1.3085469143607558,93.5,Progressive Passers in Def 3rd
+mikael uhre,6.78,Philadelphia Union,mls,0,1.0,1.1627332403423154,87.6,Creative 9s
+collin martin,5.425603371216958,North Carolina FC,uslc,3,0.8134337887881496,-0.7591727744880068,25.6,Progressive Passers in Def 3rd
+keegan rosenberry,6.76,Colorado Rapids,mls,1,1.0,0.9677219767185641,79.4,Progressive Dribblers in Def 3rd
+henry kessler,6.92,St. Louis City SC,mls,6,1.0,0.7990015830641176,66.7,No-Nonsense Defender
+julian aude,6.65,LA Galaxy,mls,5,1.0,0.6614863654886529,61.7,Attacking FBs
+theodore ku-dipietro,6.62,Colorado Rapids,mls,0,1.0,0.9667789406294762,78.1,Creative 9s
+kalil elmedkhar,5.344259992338143,FC Tulsa,uslc,2,0.8134337887881496,-0.6601952985623989,33.5,High Volume Goalscorers
+bernard kamungo,6.47,FC Dallas,mls,2,1.0,0.6543285930355456,66.1,High Volume Goalscorers
+jojea kwizera,5.401200357553313,Rhode Island FC,uslc,7,0.8134337887881496,-0.8213372042049166,26.1,Difference Makers
+felipe mora,6.69,Portland Timbers FC,mls,0,1.0,1.0525089467538435,83.8,Creative 9s
+isaiah parente,6.5,LA Galaxy,mls,3,1.0,0.6000756624238949,60.2,Progressive Passers in Def 3rd
+anderson julio,6.87,FC Dallas,mls,2,1.0,1.1214076282128385,86.0,High Volume Goalscorers
+brayan ceballos,7.03,New England Revolution,mls,6,1.0,0.9300222731964047,76.6,No-Nonsense Defender
+igor jesus,7.26,Los Angeles FC,mls,1,1.0,1.5889683082024746,99.3,Progressive Dribblers in Def 3rd
+luca langoni,6.62,New England Revolution,mls,0,1.0,0.9667789406294762,78.1,Creative 9s
+william kumado,6.51,San Diego FC,mls,1,1.0,0.6570988109766088,60.5,Progressive Dribblers in Def 3rd
+juan mosquera,7.03,Portland Timbers FC,mls,5,1.0,1.1199529859680541,83.8,Attacking FBs
+luke haakenson,5.450006384880603,San Antonio FC,uslc,0,0.8134337887881496,-0.466129056365613,44.8,Creative 9s
+stephen turnbull,5.6859021836291666,Birmingham Legion FC,uslc,5,0.8134337887881496,-0.5016890757826803,40.6,Attacking FBs
+jansen miller,6.74,Sporting Kansas City,mls,3,1.0,0.9037061989682643,75.2,Progressive Passers in Def 3rd
+tyler polak,5.051431490231132,Greenville Triumph SC,usl1,1,0.717532882135104,-1.1551618608471177,12.6,Progressive Dribblers in Def 3rd
+conor doyle,4.628087089771421,South Georgia Tormenta FC,usl1,0,0.717532882135104,-1.4727454307005503,3.3,Creative 9s
+noel caliskan,6.92,Real Salt Lake,mls,1,1.0,1.1665208027934155,88.1,Progressive Dribblers in Def 3rd
+sebastian blanco,5.628961818413996,The Miami FC,uslc,4,0.8134337887881496,-0.8840217689110761,24.0,10s
+eric maxim choupo-moting,7.18,New York Red Bulls,mls,0,1.0,1.6526189896244121,97.1,Creative 9s
+kendall burks,5.482543736432129,Lexington SC,uslc,3,0.8134337887881496,-0.6871359676491956,28.0,Progressive Passers in Def 3rd
+jakob glesnes,7.16,Philadelphia Union,mls,3,1.0,1.4350596379209104,96.3,Progressive Passers in Def 3rd
+sean zawadzki,7.43,Columbus Crew,mls,6,1.0,1.4064611464047196,97.9,No-Nonsense Defender
+luca petrasso,6.58,CF Montréal,mls,5,1.0,0.5770319880319207,59.4,Attacking FBs
+eryk williamson,6.21,Charlotte FC,mls,5,1.0,0.13063027861776666,51.3,Attacking FBs
+marcus epps,5.767245562507981,Lexington SC,uslc,7,0.8134337887881496,-0.40091981519967995,48.6,Difference Makers
+akil watts,6.53,St. Louis City SC,mls,5,1.0,0.516707432705684,58.1,Attacking FBs
+jovan lukic,7.34,Philadelphia Union,mls,6,1.0,1.299262399932849,94.8,No-Nonsense Defender
+dennis gjengaar,6.46,New York Red Bulls,mls,0,1.0,0.7708246409166372,63.8,Creative 9s
+brayan vera,6.82,Real Salt Lake,mls,3,1.0,1.0049163778163874,80.9,Progressive Passers in Def 3rd
+jeremy ebobisse,6.58,Los Angeles FC,mls,0,1.0,0.9177903657012665,74.3,Creative 9s
+tom barlow,6.3,Chicago Fire FC,mls,0,1.0,0.574870341203798,60.0,Creative 9s
+david martinez,6.87,Inter Miami CF,mls,1,1.0,1.1043961696450248,84.6,Progressive Dribblers in Def 3rd
+andres cubas,6.99,Vancouver Whitecaps FC,mls,1,1.0,1.2534952892011635,90.9,Progressive Dribblers in Def 3rd
+justen glad,6.83,Real Salt Lake,mls,6,1.0,0.6918028365922467,62.0,No-Nonsense Defender
+tomas aviles,6.56,Inter Miami CF,mls,1,1.0,0.7192234441249997,63.6,Progressive Dribblers in Def 3rd
+olivier giroud,6.81,Los Angeles FC,mls,2,1.0,1.051345772936244,80.1,High Volume Goalscorers
+daniel crisostomo,5.612693142638233,Tampa Bay Rowdies,uslc,1,0.8134337887881496,-0.45779837572609955,45.1,Progressive Dribblers in Def 3rd
+daniel trejo,5.287319627122972,Birmingham Legion FC,uslc,0,0.8134337887881496,-0.6653738669215431,35.7,Creative 9s
+sebastian berhalter,7.48,Vancouver Whitecaps FC,mls,4,1.0,1.1385476640044914,90.9,10s
+benjamin cremaschi,6.83,Inter Miami CF,mls,5,1.0,0.8786547646631059,76.9,Attacking FBs
+monsef bakrar,6.4,New York City FC,mls,2,1.0,0.5725897618795202,64.4,High Volume Goalscorers
+alonso martinez,7.25,New York City FC,mls,7,1.0,1.3020822750026082,90.1,Difference Makers
+owen gene,6.39,Minnesota United FC,mls,6,1.0,0.16772007606309913,51.0,No-Nonsense Defender
+ramiro enrique,6.73,Orlando City SC,mls,2,1.0,0.9579299659007866,76.3,High Volume Goalscorers
+lucas bartlett,6.64,D.C. United,mls,6,1.0,0.4654943718182964,55.2,No-Nonsense Defender
+edward kizza,5.10836419358958,Indy Eleven,uslc,0,0.8134337887881496,-0.8845431585330645,24.8,Creative 9s
+jacob bartlett,6.71,Sporting Kansas City,mls,1,1.0,0.9055973435701733,76.6,Progressive Dribblers in Def 3rd
+christian benteke,7.13,D.C. United,mls,2,1.0,1.4250090010780785,91.5,High Volume Goalscorers
+hirving lozano,7.38,San Diego FC,mls,2,1.0,1.7169333980638863,95.8,High Volume Goalscorers
+maximiliano falcon,6.58,Inter Miami CF,mls,3,1.0,0.7012858412720181,66.7,Progressive Passers in Def 3rd
+alexander hack,7.1,New York Red Bulls,mls,6,1.0,1.0133990760078593,79.2,No-Nonsense Defender
+anibal godoy,7.27,San Diego FC,mls,3,1.0,1.5742236338370788,98.4,Progressive Passers in Def 3rd
+patrick mcnair,7.04,San Diego FC,mls,3,1.0,1.2832443696487257,92.7,Progressive Passers in Def 3rd
+darlington nagbe,7.01,Columbus Crew,mls,1,1.0,1.2783451424605192,91.6,Progressive Dribblers in Def 3rd
+steven moreira,6.96,Columbus Crew,mls,5,1.0,1.035498608511322,80.8,Attacking FBs
+bryce washington,5.506946750095773,North Carolina FC,uslc,3,0.8134337887881496,-0.6562630504325632,32.5,Progressive Passers in Def 3rd
+kevin partida,5.555752777423062,Orange County SC,uslc,1,0.8134337887881496,-0.5285463617326577,39.9,Progressive Dribblers in Def 3rd
+christian ramirez,6.48,LA Galaxy,mls,0,1.0,0.7953189283807426,65.7,Creative 9s
+federico bernardeschi,7.08,Toronto FC,mls,7,1.0,1.1068305542766352,85.6,Difference Makers
+marcelo weigandt,6.6,Inter Miami CF,mls,1,1.0,0.7689231506437125,65.0,Progressive Dribblers in Def 3rd
+mohamed farsi,7.11,Columbus Crew,mls,5,1.0,1.2164722744900334,89.6,Attacking FBs
+liel abada,6.81,Charlotte FC,mls,0,1.0,1.1994746715384719,90.5,Creative 9s
+matti peltola,6.55,D.C. United,mls,1,1.0,0.7067985174953217,62.6,Progressive Dribblers in Def 3rd
+jack gurr,5.791648576171625,Sacramento Republic FC,uslc,5,0.8134337887881496,-0.3741069936331296,45.5,Attacking FBs
+george campbell,7.03,CF Montréal,mls,6,1.0,0.9300222731964047,76.6,No-Nonsense Defender
+emil cuello,5.287319627122972,Phoenix Rising FC,uslc,5,0.8134337887881496,-0.9825753854232985,18.2,Attacking FBs
+roberto avila,5.4906780743200105,El Paso Locomotive FC,uslc,7,0.8134337887881496,-0.7185685091147469,32.0,Difference Makers
+julian gressel,6.99,Minnesota United FC,mls,0,1.0,1.4199232587154165,94.3,Creative 9s
+anthony fontana,5.173438896692632,Colorado Springs Switchbacks FC,uslc,1,0.8134337887881496,-1.0035685534909713,20.3,Progressive Dribblers in Def 3rd
+alex muyl,6.96,Nashville SC,mls,7,1.0,0.9690058102347718,77.9,Difference Makers
+tom pearce,6.53,CF Montréal,mls,0,1.0,0.8565546470410045,70.5,Creative 9s
+marcel hartel,7.14,St. Louis City SC,mls,4,1.0,0.7670406826616849,66.9,10s
+gonzalo lujan,6.82,Inter Miami CF,mls,1,1.0,1.042271536496634,82.5,Progressive Dribblers in Def 3rd
+tsiki ntsabeleng,6.52,FC Dallas,mls,5,1.0,0.5046425216404357,57.1,Attacking FBs
+besard sabovic,6.72,Austin FC,mls,3,1.0,0.878403654256233,73.6,Progressive Passers in Def 3rd
+manu garcia,7.35,Sporting Kansas City,mls,4,1.0,0.9965008770204766,78.6,10s
+ian harkes,6.78,San Jose Earthquakes,mls,5,1.0,0.8183302093368691,71.8,Attacking FBs
+zavier gozo,6.85,Real Salt Lake,mls,2,1.0,1.0980536764539734,84.3,High Volume Goalscorers
+antony,7.49,Portland Timbers FC,mls,7,1.0,1.577731763086335,97.3,Difference Makers
+justin rasmussen,5.157170220916869,Oakland Roots SC,uslc,0,0.8134337887881496,-0.8247697153662861,25.7,Creative 9s
+lucas sanabria,6.48,LA Galaxy,mls,1,1.0,0.619824031087575,55.9,Progressive Dribblers in Def 3rd
+telasco segovia,7.01,Inter Miami CF,mls,7,1.0,1.0264327869188814,82.4,Difference Makers
+justin haak,6.99,New York City FC,mls,6,1.0,0.8823783858755732,72.9,No-Nonsense Defender
+philip zinckernagel,7.45,Chicago Fire FC,mls,7,1.0,1.5317901817390474,95.5,Difference Makers
+mikey lopez,4.836171625590601,Portland Hearts of Pine,usl1,3,0.717532882135104,-1.5048789294080693,8.1,Progressive Passers in Def 3rd
+joseph rosales,6.85,Minnesota United FC,mls,4,1.0,0.45016708092811525,55.8,10s
+nate jones,5.140901545141106,Las Vegas Lights FC,uslc,1,0.8134337887881496,-1.043995974066147,18.9,Progressive Dribblers in Def 3rd
+edison azcona,5.197841910356276,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.9732479880595902,21.7,Progressive Dribblers in Def 3rd
+jack mcglynn,7.38,Houston Dynamo FC,mls,4,1.0,1.0292809047860185,82.5,10s
+bongokuhle hlongwane,7.0,Minnesota United FC,mls,7,1.0,1.0149473915820597,81.1,Difference Makers
+daniel edelman,7.16,New York Red Bulls,mls,3,1.0,1.4350596379209104,96.3,Progressive Passers in Def 3rd
+cole bassett,6.83,Colorado Rapids,mls,2,1.0,1.0746997246951093,83.1,High Volume Goalscorers
+jon bell,6.57,Seattle Sounders FC,mls,1,1.0,0.7316483707546787,64.3,Progressive Dribblers in Def 3rd
+luca bombino,6.96,San Diego FC,mls,1,1.0,1.2162205093121286,89.9,Progressive Dribblers in Def 3rd
+tyrese spicer,6.62,Toronto FC,mls,0,1.0,0.9667789406294762,78.1,Creative 9s
+maxime dominguez,6.68,Toronto FC,mls,1,1.0,0.8683225636811384,74.5,Progressive Dribblers in Def 3rd
+brandt bronico,6.78,Charlotte FC,mls,5,1.0,0.8183302093368691,71.8,Attacking FBs
+miles robinson,7.05,FC Cincinnati,mls,6,1.0,0.95384421685682,78.1,No-Nonsense Defender
+jeppe tverskov,7.75,San Diego FC,mls,6,1.0,1.7876122449713725,100.0,No-Nonsense Defender
+franco escobar,7.13,Houston Dynamo FC,mls,6,1.0,1.0491319914984831,82.8,No-Nonsense Defender
+luis abram,6.5,Atlanta United FC,mls,3,1.0,0.6000756624238949,60.2,Progressive Passers in Def 3rd
+joel waterman,6.75,CF Montréal,mls,1,1.0,0.9552970500888861,78.0,Progressive Dribblers in Def 3rd
+bartosz slisz,7.13,Atlanta United FC,mls,6,1.0,1.0491319914984831,82.8,No-Nonsense Defender
+brian anunga,6.82,FC Cincinnati,mls,3,1.0,1.0049163778163874,80.9,Progressive Passers in Def 3rd
+james musa,5.5150810879836545,Indy Eleven,uslc,1,0.8134337887881496,-0.5790806374516272,36.0,Progressive Dribblers in Def 3rd
+ramiro,6.83,FC Dallas,mls,3,1.0,1.0175676501724027,83.7,Progressive Passers in Def 3rd
+ryan kent,6.85,Seattle Sounders FC,mls,7,1.0,0.8426664615297301,73.9,Difference Makers
+jonathan osorio,7.1,Toronto FC,mls,5,1.0,1.2044073634247852,89.0,Attacking FBs
+derrick williams,6.64,Atlanta United FC,mls,3,1.0,0.7771934754081098,70.7,Progressive Passers in Def 3rd
+maya yoshida,6.6,LA Galaxy,mls,6,1.0,0.41785048449746476,54.2,No-Nonsense Defender
+kelvin yeboah,6.77,Minnesota United FC,mls,2,1.0,1.0046378694185147,78.0,High Volume Goalscorers
+kieran sargeant,5.425603371216958,Lexington SC,uslc,7,0.8134337887881496,-0.7933093782712338,27.9,Difference Makers
+leonardo campana,6.6,New England Revolution,mls,0,1.0,0.9422846531653708,75.2,Creative 9s
+nathan harriel,7.35,Philadelphia Union,mls,5,1.0,1.5060301400559704,99.0,Attacking FBs
+jesus bueno,6.82,Philadelphia Union,mls,5,1.0,0.8665898535978587,75.6,Attacking FBs
+malte amundsen,7.18,Columbus Crew,mls,1,1.0,1.4895688951650488,97.6,Progressive Dribblers in Def 3rd
+kosi thompson,6.79,Toronto FC,mls,1,1.0,1.004996756607599,80.4,Progressive Dribblers in Def 3rd
+noah eile,7.11,New York Red Bulls,mls,6,1.0,1.025310047838068,80.2,No-Nonsense Defender
+wilfried zaha,7.25,Charlotte FC,mls,7,1.0,1.3020822750026082,90.1,Difference Makers
+sam surridge,7.61,Nashville SC,mls,2,1.0,1.98550384329083,99.2,High Volume Goalscorers
+pierre reedy,5.359970629549227,Spokane Velocity FC,usl1,2,0.717532882135104,-0.6418500253859657,37.3,High Volume Goalscorers
+mark-anthony kaye,6.5,San Jose Earthquakes,mls,5,1.0,0.4805126995099414,56.5,Attacking FBs
+cedric teuchert,6.48,St. Louis City SC,mls,0,1.0,0.7953189283807426,65.7,Creative 9s
+jefferson diaz,6.91,Minnesota United FC,mls,5,1.0,0.9751740531850851,78.9,Attacking FBs
+noah allen,6.89,Inter Miami CF,mls,1,1.0,1.1292460229043806,86.0,Progressive Dribblers in Def 3rd
+cameron harper,6.98,New York Red Bulls,mls,2,1.0,1.2498543628865944,88.1,High Volume Goalscorers
+rio hope-gund,5.506946750095773,Rhode Island FC,uslc,3,0.8134337887881496,-0.6562630504325632,32.5,Progressive Passers in Def 3rd
+tomas chancalay,6.64,New England Revolution,mls,0,1.0,0.9912732280935806,81.0,Creative 9s
+brian gutierrez,7.47,Chicago Fire FC,mls,7,1.0,1.5547609724126907,96.4,Difference Makers
+laurence wyke,5.458140722768484,Tampa Bay Rowdies,uslc,1,0.8134337887881496,-0.6498286234581842,30.8,Progressive Dribblers in Def 3rd
+alonso coello,7.09,Toronto FC,mls,5,1.0,1.192342452359538,88.3,Attacking FBs
+maxi moralez,7.23,New York City FC,mls,4,1.0,0.8653807659583107,70.1,10s
+kyle smith,6.53,Orlando City SC,mls,3,1.0,0.6380294794919413,62.2,Progressive Passers in Def 3rd
+walker zimmerman,7.17,Nashville SC,mls,3,1.0,1.4477109102769254,97.6,Progressive Passers in Def 3rd
+david schnegg,6.91,D.C. United,mls,5,1.0,0.9751740531850851,78.9,Attacking FBs
+gabriel pec,7.15,LA Galaxy,mls,7,1.0,1.1872283216343893,87.4,Difference Makers
+andy najar,7.35,Nashville SC,mls,5,1.0,1.5060301400559704,99.0,Attacking FBs
+brooklyn raines,6.5,Houston Dynamo FC,mls,1,1.0,0.6446738843469308,58.4,Progressive Dribblers in Def 3rd
+alejandro bedoya,6.64,Philadelphia Union,mls,2,1.0,0.8528371829858948,72.9,High Volume Goalscorers
+pedro vite,7.38,Vancouver Whitecaps FC,mls,4,1.0,1.0292809047860185,82.5,10s
+pedro amador,6.48,Atlanta United FC,mls,5,1.0,0.4563828773794471,54.5,Attacking FBs
+sami guediri,5.482543736432129,Monterey Bay FC,uslc,5,0.8134337887881496,-0.7470392337625869,27.3,Attacking FBs
+ondrej lingr,6.81,Houston Dynamo FC,mls,2,1.0,1.051345772936244,80.1,High Volume Goalscorers
+tomas ostrak,6.63,St. Louis City SC,mls,1,1.0,0.8061979305327475,67.8,Progressive Dribblers in Def 3rd
+rece buckmaster,5.5150810879836545,San Antonio FC,uslc,1,0.8134337887881496,-0.5790806374516272,36.0,Progressive Dribblers in Def 3rd
+dejan joveljic,7.18,Sporting Kansas City,mls,2,1.0,1.4833938804752398,94.1,High Volume Goalscorers
+gedion zelalem,5.5150810879836545,New Mexico United,uslc,3,0.8134337887881496,-0.645972078027019,34.1,Progressive Passers in Def 3rd
+sebastian kowalczyk,6.63,Houston Dynamo FC,mls,0,1.0,0.9790260843615284,80.0,Creative 9s
+zan kolmanic,6.58,Austin FC,mls,4,1.0,0.15514683103824056,51.9,10s
+mamadou fofana,6.83,New England Revolution,mls,1,1.0,1.0546964631263118,83.2,Progressive Dribblers in Def 3rd
+cristhian paredes,6.69,Portland Timbers FC,mls,6,1.0,0.5250492309693366,56.8,No-Nonsense Defender
+memo rodriguez,6.3,Sporting Kansas City,mls,4,1.0,-0.15080009477348208,48.1,10s
+john nelson,6.33,LA Galaxy,mls,3,1.0,0.3850040323716335,52.0,Progressive Passers in Def 3rd
+luciano acosta,7.4,FC Dallas,mls,4,1.0,1.0511342566297135,85.7,10s
+braudilio rodrigues,5.604558804750351,Lexington SC,uslc,7,0.8134337887881496,-0.5877719880908963,39.6,Difference Makers
+federico redondo,6.67,Inter Miami CF,mls,1,1.0,0.8558976370514604,73.1,Progressive Dribblers in Def 3rd
+diego fagundez,6.93,LA Galaxy,mls,4,1.0,0.5375804883028931,58.4,10s
+bruno damiani,6.73,Philadelphia Union,mls,2,1.0,0.9579299659007866,76.3,High Volume Goalscorers
+dominik marczuk,6.61,Real Salt Lake,mls,0,1.0,0.9545317968974241,76.2,Creative 9s
+gerardo valenzuela,6.82,FC Cincinnati,mls,7,1.0,0.808210275519265,71.2,Difference Makers
+ousseni bouda,6.58,San Jose Earthquakes,mls,2,1.0,0.7827753277093015,67.4,High Volume Goalscorers
+victor loturi,6.63,CF Montréal,mls,1,1.0,0.8061979305327475,67.8,Progressive Dribblers in Def 3rd
+josef martinez,7.0,San Jose Earthquakes,mls,0,1.0,1.4321704024474686,95.2,Creative 9s
+amahl pellegrino,6.39,San Jose Earthquakes,mls,2,1.0,0.5609127860000871,63.1,High Volume Goalscorers
+rodrigues,7.35,San Jose Earthquakes,mls,6,1.0,1.3111733717630565,95.8,No-Nonsense Defender
+hannes wolf,7.41,New York City FC,mls,7,1.0,1.4858486003917595,94.6,Difference Makers
+brooks lennon,6.6,Atlanta United FC,mls,5,1.0,0.601161810162415,60.4,Attacking FBs
+eric calvillo,5.81605158983527,El Paso Locomotive FC,uslc,4,0.8134337887881496,-0.6795948388498018,36.4,10s
+connor ronan,6.36,Colorado Rapids,mls,7,1.0,0.2798820900254557,56.8,Difference Makers
+jack maher,6.77,Nashville SC,mls,3,1.0,0.9416600160363097,78.0,Progressive Passers in Def 3rd
+nathan ordaz,6.8,Los Angeles FC,mls,0,1.0,1.1872275278064197,89.5,Creative 9s
+michee ngalina,5.311722640786617,Hartford Athletic,uslc,2,0.8134337887881496,-0.698189085487177,29.7,High Volume Goalscorers
+karifa yao,5.384931681777551,Rhode Island FC,uslc,6,0.8134337887881496,-1.0294139665151016,15.6,No-Nonsense Defender
+keegan tingey,5.750976886732218,Loudoun United FC,uslc,6,0.8134337887881496,-0.5934185540353302,37.0,No-Nonsense Defender
+tani oluwaseyi,7.48,Minnesota United FC,mls,2,1.0,1.83370315685821,96.6,High Volume Goalscorers
+noah fuson,5.360528668113906,Rhode Island FC,uslc,7,0.8134337887881496,-0.8680502474277207,22.1,Difference Makers
+ali ahmed,7.06,Vancouver Whitecaps FC,mls,7,1.0,1.083859763602991,84.7,Difference Makers
+jonathan shore,6.7,New York City FC,mls,5,1.0,0.7218109208148897,64.3,Attacking FBs
+felipe carballo,6.74,New York Red Bulls,mls,5,1.0,0.7700705650758793,68.2,Attacking FBs
+kwame awuah,5.596424466862469,Loudoun United FC,uslc,5,0.8134337887881496,-0.6096431452938401,34.1,Attacking FBs
+justin dhillon,5.604558804750351,Colorado Springs Switchbacks FC,uslc,2,0.8134337887881496,-0.3562450031641766,50.8,High Volume Goalscorers
+ajani fortune,6.93,Atlanta United FC,mls,5,1.0,0.9993038753155794,79.9,Attacking FBs
+andrew privett,6.54,Charlotte FC,mls,3,1.0,0.6506807518479565,63.4,Progressive Passers in Def 3rd
+bobby pierre,4.491755842165751,Westchester SC,usl1,3,0.717532882135104,-1.940608717389888,0.8,Progressive Passers in Def 3rd
+luis gil,5.2379900395862595,Spokane Velocity FC,usl1,4,0.717532882135104,-1.3112239610949563,10.4,10s
+sergio busquets,7.52,Inter Miami CF,mls,3,1.0,1.8905054427374635,100.0,Progressive Passers in Def 3rd
+nicolas lodeiro,6.72,Houston Dynamo FC,mls,5,1.0,0.745940742945384,66.2,Attacking FBs
+kevin kelsy,6.52,Portland Timbers FC,mls,0,1.0,0.8443075033089512,69.0,Creative 9s
+joran gerbet,6.99,Orlando City SC,mls,3,1.0,1.219988007868649,91.1,Progressive Passers in Def 3rd
+mathias laborda,7.16,Vancouver Whitecaps FC,mls,5,1.0,1.2767968298162702,93.2,Attacking FBs
+edwin cerrillo,6.7,LA Galaxy,mls,1,1.0,0.8931724169404953,75.5,Progressive Dribblers in Def 3rd
+sam junqua,6.77,Real Salt Lake,mls,5,1.0,0.8062652982716209,70.8,Attacking FBs
+brian white,7.5,Vancouver Whitecaps FC,mls,2,1.0,1.8570571086170742,97.9,High Volume Goalscorers
+andres perea,6.67,New York City FC,mls,3,1.0,0.8151472924761564,72.4,Progressive Passers in Def 3rd
+lorenzo insigne,7.01,Toronto FC,mls,4,1.0,0.624993895677671,63.6,10s
+ilay feingold,7.07,New England Revolution,mls,5,1.0,1.1682126302290439,87.3,Attacking FBs
+deybi flores,7.28,Toronto FC,mls,3,1.0,1.5868749061930951,99.2,Progressive Passers in Def 3rd
+tommy mccabe,5.555752777423062,Loudoun United FC,uslc,3,0.8134337887881496,-0.5945172159992972,38.6,Progressive Passers in Def 3rd
+khiry shelton,6.31,Sporting Kansas City,mls,3,1.0,0.35970148765960214,51.2,Progressive Passers in Def 3rd
+robert castellanos,5.4906780743200105,Tampa Bay Rowdies,uslc,6,0.8134337887881496,-0.9034597362431672,21.9,No-Nonsense Defender
+aaron guillen,5.4337377091048396,Tampa Bay Rowdies,uslc,5,0.8134337887881496,-0.8059232716777653,24.0,Attacking FBs
+brendan hines-ike,6.66,Austin FC,mls,1,1.0,0.8434727104217824,71.3,Progressive Dribblers in Def 3rd
+andreas maxs,6.52,Colorado Rapids,mls,6,1.0,0.3225627098558016,52.1,No-Nonsense Defender
+patrick agyemang,6.97,Charlotte FC,mls,7,1.0,0.9804912055715935,79.3,Difference Makers
+pedrinho,6.76,FC Dallas,mls,7,1.0,0.7392979034983328,68.0,Difference Makers
+obafemi awodesu,6.76,Houston Dynamo FC,mls,6,1.0,0.6084260337807912,59.9,No-Nonsense Defender
+adrien perez,5.27105095134721,Louisville City FC,uslc,2,0.8134337887881496,-0.7456813191431492,26.7,High Volume Goalscorers
+martin ojeda,7.7,Orlando City SC,mls,4,1.0,1.37893453428513,94.8,10s
+aedan stanley,5.360528668113906,Indy Eleven,uslc,5,0.8134337887881496,-0.894249328550532,21.4,Attacking FBs
+neco brett,4.628087089771421,Spokane Velocity FC,usl1,0,0.717532882135104,-1.4727454307005503,3.3,Creative 9s
+ezequiel ponce,6.73,Houston Dynamo FC,mls,0,1.0,1.1014975216820535,84.8,Creative 9s
+hany mukhtar,7.57,Nashville SC,mls,4,1.0,1.2368877473011162,93.5,10s
+robin jansson,6.75,Orlando City SC,mls,1,1.0,0.9552970500888861,78.0,Progressive Dribblers in Def 3rd
+calvin harris,6.62,Colorado Rapids,mls,2,1.0,0.8294832312270307,71.2,High Volume Goalscorers
+ignatius ganago,6.82,New England Revolution,mls,2,1.0,1.0630227488156772,81.8,High Volume Goalscorers
+sebastien ibeagha,6.56,FC Dallas,mls,3,1.0,0.6759832965599867,65.0,Progressive Passers in Def 3rd
+logan farrington,6.61,FC Dallas,mls,2,1.0,0.8178062553475987,70.3,High Volume Goalscorers
+jonathan dean,6.7,Chicago Fire FC,mls,5,1.0,0.7218109208148897,64.3,Attacking FBs
+lalas abubakar,6.47,FC Dallas,mls,3,1.0,0.5621218453558484,57.7,Progressive Passers in Def 3rd
+denis bouanga,7.63,Los Angeles FC,mls,2,1.0,2.008857795049694,100.0,High Volume Goalscorers
+cory burke,5.140901545141106,Lexington SC,uslc,2,0.8134337887881496,-0.8976564668422603,19.5,High Volume Goalscorers
+birk risa,6.83,New York City FC,mls,3,1.0,1.0175676501724027,83.7,Progressive Passers in Def 3rd
+santiago suarez,5.344259992338143,Birmingham Legion FC,uslc,3,0.8134337887881496,-0.8620824985434505,20.3,Progressive Passers in Def 3rd
+ahmed qasem,6.48,Nashville SC,mls,7,1.0,0.4177068340673191,58.6,Difference Makers
+rafael navarro,7.06,Colorado Rapids,mls,2,1.0,1.343270169922052,90.3,High Volume Goalscorers
+tristan blackmon,7.17,Vancouver Whitecaps FC,mls,6,1.0,1.096775878819315,85.9,No-Nonsense Defender
+marco reus,7.45,LA Galaxy,mls,4,1.0,1.1057676362389495,88.3,10s
+robin lod,7.13,Minnesota United FC,mls,5,1.0,1.2406020966205278,91.2,Attacking FBs
+kerwin vargas,6.66,Charlotte FC,mls,2,1.0,0.8761911347447601,74.2,High Volume Goalscorers
+luca orellano,7.24,FC Cincinnati,mls,4,1.0,0.8763074418801577,71.4,10s
+eddie segura,6.98,Los Angeles FC,mls,6,1.0,0.8704674140453655,71.9,No-Nonsense Defender
+damian rivera,5.6859021836291666,Phoenix Rising FC,uslc,7,0.8134337887881496,-0.4943459016452871,43.2,Difference Makers
+carlos harvey,7.12,Minnesota United FC,mls,6,1.0,1.0372210196682756,81.2,No-Nonsense Defender
+pablo ruiz,6.64,Real Salt Lake,mls,4,1.0,0.2207068865693235,53.2,10s
+jonathan bamba,7.1,Chicago Fire FC,mls,7,1.0,1.1298013449502786,86.5,Difference Makers
+saba lobjanidze,6.61,Atlanta United FC,mls,7,1.0,0.5670169734460043,61.7,Difference Makers
+jurgen damm,5.523215425871536,Oakland Roots SC,uslc,5,0.8134337887881496,-0.6979692021666066,29.5,Attacking FBs
+quinn sullivan,7.35,Philadelphia Union,mls,7,1.0,1.4169362283708271,92.8,Difference Makers
+omari glasgow,6.05,Chicago Fire FC,mls,5,1.0,-0.06240829842619197,50.6,Attacking FBs
+oleksandr svatok,6.72,Austin FC,mls,3,1.0,0.878403654256233,73.6,Progressive Passers in Def 3rd
+myrto uzuni,6.57,Austin FC,mls,0,1.0,0.9055432219692143,73.3,Creative 9s
+kalen ryden,5.580155791086707,New Mexico United,uslc,3,0.8134337887881496,-0.5636442987826636,41.5,Progressive Passers in Def 3rd
+ethan bartlow,6.74,Houston Dynamo FC,mls,5,1.0,0.7700705650758793,68.2,Attacking FBs
+james murphy,5.65336483207764,Indy Eleven,uslc,4,0.8134337887881496,-0.8573573867291704,26.0,10s
+jon gallagher,6.8,Austin FC,mls,5,1.0,0.8424600314673634,74.0,Attacking FBs
+kevon lambert,5.344259992338143,Louisville City FC,uslc,2,0.8134337887881496,-0.6601952985623989,33.5,High Volume Goalscorers
+kevin denkey,7.25,FC Cincinnati,mls,7,1.0,1.3020822750026082,90.1,Difference Makers
+miguel almiron,7.04,Atlanta United FC,mls,7,1.0,1.0608889729293474,83.8,Difference Makers
+cristian roldan,7.53,Seattle Sounders FC,mls,6,1.0,1.5255708647067991,99.0,No-Nonsense Defender
+remi cabral,5.580155791086707,Phoenix Rising FC,uslc,0,0.8134337887881496,-0.3067332079208701,51.4,Creative 9s
+tate johnson,6.92,Vancouver Whitecaps FC,mls,1,1.0,1.1665208027934155,88.1,Progressive Dribblers in Def 3rd
+david brekalo,6.97,Orlando City SC,mls,6,1.0,0.8585564422151568,69.8,No-Nonsense Defender
+akeem ward,5.3198569786744985,Colorado Springs Switchbacks FC,uslc,1,0.8134337887881496,-0.8216451609026815,24.8,Progressive Dribblers in Def 3rd
+patrickson delgado,6.59,FC Dallas,mls,3,1.0,0.7139371136280331,68.7,Progressive Passers in Def 3rd
+bode hidalgo,6.58,Real Salt Lake,mls,3,1.0,0.7012858412720181,66.7,Progressive Passers in Def 3rd
+boris enow,6.53,D.C. United,mls,3,1.0,0.6380294794919413,62.2,Progressive Passers in Def 3rd
+moses nyeman,5.384931681777551,Loudoun United FC,uslc,1,0.8134337887881496,-0.7407903197523297,29.0,Progressive Dribblers in Def 3rd
+noah powder,5.022730174945728,Westchester SC,usl1,7,0.717532882135104,-1.2560251712496473,10.8,Difference Makers
+drew skundrich,5.474409398544248,Loudoun United FC,uslc,3,0.8134337887881496,-0.6974269400547397,26.8,Progressive Passers in Def 3rd
+nicolas romero,6.97,Minnesota United FC,mls,6,1.0,0.8585564422151568,69.8,No-Nonsense Defender
+alex roldan,7.1,Seattle Sounders FC,mls,3,1.0,1.3591520037848175,95.1,Progressive Passers in Def 3rd
+obed vargas,7.31,Seattle Sounders FC,mls,6,1.0,1.263529484442225,92.7,No-Nonsense Defender
+amos shapiro-thompson,5.458140722768484,Rhode Island FC,uslc,5,0.8134337887881496,-0.7764812527201761,26.3,Attacking FBs
+anthony markanich,7.2,Minnesota United FC,mls,2,1.0,1.506747832234105,94.9,High Volume Goalscorers
+ivan angulo,6.87,Orlando City SC,mls,7,1.0,0.8656372522033745,74.8,Difference Makers
+milan iloski,7.06,San Diego FC,mls,2,1.0,1.343270169922052,90.3,High Volume Goalscorers
+marlon hairston,5.425603371216958,Hartford Athletic,uslc,3,0.8134337887881496,-0.7591727744880068,25.6,Progressive Passers in Def 3rd
+ismaila jome,4.8218209679478985,Spokane Velocity FC,usl1,0,0.717532882135104,-1.2354767655210248,12.4,Creative 9s
+jackson ragen,6.76,Seattle Sounders FC,mls,6,1.0,0.6084260337807912,59.9,No-Nonsense Defender
+cengiz under,6.74,Los Angeles FC,mls,0,1.0,1.1137446654141057,86.2,Creative 9s
+oliver larraz,7.02,Colorado Rapids,mls,5,1.0,1.107888074902806,83.1,Attacking FBs
+hugo cuypers,7.44,Chicago Fire FC,mls,0,1.0,1.9710447266577764,99.0,Creative 9s
+dante sealy,6.99,CF Montréal,mls,7,1.0,1.003461996245238,80.2,Difference Makers
+ousman jabang,6.97,CF Montréal,mls,3,1.0,1.1946854631566175,90.2,Progressive Passers in Def 3rd
+zorhan bassong,6.69,Sporting Kansas City,mls,5,1.0,0.7097460097496425,63.0,Attacking FBs
+jacen russell-rowe,6.9,Columbus Crew,mls,7,1.0,0.9000934382138407,76.1,Difference Makers
+julian hall,6.15,New York Red Bulls,mls,7,1.0,0.03868878795219497,55.0,Difference Makers
+carles gil,7.95,New England Revolution,mls,4,1.0,1.6521014323313108,100.0,10s
+jay chapman,5.791648576171625,Detroit City FC,uslc,6,0.8134337887881496,-0.5449746193153556,40.1,No-Nonsense Defender
+lionel messi,8.39,Inter Miami CF,mls,7,1.0,2.6114173434003103,100.0,Difference Makers
+ian smith,6.34,Portland Timbers FC,mls,1,1.0,0.44587505827207935,55.2,Progressive Dribblers in Def 3rd
+alhassan yusuf,7.32,New England Revolution,mls,6,1.0,1.2754404562724335,93.8,No-Nonsense Defender
+manny perez,5.596424466862469,Louisville City FC,uslc,2,0.8134337887881496,-0.3657434498953709,49.6,High Volume Goalscorers
+robert voloder,6.88,Sporting Kansas City,mls,1,1.0,1.1168210962747027,85.3,Progressive Dribblers in Def 3rd
+zachary herivaux,5.474409398544248,Rhode Island FC,uslc,6,0.8134337887881496,-0.9228373101311567,19.8,No-Nonsense Defender
+diego rossi,7.39,Columbus Crew,mls,7,1.0,1.462877809718115,93.7,Difference Makers
+jack elliott,6.73,Chicago Fire FC,mls,6,1.0,0.5726931182901682,58.3,No-Nonsense Defender
+joao ortiz,6.5,Portland Timbers FC,mls,3,1.0,0.6000756624238949,60.2,Progressive Passers in Def 3rd
+sergi palencia,7.13,Los Angeles FC,mls,5,1.0,1.2406020966205278,91.2,Attacking FBs
+jordi alba,7.14,Inter Miami CF,mls,4,1.0,0.7670406826616849,66.9,10s
+ryan hollingshead,7.37,Los Angeles FC,mls,6,1.0,1.3349953154234728,96.9,No-Nonsense Defender
+tadeo allende,7.14,Inter Miami CF,mls,2,1.0,1.4366859769575104,92.4,High Volume Goalscorers
+gabriel pirani,6.65,D.C. United,mls,4,1.0,0.23163356249117145,54.5,10s
+adilson malanda,6.69,Charlotte FC,mls,6,1.0,0.5250492309693366,56.8,No-Nonsense Defender
+miki yamane,6.74,LA Galaxy,mls,5,1.0,0.7700705650758793,68.2,Attacking FBs
+mckinze gaines,5.401200357553313,New Mexico United,uslc,7,0.8134337887881496,-0.8213372042049166,26.1,Difference Makers
+anders dreyer,7.87,San Diego FC,mls,7,1.0,2.0141767858855686,99.1,Difference Makers
+timothy tillman,7.26,Los Angeles FC,mls,5,1.0,1.3974459404687438,97.1,Attacking FBs
+ethan zubak,5.474409398544248,Orange County SC,uslc,2,0.8134337887881496,-0.5082201508632868,44.5,High Volume Goalscorers
+edvard tagseth,7.25,Nashville SC,mls,5,1.0,1.3853810294034967,95.8,Attacking FBs
+cristian arango,7.5,San Jose Earthquakes,mls,2,1.0,1.8570571086170742,97.9,High Volume Goalscorers
+osman bukari,6.84,Austin FC,mls,7,1.0,0.8311810661929084,73.0,Difference Makers
+peter stroud,6.92,New York Red Bulls,mls,1,1.0,1.1665208027934155,88.1,Progressive Dribblers in Def 3rd
+beau leroux,7.28,San Jose Earthquakes,mls,6,1.0,1.227796568951602,89.6,No-Nonsense Defender
+christopher mcvey,7.09,San Diego FC,mls,1,1.0,1.377744555497945,93.7,Progressive Dribblers in Def 3rd
+yannick bright,6.96,Inter Miami CF,mls,1,1.0,1.2162205093121286,89.9,Progressive Dribblers in Def 3rd
+olwethu makhanya,7.14,Philadelphia Union,mls,6,1.0,1.0610429633286909,84.4,No-Nonsense Defender
+bryce jamison,5.352394330226025,Orange County SC,uslc,2,0.8134337887881496,-0.6506968518312046,36.0,High Volume Goalscorers
+aime mabika,5.506946750095773,Rhode Island FC,uslc,3,0.8134337887881496,-0.6562630504325632,32.5,Progressive Passers in Def 3rd
+jacob shaffelburg,6.6,Nashville SC,mls,2,1.0,0.8061292794681656,69.5,High Volume Goalscorers
+alex villanueva,5.563887115310943,Detroit City FC,uslc,7,0.8134337887881496,-0.6344850313137004,37.4,Difference Makers
+sebastian anderson,5.799782914059507,Hartford Athletic,uslc,4,0.8134337887881496,-0.6973710936377392,35.1,10s
+kai wagner,7.87,Philadelphia Union,mls,4,1.0,1.564688024956533,97.4,10s
+emeka eneli,7.17,Real Salt Lake,mls,1,1.0,1.4771439685353709,96.5,Progressive Dribblers in Def 3rd
+simon becher,6.31,St. Louis City SC,mls,2,1.0,0.46749697896462844,59.7,High Volume Goalscorers
+zico bailey,5.580155791086707,New Mexico United,uslc,1,0.8134337887881496,-0.49822579630127545,43.4,Progressive Dribblers in Def 3rd
+brandon servania,6.67,D.C. United,mls,1,1.0,0.8558976370514604,73.1,Progressive Dribblers in Def 3rd
+collin fernandez,4.864872940876006,Spokane Velocity FC,usl1,3,0.717532882135104,-1.4685681137429172,8.9,Progressive Passers in Def 3rd
+joe hafferty,5.645230494189759,Lexington SC,uslc,1,0.8134337887881496,-0.41737095515092365,46.9,Progressive Dribblers in Def 3rd
+yuya kubo,6.52,FC Cincinnati,mls,0,1.0,0.8443075033089512,69.0,Creative 9s
+diogo goncalves,6.87,Real Salt Lake,mls,0,1.0,1.272957533930787,93.3,Creative 9s
+raoul petretta,7.03,Toronto FC,mls,3,1.0,1.2705930972927104,91.9,Progressive Passers in Def 3rd
+artur,6.86,Houston Dynamo FC,mls,1,1.0,1.0919712430153468,83.9,Progressive Dribblers in Def 3rd
+dominique badji,6.31,D.C. United,mls,0,1.0,0.5871174849358501,61.0,Creative 9s
+conrad wallem,6.76,St. Louis City SC,mls,5,1.0,0.7942003872063736,70.1,Attacking FBs
+finn surman,6.82,Portland Timbers FC,mls,3,1.0,1.0049163778163874,80.9,Progressive Passers in Def 3rd
+thiago martins,6.92,New York City FC,mls,3,1.0,1.131429101376541,88.6,Progressive Passers in Def 3rd
+matheus nascimento,6.68,LA Galaxy,mls,0,1.0,1.0402618030217905,82.4,Creative 9s
+guilherme biro,7.06,Austin FC,mls,5,1.0,1.1561477191637957,86.0,Attacking FBs
+obinna nwobodo,7.18,FC Cincinnati,mls,1,1.0,1.4895688951650488,97.6,Progressive Dribblers in Def 3rd
+braian ojeda,6.83,Real Salt Lake,mls,6,1.0,0.6918028365922467,62.0,No-Nonsense Defender
+tristan muyumba,6.76,Atlanta United FC,mls,1,1.0,0.9677219767185641,79.4,Progressive Dribblers in Def 3rd
+luis suarez,7.53,Inter Miami CF,mls,0,1.0,2.081269020246248,100.0,Creative 9s
+jimer fory,7.24,Portland Timbers FC,mls,6,1.0,1.1801526816307704,88.5,No-Nonsense Defender
+laurence wootton,4.649613076235474,Union Omaha,usl1,1,0.717532882135104,-1.654418292082089,2.8,Progressive Dribblers in Def 3rd
+collin smith,5.620827480526114,Phoenix Rising FC,uslc,5,0.8134337887881496,-0.5802011263362509,35.7,Attacking FBs
+frank daroma,5.832320265611033,El Paso Locomotive FC,uslc,1,0.8134337887881496,-0.18491328684366423,51.7,Progressive Dribblers in Def 3rd
+adrian rebollar,5.547618439535181,Monterey Bay FC,uslc,7,0.8134337887881496,-0.6531702486028216,35.6,Difference Makers
+connor rutz,5.205976248244158,Detroit City FC,uslc,0,0.8134337887881496,-0.7649962721995065,27.1,Creative 9s
+francesco celeste,5.059558166262291,The Miami FC,uslc,0,0.8134337887881496,-0.944316601699843,21.9,Creative 9s
+younes boudadi,5.555752777423062,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.5285463617326577,39.9,Progressive Dribblers in Def 3rd
+giovanni calixtro,4.491755842165751,One Knoxville SC,usl1,0,0.717532882135104,-1.6397122691602177,1.0,Creative 9s
+john murphy,4.585035116843314,Forward Madison FC,usl1,5,0.717532882135104,-1.8298754013257887,1.3,Attacking FBs
+michael knapp,4.750067679734388,Chattanooga Red Wolves SC,usl1,6,0.717532882135104,-1.7855986909500168,3.1,No-Nonsense Defender
+phillip goodrum,5.783514238283744,Louisville City FC,uslc,2,0.8134337887881496,-0.14727917507789792,54.2,High Volume Goalscorers
+deshane beckford,5.246647937683566,Hartford Athletic,uslc,0,0.8134337887881496,-0.7151850695605242,33.3,Creative 9s
+lee desmond,5.856723279274678,Sacramento Republic FC,uslc,6,0.8134337887881496,-0.4674643237633958,46.4,No-Nonsense Defender
+riley bidois,5.1246328693653425,Loudoun United FC,uslc,7,0.8134337887881496,-1.1389858981199845,13.5,Difference Makers
+jaden servania,5.3198569786744985,North Carolina FC,uslc,1,0.8134337887881496,-0.8216451609026815,24.8,Progressive Dribblers in Def 3rd
+lamin jawneh,4.671139062699527,Texoma FC,usl1,7,0.717532882135104,-1.6598414633557037,2.7,Difference Makers
+rafael mentzingen,5.897394968714085,North Carolina FC,uslc,5,0.8134337887881496,-0.24652491148357775,48.7,Attacking FBs
+joe gallardo,4.807470310305197,Union Omaha,usl1,0,0.717532882135104,-1.2530522222009892,11.4,Creative 9s
+ollie bassett,5.482543736432129,Tampa Bay Rowdies,uslc,7,0.8134337887881496,-0.7279111177593075,30.6,Difference Makers
+solomon asante,5.058606819052483,Texoma FC,usl1,1,0.717532882135104,-1.1462465674322078,13.3,Progressive Dribblers in Def 3rd
+bradley sample,5.32799131656238,Pittsburgh Riverhounds SC,uslc,3,0.8134337887881496,-0.88266444335454,18.7,Progressive Passers in Def 3rd
+alejandro mitrano,5.596424466862469,The Miami FC,uslc,5,0.8134337887881496,-0.6096431452938401,34.1,Attacking FBs
+daniel gomez,5.116498531477461,Oakland Roots SC,uslc,1,0.8134337887881496,-1.0743165394975294,16.8,Progressive Dribblers in Def 3rd
+jackson kasanzu,4.585035116843314,South Georgia Tormenta FC,usl1,3,0.717532882135104,-1.8225985664781459,3.3,Progressive Passers in Def 3rd
+masango akale,4.778768995019793,Spokane Velocity FC,usl1,7,0.717532882135104,-1.5362242310783387,3.6,Difference Makers
+rhys williams,5.458140722768484,Detroit City FC,uslc,5,0.8134337887881496,-0.7764812527201761,26.3,Attacking FBs
+derek gebhard,4.986853530838973,Forward Madison FC,usl1,0,0.717532882135104,-1.033359013701428,18.1,Creative 9s
+ihsan sacko,5.384931681777551,Phoenix Rising FC,uslc,0,0.8134337887881496,-0.5458269805879851,41.0,Creative 9s
+tyler gibson,5.360528668113906,Oakland Roots SC,uslc,3,0.8134337887881496,-0.8415005537323622,21.1,Progressive Passers in Def 3rd
+taylor calheira,5.913663644489848,FC Tulsa,uslc,2,0.8134337887881496,0.004695972621213204,57.6,High Volume Goalscorers
+manuel arteaga,5.4337377091048396,Tampa Bay Rowdies,uslc,2,0.8134337887881496,-0.5557123845192601,40.7,High Volume Goalscorers
+darren smith,5.466275060656366,Detroit City FC,uslc,0,0.8134337887881496,-0.4462045753100206,45.7,Creative 9s
+john scearce,5.572021453198825,Phoenix Rising FC,uslc,3,0.8134337887881496,-0.5739352711882089,40.2,Progressive Passers in Def 3rd
+lyam mackinnon,5.506946750095773,Orange County SC,uslc,0,0.8134337887881496,-0.39639337267103836,46.7,Creative 9s
+jordan scarlett,5.498812412207892,Hartford Athletic,uslc,6,0.8134337887881496,-0.8937709492991726,23.4,No-Nonsense Defender
+sean totsch,5.929932320265611,Louisville City FC,uslc,6,0.8134337887881496,-0.3802652412674413,47.9,No-Nonsense Defender
+luke ivanovic,5.311722640786617,Monterey Bay FC,uslc,7,0.8134337887881496,-0.9241058992950854,18.0,Difference Makers
+javier mariona,5.001204188481675,AV Alta FC,usl1,7,0.717532882135104,-1.2807486177051202,8.1,Difference Makers
+isidro martinez,4.907924913804111,Union Omaha,usl1,4,0.717532882135104,-1.6718754273474843,5.2,10s
+rafael jauregui,5.506946750095773,Charlotte Independence,uslc,7,0.8134337887881496,-0.6998832918256256,34.2,Difference Makers
+jeciel cedeno,5.555752777423062,Detroit City FC,uslc,4,0.8134337887881496,-0.9640149154567922,20.8,10s
+sebastian cruz,5.359970629549227,AV Alta FC,usl1,7,0.717532882135104,-0.8686911767805742,20.7,Difference Makers
+gabriel alves,5.044256161409781,South Georgia Tormenta FC,usl1,5,0.717532882135104,-1.2758292951273444,13.0,Attacking FBs
+jonathan ricketts,5.555752777423062,The Miami FC,uslc,3,0.8134337887881496,-0.5945172159992972,38.6,Progressive Passers in Def 3rd
+marco micaletto,5.523215425871536,Colorado Springs Switchbacks FC,uslc,5,0.8134337887881496,-0.6979692021666066,29.5,Attacking FBs
+michelle benitez,5.832320265611033,Sacramento Republic FC,uslc,5,0.8134337887881496,-0.32503696203714827,46.8,Attacking FBs
+joseph farrell,5.246647937683566,Hartford Athletic,uslc,6,0.8134337887881496,-1.1941233445630148,14.6,No-Nonsense Defender
+emilio ycaza,5.352394330226025,Charleston Battery,uslc,0,0.8134337887881496,-0.5856759426991711,38.1,Creative 9s
+adrian billhardt,5.32799131656238,Richmond Kickers,uslc,2,0.8134337887881496,-0.6791921920247884,31.4,High Volume Goalscorers
+devon amoo-mensah,5.482543736432129,Detroit City FC,uslc,6,0.8134337887881496,-0.913148523187162,20.8,No-Nonsense Defender
+elias gartig,5.246647937683566,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.9126068571968258,23.8,Progressive Dribblers in Def 3rd
+ferrety sousa,4.6209117609500705,Forward Madison FC,usl1,1,0.717532882135104,-1.6900794657417293,2.1,Progressive Dribblers in Def 3rd
+sebastian tregarthen,5.222244924019921,Birmingham Legion FC,uslc,0,0.8134337887881496,-0.745071791143914,29.0,Creative 9s
+cristian vazquez,5.4906780743200105,The Miami FC,uslc,7,0.8134337887881496,-0.7185685091147469,32.0,Difference Makers
+marcos serrato,5.401200357553313,FC Tulsa,uslc,7,0.8134337887881496,-0.8213372042049166,26.1,Difference Makers
+oscar jimenez,4.534807815093858,South Georgia Tormenta FC,usl1,5,0.717532882135104,-1.8904741941912422,0.6,Attacking FBs
+ryan williams,5.669633507853403,Detroit City FC,uslc,5,0.8134337887881496,-0.5213170884210735,38.6,Attacking FBs
+quenzi huerman,5.539484101647298,Colorado Springs Switchbacks FC,uslc,2,0.8134337887881496,-0.4322325770137327,46.6,High Volume Goalscorers
+emmanuel johnson,4.9294087600561864,Oakland Roots SC,uslc,0,0.8134337887881496,-1.103712450144587,17.1,Creative 9s
+evan davila,5.555752777423062,Louisville City FC,uslc,5,0.8134337887881496,-0.6587131768898215,30.8,Attacking FBs
+aaron molloy,5.978738347592899,Charleston Battery,uslc,6,0.8134337887881496,-0.32213251960347306,49.0,No-Nonsense Defender
+christian chaney,5.81605158983527,Charlotte Independence,uslc,2,0.8134337887881496,-0.10928538815311988,55.5,High Volume Goalscorers
+nelson blanco,5.336125654450261,San Antonio FC,uslc,7,0.8134337887881496,-0.8960780733614035,18.9,Difference Makers
+sergio chavez,4.656788405056825,Texoma FC,usl1,3,0.717532882135104,-1.7318215273152662,4.9,Progressive Passers in Def 3rd
+ethan bryant,5.262916613459328,Monterey Bay FC,uslc,5,0.8134337887881496,-1.0120174043808867,16.9,Attacking FBs
+francisco bonfiglio,5.81605158983527,The Miami FC,uslc,2,0.8134337887881496,-0.10928538815311988,55.5,High Volume Goalscorers
+xavi gnaulati,5.368663006001787,Monterey Bay FC,uslc,7,0.8134337887881496,-0.8587076387831601,23.9,Difference Makers
+boubacar diallo,5.702170859404929,FC Tulsa,uslc,6,0.8134337887881496,-0.6515512756992995,34.4,No-Nonsense Defender
+roman torres,5.588290128974588,Birmingham Legion FC,uslc,4,0.8134337887881496,-0.9284624058809182,22.1,10s
+thomas vancaeyezeele,5.482543736432129,Tampa Bay Rowdies,uslc,3,0.8134337887881496,-0.6871359676491956,28.0,Progressive Passers in Def 3rd
+juan tejada,5.238513599795684,Colorado Springs Switchbacks FC,uslc,0,0.8134337887881496,-0.7251473100883205,32.4,Creative 9s
+beverly makangila,5.157170220916869,Hartford Athletic,uslc,3,0.8134337887881496,-1.0987748638709713,16.3,Progressive Passers in Def 3rd
+mukwelle akale,5.759111224620099,New Mexico United,uslc,7,0.8134337887881496,-0.41026242384424055,47.3,Difference Makers
+brunallergene etou,5.572021453198825,Pittsburgh Riverhounds SC,uslc,5,0.8134337887881496,-0.6390851642514292,32.1,Attacking FBs
+gabriel torres,5.978738347592899,El Paso Locomotive FC,uslc,5,0.8134337887881496,-0.1483848482916162,50.0,Attacking FBs
+jack blake,5.824185927723152,Indy Eleven,uslc,4,0.8134337887881496,-0.6707067114558335,37.7,10s
+deian veron,5.100229855701698,The Miami FC,uslc,5,0.8134337887881496,-1.208297530764813,13.6,Attacking FBs
+wahab ackwei,5.466275060656366,El Paso Locomotive FC,uslc,1,0.8134337887881496,-0.6397217683143905,31.8,Progressive Dribblers in Def 3rd
+aaron walker,4.929450900268165,South Georgia Tormenta FC,usl1,3,0.717532882135104,-1.386868778496326,9.8,Progressive Passers in Def 3rd
+callum johnson,4.82899629676925,One Knoxville SC,usl1,5,0.717532882135104,-1.5355384074078648,9.1,Attacking FBs
+karsen henderlong,4.979678202017622,FC Naples,usl1,2,0.717532882135104,-1.0859165757276965,16.9,High Volume Goalscorers
+jackson walti,5.5150810879836545,Pittsburgh Riverhounds SC,uslc,6,0.8134337887881496,-0.8743933754111831,25.0,No-Nonsense Defender
+robert coronado,5.531349763759417,El Paso Locomotive FC,uslc,1,0.8134337887881496,-0.5588669271640399,37.8,Progressive Dribblers in Def 3rd
+langston blackstock,5.807917251947388,Charleston Battery,uslc,1,0.8134337887881496,-0.21523385227504643,51.0,Progressive Dribblers in Def 3rd
+shane wiedt,5.588290128974588,Detroit City FC,uslc,3,0.8134337887881496,-0.5533533263771194,42.3,Progressive Passers in Def 3rd
+joseph brito,5.230379261907802,Rhode Island FC,uslc,0,0.8134337887881496,-0.7351095506161178,31.0,Creative 9s
+nazeem bartman,4.649613076235474,Forward Madison FC,usl1,0,0.717532882135104,-1.4463822456806028,4.8,Creative 9s
+kai greene,5.498812412207892,Oakland Roots SC,uslc,6,0.8134337887881496,-0.8937709492991726,23.4,No-Nonsense Defender
+dominik wanner,5.360528668113906,Sacramento Republic FC,uslc,7,0.8134337887881496,-0.8680502474277207,22.1,Difference Makers
+stefan lukic,5.181573234580513,FC Tulsa,uslc,2,0.8134337887881496,-0.8501642331862881,20.3,High Volume Goalscorers
+taimu okiyoshi,5.173438896692632,Rhode Island FC,uslc,1,0.8134337887881496,-1.0035685534909713,20.3,Progressive Dribblers in Def 3rd
+shavon john-brown,5.223639381943557,Spokane Velocity FC,usl1,7,0.717532882135104,-1.0252730043319016,14.4,Difference Makers
+arturo ortiz,5.824185927723152,El Paso Locomotive FC,uslc,6,0.8134337887881496,-0.5062194715393757,43.8,No-Nonsense Defender
+christopher pearson,5.173438896692632,Las Vegas Lights FC,uslc,1,0.8134337887881496,-1.0035685534909713,20.3,Progressive Dribblers in Def 3rd
+patrick hogan,5.498812412207892,Indy Eleven,uslc,3,0.8134337887881496,-0.6665540228381073,30.1,Progressive Passers in Def 3rd
+ian cerro,4.800294981483846,FC Naples,usl1,0,0.717532882135104,-1.2618399505409712,10.5,Creative 9s
+evan conway,5.393066019665432,North Carolina FC,uslc,0,0.8134337887881496,-0.5358647400601888,41.9,Creative 9s
+javen romero,5.572021453198825,Charlotte Independence,uslc,1,0.8134337887881496,-0.5083326514450702,41.6,Progressive Dribblers in Def 3rd
+chris allan,5.628961818413996,Charleston Battery,uslc,1,0.8134337887881496,-0.43758466543851215,46.2,Progressive Dribblers in Def 3rd
+grant stoneman,5.441872046992722,Rhode Island FC,uslc,5,0.8134337887881496,-0.7961092653585682,24.7,Attacking FBs
+matias romero,5.4906780743200105,The Miami FC,uslc,1,0.8134337887881496,-0.6094012028830083,34.3,Progressive Dribblers in Def 3rd
+daniel griffin,5.628961818413996,Pittsburgh Riverhounds SC,uslc,3,0.8134337887881496,-0.5018984643493976,43.9,Progressive Passers in Def 3rd
+benjamin ofeimu,5.401200357553313,Indy Eleven,uslc,5,0.8134337887881496,-0.8451792969545506,22.7,Attacking FBs
+prince saydee,4.872048269697356,Westchester SC,usl1,2,0.717532882135104,-1.211595788088564,11.4,High Volume Goalscorers
+josh o'brien,5.075826842038054,Indy Eleven,uslc,3,0.8134337887881496,-1.201684587926415,14.6,Progressive Passers in Def 3rd
+michael chilaka,4.750067679734388,Forward Madison FC,usl1,1,0.717532882135104,-1.5296041842733465,6.3,Progressive Dribblers in Def 3rd
+diogo pacheco,5.27105095134721,San Antonio FC,uslc,2,0.8134337887881496,-0.7456813191431492,26.7,High Volume Goalscorers
+bobosi byaruhanga,5.555752777423062,Oakland Roots SC,uslc,1,0.8134337887881496,-0.5285463617326577,39.9,Progressive Dribblers in Def 3rd
+anuar pelaez,4.9438015579108665,Spokane Velocity FC,usl1,2,0.717532882135104,-1.1278096465146528,14.8,High Volume Goalscorers
+blake willey,5.344259992338143,Sacramento Republic FC,uslc,5,0.8134337887881496,-0.913877341188924,20.5,Attacking FBs
+patrick leal,5.580155791086707,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.49822579630127545,43.4,Progressive Dribblers in Def 3rd
+jacob erlandson,5.913663644489848,Loudoun United FC,uslc,3,0.8134337887881496,-0.14171443015534468,49.6,Progressive Passers in Def 3rd
+samuel careaga,5.3767973438896695,Hartford Athletic,uslc,1,0.8134337887881496,-0.7508971748961234,28.0,Progressive Dribblers in Def 3rd
+dawson mccartney,5.539484101647298,Birmingham Legion FC,uslc,3,0.8134337887881496,-0.6150991608103865,36.6,Progressive Passers in Def 3rd
+jearl margaritha,5.628961818413996,Phoenix Rising FC,uslc,7,0.8134337887881496,-0.5597441621572135,40.5,Difference Makers
+eric kinzner,4.958152215553569,Chattanooga Red Wolves SC,usl1,3,0.717532882135104,-1.350557962831175,11.4,Progressive Passers in Def 3rd
+stephen carroll,5.498812412207892,Detroit City FC,uslc,3,0.8134337887881496,-0.6665540228381073,30.1,Progressive Passers in Def 3rd
+aldair sanchez,5.5150810879836545,Rhode Island FC,uslc,4,0.8134337887881496,-1.0084555524266343,18.2,10s
+nick moon,5.466275060656366,Tampa Bay Rowdies,uslc,2,0.8134337887881496,-0.517718597594482,42.8,High Volume Goalscorers
+pedro dolabella,5.7103051972928105,North Carolina FC,uslc,2,0.8134337887881496,-0.23276519565864826,52.5,High Volume Goalscorers
+ronaldo damus,5.368663006001787,Birmingham Legion FC,uslc,0,0.8134337887881496,-0.5657514616435786,39.5,Creative 9s
+luke biasi,5.87299195505044,Pittsburgh Riverhounds SC,uslc,5,0.8134337887881496,-0.27596693044116694,48.1,Attacking FBs
+emmanuel samadia,5.824185927723152,Hartford Athletic,uslc,5,0.8134337887881496,-0.3348509683563443,46.1,Attacking FBs
+juan galindrez,4.491755842165751,Forward Madison FC,usl1,2,0.717532882135104,-1.6556623384302958,1.7,High Volume Goalscorers
+lewis jamieson,5.417469033329077,Sacramento Republic FC,uslc,0,0.8134337887881496,-0.505978018476799,43.8,Creative 9s
+joel garcia,5.344259992338143,Monterey Bay FC,uslc,5,0.8134337887881496,-0.913877341188924,20.5,Attacking FBs
+taylor davila,6.255305835780871,Louisville City FC,uslc,4,0.8134337887881496,-0.1996359595755061,46.8,10s
+abdellatif aboukoura,6.287843187332397,Loudoun United FC,uslc,7,0.8134337887881496,0.1970071380522134,55.9,Difference Makers
+jake dengler,4.936626229089516,FC Naples,usl1,6,0.717532882135104,-1.5633893283446798,6.2,No-Nonsense Defender
+luis paredes,5.295453965010854,San Antonio FC,uslc,7,0.8134337887881496,-0.9427911165842077,17.1,Difference Makers
+ben morris,5.368663006001787,Detroit City FC,uslc,0,0.8134337887881496,-0.5657514616435786,39.5,Creative 9s
+dariusz formella,5.303588302898735,Phoenix Rising FC,uslc,0,0.8134337887881496,-0.6454493858659506,37.1,Creative 9s
+ryan doghman,5.750976886732218,Orange County SC,uslc,7,0.8134337887881496,-0.4196050324888012,45.9,Difference Makers
+adam larsson,5.083961179925935,Monterey Bay FC,uslc,0,0.8134337887881496,-0.9144298801164543,23.8,Creative 9s
+giordano colli,5.482543736432129,FC Tulsa,uslc,4,0.8134337887881496,-1.0440080620025074,16.9,10s
+jose sinisterra,5.409334695441196,Oakland Roots SC,uslc,0,0.8134337887881496,-0.5159402590045953,42.9,Creative 9s
+mark doyle,5.252340697228962,One Knoxville SC,usl1,2,0.717532882135104,-0.767529237746832,23.7,High Volume Goalscorers
+wesley leggett,5.262916613459328,Loudoun United FC,uslc,2,0.8134337887881496,-0.7551797658743434,25.4,High Volume Goalscorers
+nicolas cardona,5.531349763759417,The Miami FC,uslc,3,0.8134337887881496,-0.6253901332159307,35.8,Progressive Passers in Def 3rd
+wolfgang prentice,5.547618439535181,Oakland Roots SC,uslc,0,0.8134337887881496,-0.3465821700320561,50.0,Creative 9s
+garven-michee metusala,5.417469033329077,Colorado Springs Switchbacks FC,uslc,3,0.8134337887881496,-0.769463746893551,24.0,Progressive Passers in Def 3rd
+albert dikwa,5.4906780743200105,Rhode Island FC,uslc,2,0.8134337887881496,-0.4892232574008982,45.8,High Volume Goalscorers
+aiden mesias,4.692665049163581,Forward Madison FC,usl1,1,0.717532882135104,-1.6009265315926275,4.2,Progressive Dribblers in Def 3rd
+miles lyons,5.677767845741285,Monterey Bay FC,uslc,5,0.8134337887881496,-0.5115030821018763,39.6,Attacking FBs
+leland archer,5.620827480526114,Charleston Battery,uslc,3,0.8134337887881496,-0.5121894367549418,43.1,Progressive Passers in Def 3rd
+diego mercado,5.539484101647298,The Miami FC,uslc,6,0.8134337887881496,-0.845327014579199,27.1,No-Nonsense Defender
+maliek howell,5.336125654450261,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.801431450615094,26.6,Progressive Dribblers in Def 3rd
+brecc evans,4.979678202017622,FC Naples,usl1,3,0.717532882135104,-1.3233248510823112,13.0,Progressive Passers in Def 3rd
+raheem sommersall,5.409334695441196,North Carolina FC,uslc,3,0.8134337887881496,-0.7797547192990951,22.4,Progressive Passers in Def 3rd
+cristian parano,5.572021453198825,Sacramento Republic FC,uslc,1,0.8134337887881496,-0.5083326514450702,41.6,Progressive Dribblers in Def 3rd
+hayden white,5.051423828374409,Indy Eleven,uslc,3,0.8134337887881496,-1.2325575051430486,13.8,Progressive Passers in Def 3rd
+zachary zandi,5.173438896692632,Colorado Springs Switchbacks FC,uslc,3,0.8134337887881496,-1.078192919059882,17.1,Progressive Passers in Def 3rd
+preston kilwien,4.764418337377091,Texoma FC,usl1,1,0.717532882135104,-1.5117735974435258,7.0,Progressive Dribblers in Def 3rd
+carlos guzman,5.661499169965522,Monterey Bay FC,uslc,1,0.8134337887881496,-0.39715724486333626,48.6,Progressive Dribblers in Def 3rd
+daltyn knutson,5.848588941386796,The Miami FC,uslc,6,0.8134337887881496,-0.4771531107073905,44.8,No-Nonsense Defender
+finn sundstrom,5.612693142638233,North Carolina FC,uslc,1,0.8134337887881496,-0.45779837572609955,45.1,Progressive Dribblers in Def 3rd
+mouhamadou war,5.010752138935002,Orange County SC,uslc,7,0.8134337887881496,-1.2697824191438352,9.0,Difference Makers
+nathan messer,5.295392670157067,Portland Hearts of Pine,usl1,5,0.717532882135104,-0.9728353308000715,19.5,Attacking FBs
+ray serrano,5.938066658153493,Louisville City FC,uslc,0,0.8134337887881496,0.1316053753021738,54.3,Creative 9s
+michael bryant,5.759111224620099,Detroit City FC,uslc,6,0.8134337887881496,-0.5837297670913355,38.5,No-Nonsense Defender
+angelo kelly-rosales,4.836171625590601,One Knoxville SC,usl1,5,0.717532882135104,-1.5268814369985146,9.7,Attacking FBs
+louis perez,5.637096156301877,North Carolina FC,uslc,2,0.8134337887881496,-0.31825121623939856,51.7,High Volume Goalscorers
+braxton montgomery,5.384931681777551,Phoenix Rising FC,uslc,1,0.8134337887881496,-0.7407903197523297,29.0,Progressive Dribblers in Def 3rd
+clay holstad,5.702170859404929,Rhode Island FC,uslc,5,0.8134337887881496,-0.48206106314428826,41.6,Attacking FBs
+rodrigo da costa,5.580155791086707,North Carolina FC,uslc,2,0.8134337887881496,-0.38474034335775936,48.3,High Volume Goalscorers
+shawn smart,5.523215425871536,Las Vegas Lights FC,uslc,1,0.8134337887881496,-0.5689737823078335,37.1,Progressive Dribblers in Def 3rd
+julian bravo,5.409334695441196,Oakland Roots SC,uslc,1,0.8134337887881496,-0.7104697543209475,30.1,Progressive Dribblers in Def 3rd
+rodrigo lopez,5.628961818413996,Sacramento Republic FC,uslc,4,0.8134337887881496,-0.8840217689110761,24.0,10s
+darwin espinal,6.0438130506959515,Richmond Kickers,uslc,7,0.8134337887881496,-0.08327112128461206,54.1,Difference Makers
+evan lee,4.678314391520878,Greenville Triumph SC,usl1,5,0.717532882135104,-1.7173347860042292,4.5,Attacking FBs
+neveal hackshaw,5.620827480526114,Oakland Roots SC,uslc,6,0.8134337887881496,-0.7484391451392487,29.2,No-Nonsense Defender
+russell cicerone,5.986872685480781,Sacramento Republic FC,uslc,7,0.8134337887881496,-0.14866938179653735,53.2,Difference Makers
+paco craig,5.791648576171625,North Carolina FC,uslc,6,0.8134337887881496,-0.5449746193153556,40.1,No-Nonsense Defender
+sivert haugli,4.950976886732218,One Knoxville SC,usl1,3,0.717532882135104,-1.3596356667474625,10.6,Progressive Passers in Def 3rd
+nico gordon,5.645230494189759,Monterey Bay FC,uslc,3,0.8134337887881496,-0.4813165195383082,44.7,Progressive Passers in Def 3rd
+owen damm,5.783514238283744,FC Tulsa,uslc,5,0.8134337887881496,-0.38392099995232565,44.5,Attacking FBs
+zane bubb,5.166236751372749,Greenville Triumph SC,usl1,6,0.717532882135104,-1.2899008820611881,11.5,No-Nonsense Defender
+jorge hernandez,6.230902822117226,San Antonio FC,uslc,4,0.8134337887881496,-0.22630034175741176,45.5,10s
+timmy mehl,4.879223598518707,Forward Madison FC,usl1,1,0.717532882135104,-1.369128902804963,9.1,Progressive Dribblers in Def 3rd
+nick ross,5.81605158983527,Sacramento Republic FC,uslc,3,0.8134337887881496,-0.2652060990218767,47.2,Progressive Passers in Def 3rd
+luka prpa,4.628087089771421,FC Naples,usl1,3,0.717532882135104,-1.7681323429804174,4.1,Progressive Passers in Def 3rd
+sean suber,5.750976886732218,Pittsburgh Riverhounds SC,uslc,6,0.8134337887881496,-0.5934185540353302,37.0,No-Nonsense Defender
+duke lacroix,5.393066019665432,Colorado Springs Switchbacks FC,uslc,6,0.8134337887881496,-1.0197251795711069,17.2,No-Nonsense Defender
+babacar diene,4.606561103307368,One Knoxville SC,usl1,2,0.717532882135104,-1.5216045119120365,3.4,High Volume Goalscorers
+lucio berron,5.352394330226025,San Antonio FC,uslc,2,0.8134337887881496,-0.6506968518312046,36.0,High Volume Goalscorers
+perrin barnes,5.580155791086707,Pittsburgh Riverhounds SC,uslc,5,0.8134337887881496,-0.6292711579322322,33.1,Attacking FBs
+arturo ordonez,5.6859021836291666,Louisville City FC,uslc,3,0.8134337887881496,-0.42986165751058636,45.5,Progressive Passers in Def 3rd
+will seymore,5.6859021836291666,New Mexico United,uslc,6,0.8134337887881496,-0.6709288495872889,33.3,No-Nonsense Defender
+walmer martinez,5.223639381943557,AV Alta FC,usl1,1,0.717532882135104,-0.9411948188892726,22.4,Progressive Dribblers in Def 3rd
+juan torres,6.30411186310816,Charleston Battery,uslc,4,0.8134337887881496,-0.14630719521169566,49.4,10s
+max glasser,4.9438015579108665,FC Naples,usl1,1,0.717532882135104,-1.2888912620707709,11.2,Progressive Dribblers in Def 3rd
+grant robinson,5.572021453198825,Monterey Bay FC,uslc,5,0.8134337887881496,-0.6390851642514292,32.1,Attacking FBs
+lewis hilton,5.694036521517048,Tampa Bay Rowdies,uslc,4,0.8134337887881496,-0.8129167497593283,28.6,10s
+johnny rodriguez,5.588290128974588,Las Vegas Lights FC,uslc,0,0.8134337887881496,-0.29677096739307385,52.4,Creative 9s
+arthur rogers,6.03567871280807,FC Tulsa,uslc,4,0.8134337887881496,-0.43961539921265436,41.6,10s
+mayele malango,5.368663006001787,Monterey Bay FC,uslc,7,0.8134337887881496,-0.8587076387831601,23.9,Difference Makers
+maalique foster,5.694036521517048,Indy Eleven,uslc,7,0.8134337887881496,-0.4850032930007265,44.1,Difference Makers
+matthew mahoney,5.856723279274678,Colorado Springs Switchbacks FC,uslc,6,0.8134337887881496,-0.4674643237633958,46.4,No-Nonsense Defender
+baboucarr njie,5.450006384880603,Oakland Roots SC,uslc,5,0.8134337887881496,-0.7862952590393721,25.3,Attacking FBs
+stavros zarokostas,4.850522283233303,One Knoxville SC,usl1,7,0.717532882135104,-1.4538127428934298,5.0,Difference Makers
+rashid tetteh,4.570684459200613,Westchester SC,usl1,3,0.717532882135104,-1.8407539743107209,2.4,Progressive Passers in Def 3rd
+ramiz hamouda,5.32799131656238,Birmingham Legion FC,uslc,1,0.8134337887881496,-0.8115383057588877,25.9,Progressive Dribblers in Def 3rd
+christian pinzon,5.677767845741285,Las Vegas Lights FC,uslc,7,0.8134337887881496,-0.5036885102898477,42.3,Difference Makers
+luis alvarez,6.401723917762737,Tampa Bay Rowdies,uslc,7,0.8134337887881496,0.327803659076064,57.7,Difference Makers
+arturo rodriguez,5.970604009705018,Charleston Battery,uslc,7,0.8134337887881496,-0.16735459908565958,52.3,Difference Makers
+clay dimick,5.498812412207892,Charlotte Independence,uslc,5,0.8134337887881496,-0.7274112211241948,27.9,Attacking FBs
+allen gavilanes,5.474409398544248,The Miami FC,uslc,7,0.8134337887881496,-0.7372537264038681,29.3,Difference Makers
+ollie wright,5.022730174945728,Portland Hearts of Pine,usl1,7,0.717532882135104,-1.2560251712496473,10.8,Difference Makers
+wesley fonguck,5.65336483207764,Monterey Bay FC,uslc,1,0.8134337887881496,-0.40726410000713,47.6,Progressive Dribblers in Def 3rd
+robbie mertz,5.775379900395862,Pittsburgh Riverhounds SC,uslc,4,0.8134337887881496,-0.7240354758196449,31.8,10s
+tom brewitt,5.409334695441196,Orange County SC,uslc,6,0.8134337887881496,-1.0003476056831164,18.8,No-Nonsense Defender
+devin boyce,4.750067679734388,Forward Madison FC,usl1,0,0.717532882135104,-1.323354048920849,8.1,Creative 9s
+moses mensah,5.360528668113906,Birmingham Legion FC,uslc,1,0.8134337887881496,-0.7711108851837118,27.3,Progressive Dribblers in Def 3rd
+yanis leerman,5.523215425871536,Loudoun United FC,uslc,6,0.8134337887881496,-0.8647045884671885,26.0,No-Nonsense Defender
+elvis amoh,5.441872046992722,Indy Eleven,uslc,2,0.8134337887881496,-0.5462139377880647,41.5,High Volume Goalscorers
+darius johnson,5.092095517813816,Phoenix Rising FC,uslc,7,0.8134337887881496,-1.176356332698228,12.6,Difference Makers
+kyle edwards,5.750976886732218,Hartford Athletic,uslc,2,0.8134337887881496,-0.18527296200267596,53.4,High Volume Goalscorers
+dakota barnathan,5.409334695441196,Richmond Kickers,uslc,3,0.8134337887881496,-0.7797547192990951,22.4,Progressive Passers in Def 3rd
+omar ciss,5.482543736432129,Charlotte Independence,uslc,1,0.8134337887881496,-0.619508058026802,33.2,Progressive Dribblers in Def 3rd
+conor mcglynn,5.094483463159238,Westchester SC,usl1,1,0.717532882135104,-1.1016701003576563,15.4,Progressive Dribblers in Def 3rd
+sergio rivas,5.344259992338143,New Mexico United,uslc,4,0.8134337887881496,-1.1951062276999713,11.7,10s
+frank nodarse,5.645230494189759,Rhode Island FC,uslc,6,0.8134337887881496,-0.7193727843072636,30.2,No-Nonsense Defender
+jansen wilson,5.547618439535181,Louisville City FC,uslc,0,0.8134337887881496,-0.3465821700320561,50.0,Creative 9s
+kobe hernandez-foster,5.474409398544248,Birmingham Legion FC,uslc,4,0.8134337887881496,-1.0528961893964757,15.6,10s
+aodhan quinn,5.840454603498914,Indy Eleven,uslc,5,0.8134337887881496,-0.3152229557179522,47.4,Attacking FBs
+peter wilson,5.344259992338143,Oakland Roots SC,uslc,2,0.8134337887881496,-0.6601952985623989,33.5,High Volume Goalscorers
+jordan ayimbila,4.936626229089516,Chattanooga Red Wolves SC,usl1,5,0.717532882135104,-1.4056838512676046,11.0,Attacking FBs
+nathan dossantos,5.726573873068573,Charleston Battery,uslc,5,0.8134337887881496,-0.4526190441867001,42.2,Attacking FBs
+aidan rocha,5.466275060656366,Colorado Springs Switchbacks FC,uslc,4,0.8134337887881496,-1.0617843167904448,14.3,10s
+dion acoff,5.03708083258843,Union Omaha,usl1,1,0.717532882135104,-1.1729924476769384,11.9,Progressive Dribblers in Def 3rd
+david garcia,5.2164640531222055,Spokane Velocity FC,usl1,6,0.717532882135104,-1.2300752844366758,13.5,No-Nonsense Defender
+osvaldo lay,5.022730174945728,AV Alta FC,usl1,6,0.717532882135104,-1.4608311609883704,7.3,No-Nonsense Defender
+lucky opara,5.180587409015451,Spokane Velocity FC,usl1,5,0.717532882135104,-1.1113468573496819,14.9,Attacking FBs
+nil vinyals,4.785944323841144,Spokane Velocity FC,usl1,4,0.717532882135104,-1.8051596648755914,3.9,10s
+samory powder,4.699840377984931,Westchester SC,usl1,2,0.717532882135104,-1.4126825278659518,5.1,High Volume Goalscorers
+brandon mcmanus,4.520457157451156,Texoma FC,usl1,0,0.717532882135104,-1.6045613558002871,1.9,Creative 9s
+jonathan bolanos,5.022730174945728,Westchester SC,usl1,7,0.717532882135104,-1.2560251712496473,10.8,Difference Makers
+ivan agyaakwah,4.735717022091686,Greenville Triumph SC,usl1,6,0.717532882135104,-1.8026917188427354,2.1,No-Nonsense Defender
+joshua ramos,5.295392670157067,Chattanooga Red Wolves SC,usl1,2,0.717532882135104,-0.7172575528024862,28.0,High Volume Goalscorers
+colby quinones,4.68548972034223,Portland Hearts of Pine,usl1,1,0.717532882135104,-1.6098418250075375,3.5,Progressive Dribblers in Def 3rd
+fabrice ngah,5.759111224620099,Charlotte Independence,uslc,5,0.8134337887881496,-0.41336301890991484,42.9,Attacking FBs
+matthew bentley,4.929450900268165,Chattanooga Red Wolves SC,usl1,2,0.717532882135104,-1.1445668748294342,13.6,High Volume Goalscorers
+luke mccormick,4.850522283233303,Texoma FC,usl1,7,0.717532882135104,-1.4538127428934298,5.0,Difference Makers
+jimmie villalobos,5.123184778444642,AV Alta FC,usl1,1,0.717532882135104,-1.066008926698016,17.5,Progressive Dribblers in Def 3rd
+ben zakowski,4.872048269697356,Greenville Triumph SC,usl1,2,0.717532882135104,-1.211595788088564,11.4,High Volume Goalscorers
+niall reid-stephen,4.958152215553569,South Georgia Tormenta FC,usl1,2,0.717532882135104,-1.11105241819987,16.1,High Volume Goalscorers
+jack denton,5.080132805516537,Spokane Velocity FC,usl1,1,0.717532882135104,-1.1195006871874762,14.0,Progressive Dribblers in Def 3rd
+michel poon-angeron,4.936626229089516,Portland Hearts of Pine,usl1,1,0.717532882135104,-1.2978065554856808,10.5,Progressive Dribblers in Def 3rd
+marco milanese,4.785944323841144,Union Omaha,usl1,1,0.717532882135104,-1.4850277171987951,7.7,Progressive Dribblers in Def 3rd
+brandon fricke,4.96532754437492,Greenville Triumph SC,usl1,3,0.717532882135104,-1.3414802589148873,12.2,Progressive Passers in Def 3rd
+dean guezen,4.764418337377091,Westchester SC,usl1,0,0.717532882135104,-1.3057785922408838,9.5,Creative 9s
+pedro hernandez,4.886398927340058,Chattanooga Red Wolves SC,usl1,0,0.717532882135104,-1.1563872104611828,15.7,Creative 9s
+jordan skelton,5.209288724300855,One Knoxville SC,usl1,3,0.717532882135104,-1.0328383257610996,17.9,Progressive Passers in Def 3rd
+rodrigo robles,4.807470310305197,Greenville Triumph SC,usl1,2,0.717532882135104,-1.2870033155050844,8.5,High Volume Goalscorers
+brandon knapp,4.635262418592772,Union Omaha,usl1,5,0.717532882135104,-1.7692766084603333,2.6,Attacking FBs
+nico brown,4.728541693270335,Forward Madison FC,usl1,5,0.717532882135104,-1.6567359931387748,6.2,Attacking FBs
+jay tee kamara,4.886398927340058,Portland Hearts of Pine,usl1,7,0.717532882135104,-1.4126069988009757,6.3,Difference Makers
+jerry desdunes,5.230814710764909,AV Alta FC,usl1,7,0.717532882135104,-1.01703185551341,16.2,Difference Makers
+emiliano terzaghi,5.287319627122972,Richmond Kickers,uslc,0,0.8134337887881496,-0.6653738669215431,35.7,Creative 9s
+derek waldeck,5.2882173413357165,Spokane Velocity FC,usl1,5,0.717532882135104,-0.9814923012094218,18.8,Attacking FBs
+marc torrellas,4.8218209679478985,FC Naples,usl1,3,0.717532882135104,-1.5230343372406456,7.3,Progressive Passers in Def 3rd
+sergio ors,4.82899629676925,Union Omaha,usl1,2,0.717532882135104,-1.261867473032911,10.2,High Volume Goalscorers
+angelo calfo,4.735717022091686,Texoma FC,usl1,1,0.717532882135104,-1.5474347711031675,5.6,Progressive Dribblers in Def 3rd
+emmanuel alaribe,4.7213663644489845,AV Alta FC,usl1,0,0.717532882135104,-1.3585049622807785,6.7,Creative 9s
+masashi wada,5.180587409015451,Portland Hearts of Pine,usl1,6,0.717532882135104,-1.2728078541684706,12.5,No-Nonsense Defender
+sean vinberg,4.8935742561614095,Portland Hearts of Pine,usl1,6,0.717532882135104,-1.6146684120228343,5.2,No-Nonsense Defender
+yaniv bazini,4.778768995019793,South Georgia Tormenta FC,usl1,2,0.717532882135104,-1.3205177721346486,6.8,High Volume Goalscorers
+omar gomez,4.7213663644489845,Chattanooga Red Wolves SC,usl1,1,0.717532882135104,-1.5652653579329872,4.9,Progressive Dribblers in Def 3rd
+taylor gray,4.477405184523049,South Georgia Tormenta FC,usl1,2,0.717532882135104,-1.6724195667450774,0.8,High Volume Goalscorers
+griffin garnett,5.230379261907802,Richmond Kickers,uslc,1,0.8134337887881496,-0.9328205674844143,23.1,Progressive Dribblers in Def 3rd
+souaibou marou,5.474409398544248,Charlotte Independence,uslc,2,0.8134337887881496,-0.5082201508632868,44.5,High Volume Goalscorers
+adam aoumaich,4.793119652662495,AV Alta FC,usl1,2,0.717532882135104,-1.303760543819867,7.6,High Volume Goalscorers
+owen green,4.857697612054654,Chattanooga Red Wolves SC,usl1,1,0.717532882135104,-1.3958747830496934,8.4,Progressive Dribblers in Def 3rd
+josh kirkland,5.523215425871536,Richmond Kickers,uslc,0,0.8134337887881496,-0.3764688916154459,47.6,Creative 9s
+dani fernandez,4.886398927340058,One Knoxville SC,usl1,6,0.717532882135104,-1.6232149259691941,4.2,No-Nonsense Defender
+daniel bouman,4.527632486272506,Westchester SC,usl1,3,0.717532882135104,-1.8952201978084482,1.6,Progressive Passers in Def 3rd
+ozzie ramos,4.886398927340058,Texoma FC,usl1,5,0.717532882135104,-1.46628264413306,10.4,Attacking FBs
+hayden anderson,5.205976248244158,Richmond Kickers,uslc,0,0.8134337887881496,-0.7649962721995065,27.1,Creative 9s
+julian cisneros,4.793119652662495,FC Naples,usl1,5,0.717532882135104,-1.5788232594546188,8.4,Attacking FBs
+maciej bortniczuk,4.864872940876006,Texoma FC,usl1,0,0.717532882135104,-1.1827503954811291,14.3,Creative 9s
+callum stretch,4.663963733878176,South Georgia Tormenta FC,usl1,5,0.717532882135104,-1.734648726822931,3.9,Attacking FBs
+teddy baker,4.728541693270335,Texoma FC,usl1,4,0.717532882135104,-1.8678816590064662,2.6,10s
+maximiliano schenfeld,5.6859021836291666,Richmond Kickers,uslc,4,0.8134337887881496,-0.8218048771532964,27.3,10s
+declan watters,4.994028859660324,Chattanooga Red Wolves SC,usl1,5,0.717532882135104,-1.336428087992799,12.3,Attacking FBs
+mason tunbridge,4.994028859660324,South Georgia Tormenta FC,usl1,7,0.717532882135104,-1.2889897665236107,7.2,Difference Makers
+stuart ritchie,4.979678202017622,One Knoxville SC,usl1,5,0.717532882135104,-1.3537420288115005,11.7,Attacking FBs
+jonathan nyandjo,4.8935742561614095,South Georgia Tormenta FC,usl1,2,0.717532882135104,-1.1864599456163905,12.7,High Volume Goalscorers
+connor evans,5.144710764908695,Greenville Triumph SC,usl1,4,0.717532882135104,-1.4131472015576279,9.1,10s
+klaidi cela,5.336125654450261,Richmond Kickers,uslc,3,0.8134337887881496,-0.8723734709489958,19.5,Progressive Passers in Def 3rd
+andres ferrin,5.108834120801941,FC Naples,usl1,2,0.717532882135104,-0.9351015208946556,17.8,High Volume Goalscorers
+philip spengler,5.080132805516537,Texoma FC,usl1,4,0.717532882135104,-1.4837094449548605,6.5,10s
+sebastian vivas,4.714191035627634,South Georgia Tormenta FC,usl1,0,0.717532882135104,-1.3672926906207608,5.7,Creative 9s
+stephen payne,4.714191035627634,Westchester SC,usl1,5,0.717532882135104,-1.6740499339574755,5.2,Attacking FBs
+eduardo blancas,5.058606819052483,AV Alta FC,usl1,0,0.717532882135104,-0.9454817303016038,21.0,Creative 9s
+nick spielman,5.580155791086707,Charlotte Independence,uslc,1,0.8134337887881496,-0.49822579630127545,43.4,Progressive Dribblers in Def 3rd
+patrick langlois,4.6209117609500705,Portland Hearts of Pine,usl1,5,0.717532882135104,-1.786590549279034,1.9,Attacking FBs
+chevone marsh,4.742892350913038,Greenville Triumph SC,usl1,2,0.717532882135104,-1.3624108429216049,5.9,High Volume Goalscorers
+bachir ndiaye,5.612693142638233,Charlotte Independence,uslc,6,0.8134337887881496,-0.7581279320832435,28.1,No-Nonsense Defender
+luca mastrantonio,5.151886093730047,AV Alta FC,usl1,6,0.717532882135104,-1.3069939099539065,9.4,No-Nonsense Defender
+nils seufert,5.791648576171625,Richmond Kickers,uslc,4,0.8134337887881496,-0.7062592210317074,33.8,10s
+james vaughan,5.279185289235091,Richmond Kickers,uslc,5,0.8134337887881496,-0.9923893917424945,17.5,Attacking FBs
+titus washington,4.570684459200613,Portland Hearts of Pine,usl1,2,0.717532882135104,-1.5634975826989927,2.5,High Volume Goalscorers
+kevin o'connor,4.75724300855574,FC Naples,usl1,5,0.717532882135104,-1.6221081115013714,7.1,Attacking FBs
+guilherme franca,5.498812412207892,Richmond Kickers,uslc,3,0.8134337887881496,-0.6665540228381073,30.1,Progressive Passers in Def 3rd
+jayden onen,4.886398927340058,FC Naples,usl1,0,0.717532882135104,-1.1563872104611828,15.7,Creative 9s
+chandler o'dwyer,5.547618439535181,Richmond Kickers,uslc,3,0.8134337887881496,-0.6048081884048413,37.4,Progressive Passers in Def 3rd
+camron miller,5.159061422551398,Spokane Velocity FC,usl1,6,0.717532882135104,-1.2984473960075478,10.4,No-Nonsense Defender
+axel essengue,5.807917251947388,Phoenix Rising FC,uslc,6,0.8134337887881496,-0.5255970454273662,42.2,No-Nonsense Defender
+matt real,5.555752777423062,Colorado Springs Switchbacks FC,uslc,5,0.8134337887881496,-0.6587131768898215,30.8,Attacking FBs
+dani pereira,7.13,Austin FC,mls,1,1.0,1.427444262016658,95.1,Progressive Dribblers in Def 3rd
+mark delgado,7.46,Los Angeles FC,mls,4,1.0,1.1166943121607964,89.6,10s
+frederik kleemann,5.848588941386796,Sacramento Republic FC,uslc,3,0.8134337887881496,-0.22404220939969896,48.0,Progressive Passers in Def 3rd
+leo fernandes,5.466275060656366,Tampa Bay Rowdies,uslc,2,0.8134337887881496,-0.517718597594482,42.8,High Volume Goalscorers
+zach ryan,5.344259992338143,Loudoun United FC,uslc,7,0.8134337887881496,-0.886735464716842,19.8,Difference Makers
+dave romney,6.79,San Jose Earthquakes,mls,5,1.0,0.8303951204021162,73.1,Attacking FBs
+christopher hegardt,5.775379900395862,Orange County SC,uslc,4,0.8134337887881496,-0.7240354758196449,31.8,10s
+kaick,6.47,FC Dallas,mls,5,1.0,0.4443179663141989,52.6,Attacking FBs
+john klein,5.222244924019921,Charleston Battery,uslc,2,0.8134337887881496,-0.8026719995303158,22.5,High Volume Goalscorers
+jeison palacios,7.3,Nashville SC,mls,6,1.0,1.2516185126120172,91.1,No-Nonsense Defender
+nick firmino,5.547618439535181,Lexington SC,uslc,7,0.8134337887881496,-0.6531702486028216,35.6,Difference Makers
+felipe,6.47,Houston Dynamo FC,mls,5,1.0,0.4443179663141989,52.6,Attacking FBs
+alexander freeman,7.47,Orlando City SC,mls,5,1.0,1.6508090728389393,100.0,Attacking FBs
+ben mines,5.417469033329077,Loudoun United FC,uslc,2,0.8134337887881496,-0.5747092779816485,39.4,High Volume Goalscorers
+joe gyau,5.230379261907802,Las Vegas Lights FC,uslc,5,0.8134337887881496,-1.0512734296576718,16.2,Attacking FBs
+christopher gloster,5.661499169965522,New Mexico United,uslc,1,0.8134337887881496,-0.39715724486333626,48.6,Progressive Dribblers in Def 3rd
+nicholas scardina,6.5,Charlotte FC,mls,1,1.0,0.6446738843469308,58.4,Progressive Dribblers in Def 3rd
+theo corbeanu,7.01,Toronto FC,mls,7,1.0,1.0264327869188814,82.4,Difference Makers
+samuel rogers,6.44,Chicago Fire FC,mls,3,1.0,0.5241680282878031,54.5,Progressive Passers in Def 3rd
+matty longstaff,6.84,Toronto FC,mls,3,1.0,1.0302189225284177,85.8,Progressive Passers in Def 3rd
+show,6.47,FC Dallas,mls,3,1.0,0.5621218453558484,57.7,Progressive Passers in Def 3rd
+evander,6.47,FC Cincinnati,mls,4,1.0,0.03495339589792071,50.6,10s
+josh yaro,6.26,St. Louis City SC,mls,1,1.0,0.3464756452346536,54.5,Progressive Dribblers in Def 3rd
+zanka,6.47,LA Galaxy,mls,3,1.0,0.5621218453558484,57.7,Progressive Passers in Def 3rd
+nouhou,6.47,Seattle Sounders FC,mls,5,1.0,0.4443179663141989,52.6,Attacking FBs
+anton sorenson,5.637096156301877,Charlotte Independence,uslc,5,0.8134337887881496,-0.5605731136978588,36.7,Attacking FBs
+josh atencio,6.86,Colorado Rapids,mls,6,1.0,0.7275357520828707,63.5,No-Nonsense Defender
+jake davis,6.76,Sporting Kansas City,mls,7,1.0,0.7392979034983328,68.0,Difference Makers
+alex dalou,5.759111224620099,FC Tulsa,uslc,7,0.8134337887881496,-0.41026242384424055,47.3,Difference Makers
+jacob rufe,5.466275060656366,Birmingham Legion FC,uslc,1,0.8134337887881496,-0.6397217683143905,31.8,Progressive Dribblers in Def 3rd
+ricky ruiz,5.669633507853403,El Paso Locomotive FC,uslc,5,0.8134337887881496,-0.5213170884210735,38.6,Attacking FBs
+maximiliano rodriguez,5.702170859404929,Rhode Island FC,uslc,4,0.8134337887881496,-0.80402862236536,29.9,10s
+matt myers,6.1007534159111225,Charleston Battery,uslc,2,0.8134337887881496,0.22316024743868615,58.5,High Volume Goalscorers
+thomas presthus,5.393066019665432,Hartford Athletic,uslc,6,0.8134337887881496,-1.0197251795711069,17.2,No-Nonsense Defender
+michael maldonado,5.978738347592899,North Carolina FC,uslc,4,0.8134337887881496,-0.501832290970434,40.3,10s
+boluwatife akinyode,5.7103051972928105,The Miami FC,uslc,6,0.8134337887881496,-0.6418624887553048,35.4,No-Nonsense Defender
+panos armenakas,5.384931681777551,Oakland Roots SC,uslc,4,0.8134337887881496,-1.150665590730129,13.0,10s
+ualefi,4.642437747414123,Chattanooga Red Wolves SC,usl1,5,0.717532882135104,-1.7606196380509829,3.2,Attacking FBs
+alhassan,4.642437747414123,Chattanooga Red Wolves SC,usl1,2,0.717532882135104,-1.4797114411250814,4.2,High Volume Goalscorers
+david mason,4.4845805133444,Texoma FC,usl1,1,0.717532882135104,-1.8594700406250242,0.7,Progressive Dribblers in Def 3rd
+kalani kossa-rienzi,7.07,Seattle Sounders FC,mls,1,1.0,1.352894702238589,92.3,Progressive Dribblers in Def 3rd
+dominick hernandez,5.482543736432129,San Antonio FC,uslc,1,0.8134337887881496,-0.619508058026802,33.2,Progressive Dribblers in Def 3rd
+maximiliano urruti,6.58,New England Revolution,mls,7,1.0,0.5325607874355381,60.4,Difference Makers
+yeimar gomez andrade,7.18,Seattle Sounders FC,mls,6,1.0,1.1086868506495224,87.5,No-Nonsense Defender
+david pereira da costa,7.35,Portland Timbers FC,mls,4,1.0,0.9965008770204766,78.6,10s
+yevhen cheberko,7.12,Columbus Crew,mls,1,1.0,1.41501933538698,94.4,Progressive Dribblers in Def 3rd
+lucas melano,5.116498531477461,The Miami FC,uslc,2,0.8134337887881496,-0.9261518070358441,18.6,High Volume Goalscorers
+kaick,6.51,FC Dallas,mls,1,1.0,0.6570988109766088,60.5,Progressive Dribblers in Def 3rd
+felipe,7.02,Houston Dynamo FC,mls,6,1.0,0.918111301366196,75.0,No-Nonsense Defender
+jeong sang-bin,6.01,Minnesota United FC,mls,0,1.0,0.2197031729742773,55.2,Creative 9s
+derrick etienne jr.,6.36,Toronto FC,mls,2,1.0,0.5258818583617908,61.4,High Volume Goalscorers
+emiro garces,6.66,LA Galaxy,mls,1,1.0,0.8434727104217824,71.3,Progressive Dribblers in Def 3rd
+kwaku owusu,4.728541693270335,Union Omaha,usl1,5,0.717532882135104,-1.6567359931387748,6.2,Attacking FBs
+prince owusu,7.0,CF Montréal,mls,2,1.0,1.2732083146454585,89.0,High Volume Goalscorers
+evander,7.89,FC Cincinnati,mls,4,1.0,1.5865413768002268,98.7,10s
+ralph priso,6.68,Vancouver Whitecaps FC,mls,1,1.0,0.8683225636811384,74.5,Progressive Dribblers in Def 3rd
+abel caputo,4.735717022091686,One Knoxville SC,usl1,3,0.717532882135104,-1.6319667842361003,6.5,Progressive Passers in Def 3rd
+rodrigo schlegel,6.64,Orlando City SC,mls,3,1.0,0.7771934754081098,70.7,Progressive Passers in Def 3rd
+jasper loeffelsend,6.79,San Diego FC,mls,5,1.0,0.8303951204021162,73.1,Attacking FBs
+zanka,6.5,LA Galaxy,mls,1,1.0,0.6446738843469308,58.4,Progressive Dribblers in Def 3rd
+nouhou,6.88,Seattle Sounders FC,mls,5,1.0,0.9389793199893426,77.9,Attacking FBs
+teenage hadebe,6.76,FC Cincinnati,mls,3,1.0,0.9290087436802946,76.8,Progressive Passers in Def 3rd
+shapi suleymanov,6.83,Sporting Kansas City,mls,5,1.0,0.8786547646631059,76.9,Attacking FBs
+luiz fernando,5.7103051972928105,New Mexico United,uslc,7,0.8134337887881496,-0.4663180757116053,45.0,Difference Makers
+paul gindiri,5.384931681777551,Monterey Bay FC,uslc,2,0.8134337887881496,-0.6127030649064266,38.1,High Volume Goalscorers
+gennaro michael nigro,5.832320265611033,Las Vegas Lights FC,uslc,4,0.8134337887881496,-0.6618185840618652,39.0,10s
+wilmer cabrera,6.011275699144425,El Paso Locomotive FC,uslc,0,0.8134337887881496,0.22126554005234098,56.2,Creative 9s
+aaron gomez,4.814645639126548,Union Omaha,usl1,2,0.717532882135104,-1.2786247013476935,9.3,High Volume Goalscorers
+houssou landru,6.03567871280807,Charleston Battery,uslc,1,0.8134337887881496,0.06775809175118369,53.1,Progressive Dribblers in Def 3rd
+gabriel de freitas,4.778768995019793,South Georgia Tormenta FC,usl1,5,0.717532882135104,-1.5961372002733194,7.8,Attacking FBs
+roberto ydrach,5.677767845741285,Pittsburgh Riverhounds SC,uslc,6,0.8134337887881496,-0.6806176365312837,32.3,No-Nonsense Defender
+hope avayevu,6.1820967947899375,Phoenix Rising FC,uslc,4,0.8134337887881496,-0.27962910612122216,44.2,10s
+ronald alexis cerritos,4.8433469544119525,AV Alta FC,usl1,0,0.717532882135104,-1.2091135805010764,13.3,Creative 9s
+juan carlos obregon jr,5.266691354871663,Westchester SC,usl1,0,0.717532882135104,-0.690637608442112,34.3,Creative 9s
+jon-talen maples,5.6859021836291666,New Mexico United,uslc,1,0.8134337887881496,-0.3668366794319541,49.7,Progressive Dribblers in Def 3rd
+jared trimmer,5.783514238283744,Sacramento Republic FC,uslc,5,0.8134337887881496,-0.38392099995232565,44.5,Attacking FBs
+almir de jesus soto,5.539484101647298,San Antonio FC,uslc,1,0.8134337887881496,-0.5487600720202461,38.5,Progressive Dribblers in Def 3rd
+speedy williams,5.523215425871536,Lexington SC,uslc,3,0.8134337887881496,-0.6356811056214748,35.0,Progressive Passers in Def 3rd
+juan sebastian herrera,5.311722640786617,Sacramento Republic FC,uslc,2,0.8134337887881496,-0.698189085487177,29.7,High Volume Goalscorers
+bruno manuel rendon,5.572021453198825,Indy Eleven,uslc,2,0.8134337887881496,-0.3942387900889547,47.5,High Volume Goalscorers
+anton sojberg horup,5.799782914059507,Monterey Bay FC,uslc,0,0.8134337887881496,-0.03775271367036646,53.3,Creative 9s
+damia viader i masdeu,4.5491584727365595,Forward Madison FC,usl1,4,0.717532882135104,-2.063887890665448,1.3,10s
+guillermo diaz,5.393066019665432,El Paso Locomotive FC,uslc,5,0.8134337887881496,-0.8549933032737467,22.1,Attacking FBs
+dieng mamadou,5.417469033329077,Hartford Athletic,uslc,2,0.8134337887881496,-0.5747092779816485,39.4,High Volume Goalscorers
+harvey st. clair,5.661499169965522,FC Tulsa,uslc,5,0.8134337887881496,-0.5311310947402695,37.7,Attacking FBs
+alasanne ates diouf,5.222244924019921,Detroit City FC,uslc,0,0.8134337887881496,-0.745071791143914,29.0,Creative 9s
+preston tabort etaka,5.222244924019921,Birmingham Legion FC,uslc,2,0.8134337887881496,-0.8026719995303158,22.5,High Volume Goalscorers
+jose carlos anguiano,4.563509130379262,Greenville Triumph SC,usl1,1,0.717532882135104,-1.7614018130610114,1.4,Progressive Dribblers in Def 3rd
+adewale obalola,5.035155152598646,Hartford Athletic,uslc,0,0.8134337887881496,-0.9742033232832328,20.0,Creative 9s
+abdul illal osumanu,5.132767207253224,Pittsburgh Riverhounds SC,uslc,3,0.8134337887881496,-1.129647781087605,15.4,Progressive Passers in Def 3rd
+louis herrera,5.108834120801941,Greenville Triumph SC,usl1,1,0.717532882135104,-1.0838395135278356,16.1,Progressive Dribblers in Def 3rd
+alfredo midence alvarado,6.060081726471715,Lexington SC,uslc,4,0.8134337887881496,-0.4129510170307487,42.9,10s
+zahir vasquez,4.750067679734388,Chattanooga Red Wolves SC,usl1,0,0.717532882135104,-1.323354048920849,8.1,Creative 9s
+ualefi,4.907924913804111,Chattanooga Red Wolves SC,usl1,1,0.717532882135104,-1.3334677291453223,9.8,Progressive Dribblers in Def 3rd
+kempes waldemar tekiela,5.072957476695185,One Knoxville SC,usl1,0,0.717532882135104,-0.9279062736216385,22.9,Creative 9s

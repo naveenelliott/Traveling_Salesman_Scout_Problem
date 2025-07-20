@@ -1,5 +1,6 @@
 import pandas as pd
 import unicodedata
+from sklearn.preprocessing import LabelEncoder
 
 # -------------------- Load & Preprocess Data -------------------- #
 def normalize_name(name):
@@ -10,7 +11,7 @@ def normalize_name(name):
 # Load ASA data
 asa_data = pd.read_csv('ASA_New_Raw_Data/asa_data_FINAL.csv')
 asa_data = asa_data.drop(columns=['birth_date', 'height_in', 'height_ft', 'weight_lb', 'minutes_played',
-                                  'general_position', 'player_id', 'team_id'])
+                                  'player_id', 'team_id'])
 asa_data.drop_duplicates(subset='player_name', inplace=True)
 asa_data.dropna(subset=['player_name'], inplace=True)
 asa_data['player_name'] = asa_data['player_name'].apply(normalize_name)
@@ -82,9 +83,15 @@ manual_players = manual_players[~manual_players['name'].isin(matched_names)].cop
 all_merged.drop(columns=['FirstName', 'LastName'], errors='ignore', inplace=True)
 
 # Optionally clean up 'name' (from player table) if no longer needed
-all_merged.drop(columns=['player_code_x', 'player_code_y', 'name', 'player_code', 'team_name'], errors='ignore', inplace=True)
+all_merged.drop(columns=['player_code_x', 'player_code_y', 'name', 'player_code'], errors='ignore', inplace=True)
 
 all_merged = all_merged.loc[:, ~all_merged.columns.str.contains('penalties', case=False)]
+
+le = LabelEncoder()
+all_merged['general_position'] = le.fit_transform(all_merged['general_position'])
+
+for i, class_label in enumerate(le.classes_):
+    print(f"{i} → {class_label}")
 
 all_merged.to_csv('Clustering/final_joined.csv', index=False)
 

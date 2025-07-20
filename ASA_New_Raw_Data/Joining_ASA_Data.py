@@ -51,7 +51,7 @@ stadium_data = pd.read_csv('ASA_New_Raw_Data/stadium_data.csv')
 
 team_data = pd.read_csv('ASA_New_Raw_Data/team_data.csv')
 
-del team_data['team_short_name'], team_data['team_abbreviation'], team_data['competition'] 
+del team_data['team_short_name'], team_data['team_abbreviation'],
 
 
 player_data = pd.merge(player_data, team_data, on='team_id', how='left')

@@ -8,20 +8,21 @@ df = pd.read_csv('Clustering/final_joined.csv')
 
 df.dropna(inplace=True)
 
-info_columns = ['player_name']
+info_columns = ['player_name', 'rating', 'team_name', 'competition']
 df_info = df[info_columns]
 df_cluster = df.drop(columns=info_columns, errors='ignore')
 
 
 drop_columns = ['fouling_goals_added_above_avg_p90', 'shooting_goals_added_above_avg_p90', 'passing_goals_added_above_avg_p90', 
                 'shooting_goals_added_above_avg_p90', 'dribbling_goals_added_above_avg_p90', 'receiving_goals_added_above_avg_p90', 
-                'points_added_p90', 'xpoints_added_p90', 'rating', 'goals_p90', 'Long ball accuracy_percentile', 'Cross accuracy_percentile',
+                'points_added_p90', 'xpoints_added_p90', 'goals_p90', 'Long ball accuracy_percentile', 'Cross accuracy_percentile',
                 'Aerials won %_percentile', 'Dribbles success rate_percentile', 'goals_minus_xgoals_p90', 'Duels won %_percentile',
                 'interrupting_goals_added_above_avg_p90', 'Fouls committed_percentile', 'Tackles won %_percentile', 'avg_distance_yds_p90',
                 'xpass_completion_percentage', 'Dribbled past_percentile', 'Interceptions_percentile', 'primary_assists_minus_xassists_p90',
-                'passes_completed_over_expected_p100', 'share_team_touches', 'shots_on_target_p90', 'primary_assists_p90', 'attempted_passes_p90',
-                'Aerials won_percentile', 'avg_vertical_distance_yds_p90', 'Chances created_percentile', 'xassists_p90', 'Dispossessed_percentile',
-                'Duels won_percentile', 'Recoveries_percentile']
+                'passes_completed_over_expected_p100', 'shots_on_target_p90', 'primary_assists_p90', 'attempted_passes_p90',
+                'avg_vertical_distance_yds_p90', 'Chances created_percentile', 'xassists_p90', 'Dispossessed_percentile', 'Blocked scoring attempt_percentile',
+                'Duels won_percentile', 'Fouls won_percentile', 'Accurate long balls_percentile',
+                'Tackles won_percentile', 'Recoveries_percentile', 'Possession won final 3rd_percentile', 'xgoals_p90']
 
 df_cluster.drop(columns=drop_columns, inplace=True)
 
@@ -49,7 +50,7 @@ plt.show()
 
 
 # Fit KMeans with 7 clusters
-kmeans = KMeans(n_clusters=7, random_state=42)
+kmeans = KMeans(n_clusters=8, random_state=42)
 df_info['Cluster'] = kmeans.fit_predict(scaled_data)
 
 # Merge scaled data and cluster labels into a DataFrame
@@ -59,8 +60,42 @@ clustered_df['Cluster'] = df_info['Cluster']
 # Calculate mean feature values for each cluster
 cluster_means = clustered_df.groupby('Cluster').mean()
 
-# Standard deviation of feature means across clusters
-between_cluster_std = cluster_means.std()
+percentile_df = cluster_means.rank(pct=True) * 100
+percentile_df = percentile_df.round(1)
 
-# Sort to find least-separated features
-least_separated = between_cluster_std.sort_values()
+df_info.loc[df_info['competition'] == 'mls', 'adjustment'] = 1
+df_info.loc[df_info['competition'] == 'uslc', 'adjustment'] = (63.7/78.31)
+df_info.loc[df_info['competition'] == 'usl1', 'adjustment'] = (56.19/78.31)
+
+df_info['rating'] = df_info['rating'] * df_info['adjustment']
+
+# Z-score of adjusted rating within each cluster
+df_info['cluster_rating_zscore'] = df_info.groupby('Cluster')['rating'].transform(
+    lambda x: (x - x.mean()) / x.std(ddof=0)
+)
+
+# Percentile rank of adjusted rating within each cluster
+df_info['cluster_rating_percentile'] = df_info.groupby('Cluster')['rating'].rank(pct=True) * 100
+df_info['cluster_rating_percentile'] = df_info['cluster_rating_percentile'].round(1)
+
+cluster_name = {
+        0 : 'Creative 9s',
+        1 : 'Progressive Dribblers in Def 3rd',
+        2 : 'High Volume Goalscorers',
+        3 : 'Progressive Passers in Def 3rd',
+        4 : '10s',
+        5 : 'Attacking FBs',
+        6 : 'No-Nonsense Defender',
+        7 : 'Difference Makers'
+    }
+
+df_info['Cluster Name'] = df_info['Cluster'].map(cluster_name)
+
+df_info.to_csv('clustering_FINAL.csv', index=False)
+
+
+
+
+
+
+
