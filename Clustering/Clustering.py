@@ -8,7 +8,7 @@ df = pd.read_csv('Clustering/final_joined.csv')
 
 df.dropna(inplace=True)
 
-info_columns = ['player_name', 'rating', 'team_name', 'competition']
+info_columns = ['player_name', 'rating', 'team_name', 'competition', 'Age']
 df_info = df[info_columns]
 df_cluster = df.drop(columns=info_columns, errors='ignore')
 

@@ -1,6 +1,7 @@
 import pandas as pd
 import unicodedata
 from sklearn.preprocessing import LabelEncoder
+from datetime import datetime
 
 # -------------------- Load & Preprocess Data -------------------- #
 def normalize_name(name):
@@ -10,11 +11,17 @@ def normalize_name(name):
 
 # Load ASA data
 asa_data = pd.read_csv('ASA_New_Raw_Data/asa_data_FINAL.csv')
-asa_data = asa_data.drop(columns=['birth_date', 'height_in', 'height_ft', 'weight_lb', 'minutes_played',
+asa_data = asa_data.drop(columns=['height_in', 'height_ft', 'weight_lb', 'minutes_played',
                                   'player_id', 'team_id'])
 asa_data.drop_duplicates(subset='player_name', inplace=True)
 asa_data.dropna(subset=['player_name'], inplace=True)
 asa_data['player_name'] = asa_data['player_name'].apply(normalize_name)
+
+asa_data['birth_date'] = pd.to_datetime(asa_data['birth_date'])
+today = pd.Timestamp.today()
+asa_data['Age'] = asa_data['birth_date'].apply(lambda bd: today.year - bd.year - ((today.month, today.day) < (bd.month, bd.day)))
+
+del asa_data['birth_date']
 
 # Load and merge outfield players
 fut_mls = pd.read_csv('Clustering/mls_players.csv')
