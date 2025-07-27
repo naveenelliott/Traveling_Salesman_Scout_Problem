@@ -79,17 +79,29 @@ df_info['cluster_rating_percentile'] = df_info.groupby('Cluster')['rating'].rank
 df_info['cluster_rating_percentile'] = df_info['cluster_rating_percentile'].round(1)
 
 cluster_name = {
-        0 : 'Creative 9s',
-        1 : 'Progressive Dribblers in Def 3rd',
-        2 : 'High Volume Goalscorers',
-        3 : 'Progressive Passers in Def 3rd',
-        4 : '10s',
-        5 : 'Attacking FBs',
-        6 : 'No-Nonsense Defender',
-        7 : 'Difference Makers'
+        2 : 'Creative 9s',
+        1 : 'Progressive Passers in Def 3rd',
+        0 : 'High Volume Goalscorers',
+        7 : 'Progressive Dribblers in Def 3rd',
+        5 : '10s',
+        3 : 'Attacking FBs',
+        4 : 'No-Nonsense Defender',
+        6 : 'Difference Makers'
     }
 
 df_info['Cluster Name'] = df_info['Cluster'].map(cluster_name)
+
+def categorize_age(age):
+    if age < 21:
+        return 'young'
+    elif 21 <= age <= 25:
+        return 'promising'
+    elif 25 <= age <= 31:
+        return 'prime'
+    else:
+        return 'Veteran'
+    
+df_info['Age Group'] = df_info['Age'].apply(categorize_age)
 
 df_info.to_csv('clustering_FINAL.csv', index=False)
 
